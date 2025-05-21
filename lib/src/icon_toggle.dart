@@ -8,7 +8,8 @@ Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => S
     );
 
 class IconToggle extends StatefulWidget {
-  const IconToggle({super.key,
+  const IconToggle({
+    super.key,
     this.unselectedIconData = Icons.radio_button_unchecked,
     this.selectedIconData = Icons.radio_button_checked,
     this.activeColor = Colors.blue,
