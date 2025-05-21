@@ -1,6 +1,8 @@
 import 'dart:io';
 
-main(List<String> args) {
+import 'package:flutter/foundation.dart';
+
+void main(List<String> args) {
   Directory directory = Directory("../lib/src");
   File flutterIconFile = File('../lib/src/flutter_icons.dart');
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
@@ -12,12 +14,14 @@ class FlutterIcons {
   ''';
   for (var i = 0; i < files.length; i++) {
     final File file = files[i];
-    if (file.path.indexOf("flutter_icon") == -1 && file.path.indexOf("icon_toggle") == -1) {
+    if (!file.path.contains("flutter_icon") && !file.path.contains("icon_toggle")) {
       final List<String> lines = file.readAsLinesSync();
       for (var k = 0; k < lines.length; k++) {
         final String line = lines[k];
         if (line.contains('static const')) {
-          print(file.path);
+          if (kDebugMode) {
+            print(file.path);
+          }
           var suffix = getSimple(line);
           List lineList = line.split(" ");
           lineList[5] = lineList[5] + '_$suffix';
@@ -34,7 +38,9 @@ class FlutterIcons {
 }
 
 String getSimple(String line) {
-  print(line);
+  if (kDebugMode) {
+    print(line);
+  }
   var name1 = line.split(".")[1];
   var name = name1.split("(")[0];
   if (name == 'materialCommunityIcons') return 'mco';
