@@ -8,7 +8,7 @@ Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) => S
     );
 
 class IconToggle extends StatefulWidget {
-  IconToggle({
+  const IconToggle({super.key,
     this.unselectedIconData = Icons.radio_button_unchecked,
     this.selectedIconData = Icons.radio_button_checked,
     this.activeColor = Colors.blue,
@@ -30,7 +30,7 @@ class IconToggle extends StatefulWidget {
   final Duration duration;
   final Duration? reverseDuration;
   @override
-  _IconToggleState createState() => _IconToggleState();
+  State<IconToggle> createState() => _IconToggleState();
 }
 
 class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateMixin {
@@ -41,7 +41,7 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(vsync: this, duration: Duration(milliseconds: 100), reverseDuration: Duration(milliseconds: 50));
+    _controller = AnimationController(vsync: this, duration: const Duration(milliseconds: 100), reverseDuration: const Duration(milliseconds: 50));
     _position = CurvedAnimation(parent: _controller, curve: Curves.linear);
     _position.addStatusListener((status) {
       if (status == AnimationStatus.dismissed && widget.onChanged != null && _cancel == false) {
@@ -95,7 +95,7 @@ class _IconToggleState extends State<IconToggle> with SingleTickerProviderStateM
 }
 
 class _IconToggleable<T> extends AnimatedWidget {
-  _IconToggleable({
+  const _IconToggleable({
     required Animation<T> listenable,
     this.activeColor,
     this.inactiveColor,
