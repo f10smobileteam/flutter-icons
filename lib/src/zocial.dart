@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
 /// all Icons under Zocial
@@ -6,6 +7,7 @@ import 'flutter_icon_data.dart';
 /// http://zocial.smcllns.com/
 class Zocial {
   Zocial._();
+
   static const IconData acrobat = const FlutterIconData.zocial(61696);
   static const IconData amazon = const FlutterIconData.zocial(61697);
   static const IconData android = const FlutterIconData.zocial(61698);

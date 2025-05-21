@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
 /// all Icons under Ionicons
@@ -6,16 +7,15 @@ import 'flutter_icon_data.dart';
 /// https://ionicons.com/
 class Ionicons {
   Ionicons._();
+
   static const IconData ios_add = const FlutterIconData.ionicons(61698);
   static const IconData ios_add_circle = const FlutterIconData.ionicons(61697);
-  static const IconData ios_add_circle_outline =
-      const FlutterIconData.ionicons(61696);
+  static const IconData ios_add_circle_outline = const FlutterIconData.ionicons(61696);
   static const IconData ios_airplane = const FlutterIconData.ionicons(61751);
   static const IconData ios_alarm = const FlutterIconData.ionicons(62408);
   static const IconData ios_albums = const FlutterIconData.ionicons(62410);
   static const IconData ios_alert = const FlutterIconData.ionicons(61700);
-  static const IconData ios_american_football =
-      const FlutterIconData.ionicons(61702);
+  static const IconData ios_american_football = const FlutterIconData.ionicons(61702);
   static const IconData ios_analytics = const FlutterIconData.ionicons(62414);
   static const IconData ios_aperture = const FlutterIconData.ionicons(61704);
   static const IconData ios_apps = const FlutterIconData.ionicons(61706);
@@ -23,32 +23,19 @@ class Ionicons {
   static const IconData ios_archive = const FlutterIconData.ionicons(61710);
   static const IconData ios_arrow_back = const FlutterIconData.ionicons(62415);
   static const IconData ios_arrow_down = const FlutterIconData.ionicons(62416);
-  static const IconData ios_arrow_dropdown =
-      const FlutterIconData.ionicons(61712);
-  static const IconData ios_arrow_dropdown_circle =
-      const FlutterIconData.ionicons(61733);
-  static const IconData ios_arrow_dropleft =
-      const FlutterIconData.ionicons(61714);
-  static const IconData ios_arrow_dropleft_circle =
-      const FlutterIconData.ionicons(61737);
-  static const IconData ios_arrow_dropright =
-      const FlutterIconData.ionicons(61716);
-  static const IconData ios_arrow_dropright_circle =
-      const FlutterIconData.ionicons(61739);
-  static const IconData ios_arrow_dropup =
-      const FlutterIconData.ionicons(61718);
-  static const IconData ios_arrow_dropup_circle =
-      const FlutterIconData.ionicons(61741);
-  static const IconData ios_arrow_forward =
-      const FlutterIconData.ionicons(62417);
-  static const IconData ios_arrow_round_back =
-      const FlutterIconData.ionicons(61719);
-  static const IconData ios_arrow_round_down =
-      const FlutterIconData.ionicons(61720);
-  static const IconData ios_arrow_round_forward =
-      const FlutterIconData.ionicons(61721);
-  static const IconData ios_arrow_round_up =
-      const FlutterIconData.ionicons(61722);
+  static const IconData ios_arrow_dropdown = const FlutterIconData.ionicons(61712);
+  static const IconData ios_arrow_dropdown_circle = const FlutterIconData.ionicons(61733);
+  static const IconData ios_arrow_dropleft = const FlutterIconData.ionicons(61714);
+  static const IconData ios_arrow_dropleft_circle = const FlutterIconData.ionicons(61737);
+  static const IconData ios_arrow_dropright = const FlutterIconData.ionicons(61716);
+  static const IconData ios_arrow_dropright_circle = const FlutterIconData.ionicons(61739);
+  static const IconData ios_arrow_dropup = const FlutterIconData.ionicons(61718);
+  static const IconData ios_arrow_dropup_circle = const FlutterIconData.ionicons(61741);
+  static const IconData ios_arrow_forward = const FlutterIconData.ionicons(62417);
+  static const IconData ios_arrow_round_back = const FlutterIconData.ionicons(61719);
+  static const IconData ios_arrow_round_down = const FlutterIconData.ionicons(61720);
+  static const IconData ios_arrow_round_forward = const FlutterIconData.ionicons(61721);
+  static const IconData ios_arrow_round_up = const FlutterIconData.ionicons(61722);
   static const IconData ios_arrow_up = const FlutterIconData.ionicons(62424);
   static const IconData ios_at = const FlutterIconData.ionicons(62426);
   static const IconData ios_attach = const FlutterIconData.ionicons(61723);
@@ -57,12 +44,9 @@ class Ionicons {
   static const IconData ios_baseball = const FlutterIconData.ionicons(62430);
   static const IconData ios_basket = const FlutterIconData.ionicons(61727);
   static const IconData ios_basketball = const FlutterIconData.ionicons(62432);
-  static const IconData ios_battery_charging =
-      const FlutterIconData.ionicons(61728);
-  static const IconData ios_battery_dead =
-      const FlutterIconData.ionicons(61729);
-  static const IconData ios_battery_full =
-      const FlutterIconData.ionicons(61730);
+  static const IconData ios_battery_charging = const FlutterIconData.ionicons(61728);
+  static const IconData ios_battery_dead = const FlutterIconData.ionicons(61729);
+  static const IconData ios_battery_full = const FlutterIconData.ionicons(61730);
   static const IconData ios_beaker = const FlutterIconData.ionicons(61732);
   static const IconData ios_bed = const FlutterIconData.ionicons(61753);
   static const IconData ios_beer = const FlutterIconData.ionicons(61734);
@@ -96,44 +80,30 @@ class Ionicons {
   static const IconData ios_chatboxes = const FlutterIconData.ionicons(62458);
   static const IconData ios_chatbubbles = const FlutterIconData.ionicons(61766);
   static const IconData ios_checkbox = const FlutterIconData.ionicons(61768);
-  static const IconData ios_checkbox_outline =
-      const FlutterIconData.ionicons(61767);
+  static const IconData ios_checkbox_outline = const FlutterIconData.ionicons(61767);
   static const IconData ios_checkmark = const FlutterIconData.ionicons(62463);
-  static const IconData ios_checkmark_circle =
-      const FlutterIconData.ionicons(61770);
-  static const IconData ios_checkmark_circle_outline =
-      const FlutterIconData.ionicons(61769);
+  static const IconData ios_checkmark_circle = const FlutterIconData.ionicons(61770);
+  static const IconData ios_checkmark_circle_outline = const FlutterIconData.ionicons(61769);
   static const IconData ios_clipboard = const FlutterIconData.ionicons(61772);
   static const IconData ios_clock = const FlutterIconData.ionicons(62467);
   static const IconData ios_close = const FlutterIconData.ionicons(62470);
-  static const IconData ios_close_circle =
-      const FlutterIconData.ionicons(61774);
-  static const IconData ios_close_circle_outline =
-      const FlutterIconData.ionicons(61773);
+  static const IconData ios_close_circle = const FlutterIconData.ionicons(61774);
+  static const IconData ios_close_circle_outline = const FlutterIconData.ionicons(61773);
   static const IconData ios_cloud = const FlutterIconData.ionicons(62476);
-  static const IconData ios_cloud_circle =
-      const FlutterIconData.ionicons(61778);
+  static const IconData ios_cloud_circle = const FlutterIconData.ionicons(61778);
   static const IconData ios_cloud_done = const FlutterIconData.ionicons(61780);
-  static const IconData ios_cloud_download =
-      const FlutterIconData.ionicons(62472);
-  static const IconData ios_cloud_outline =
-      const FlutterIconData.ionicons(62473);
-  static const IconData ios_cloud_upload =
-      const FlutterIconData.ionicons(62475);
+  static const IconData ios_cloud_download = const FlutterIconData.ionicons(62472);
+  static const IconData ios_cloud_outline = const FlutterIconData.ionicons(62473);
+  static const IconData ios_cloud_upload = const FlutterIconData.ionicons(62475);
   static const IconData ios_cloudy = const FlutterIconData.ionicons(62480);
-  static const IconData ios_cloudy_night =
-      const FlutterIconData.ionicons(62478);
+  static const IconData ios_cloudy_night = const FlutterIconData.ionicons(62478);
   static const IconData ios_code = const FlutterIconData.ionicons(61783);
-  static const IconData ios_code_download =
-      const FlutterIconData.ionicons(61781);
-  static const IconData ios_code_working =
-      const FlutterIconData.ionicons(61782);
+  static const IconData ios_code_download = const FlutterIconData.ionicons(61781);
+  static const IconData ios_code_working = const FlutterIconData.ionicons(61782);
   static const IconData ios_cog = const FlutterIconData.ionicons(62482);
   static const IconData ios_color_fill = const FlutterIconData.ionicons(61785);
-  static const IconData ios_color_filter =
-      const FlutterIconData.ionicons(62484);
-  static const IconData ios_color_palette =
-      const FlutterIconData.ionicons(61787);
+  static const IconData ios_color_filter = const FlutterIconData.ionicons(62484);
+  static const IconData ios_color_palette = const FlutterIconData.ionicons(61787);
   static const IconData ios_color_wand = const FlutterIconData.ionicons(62486);
   static const IconData ios_compass = const FlutterIconData.ionicons(61789);
   static const IconData ios_construct = const FlutterIconData.ionicons(61791);
@@ -161,8 +131,7 @@ class Ionicons {
   static const IconData ios_female = const FlutterIconData.ionicons(61819);
   static const IconData ios_filing = const FlutterIconData.ionicons(62505);
   static const IconData ios_film = const FlutterIconData.ionicons(62507);
-  static const IconData ios_finger_print =
-      const FlutterIconData.ionicons(61820);
+  static const IconData ios_finger_print = const FlutterIconData.ionicons(61820);
   static const IconData ios_fitness = const FlutterIconData.ionicons(61867);
   static const IconData ios_flag = const FlutterIconData.ionicons(62509);
   static const IconData ios_flame = const FlutterIconData.ionicons(62511);
@@ -181,8 +150,7 @@ class Ionicons {
   static const IconData ios_git_compare = const FlutterIconData.ionicons(61829);
   static const IconData ios_git_merge = const FlutterIconData.ionicons(61830);
   static const IconData ios_git_network = const FlutterIconData.ionicons(61831);
-  static const IconData ios_git_pull_request =
-      const FlutterIconData.ionicons(61832);
+  static const IconData ios_git_pull_request = const FlutterIconData.ionicons(61832);
   static const IconData ios_glasses = const FlutterIconData.ionicons(62527);
   static const IconData ios_globe = const FlutterIconData.ionicons(61834);
   static const IconData ios_grid = const FlutterIconData.ionicons(61836);
@@ -191,15 +159,13 @@ class Ionicons {
   static const IconData ios_happy = const FlutterIconData.ionicons(61842);
   static const IconData ios_headset = const FlutterIconData.ionicons(61844);
   static const IconData ios_heart = const FlutterIconData.ionicons(62531);
-  static const IconData ios_heart_dislike =
-      const FlutterIconData.ionicons(61759);
+  static const IconData ios_heart_dislike = const FlutterIconData.ionicons(61759);
   static const IconData ios_heart_empty = const FlutterIconData.ionicons(61851);
   static const IconData ios_heart_half = const FlutterIconData.ionicons(61853);
   static const IconData ios_help = const FlutterIconData.ionicons(62534);
   static const IconData ios_help_buoy = const FlutterIconData.ionicons(61846);
   static const IconData ios_help_circle = const FlutterIconData.ionicons(61848);
-  static const IconData ios_help_circle_outline =
-      const FlutterIconData.ionicons(61847);
+  static const IconData ios_help_circle_outline = const FlutterIconData.ionicons(61847);
   static const IconData ios_home = const FlutterIconData.ionicons(62536);
   static const IconData ios_hourglass = const FlutterIconData.ionicons(61699);
   static const IconData ios_ice_cream = const FlutterIconData.ionicons(61850);
@@ -207,10 +173,8 @@ class Ionicons {
   static const IconData ios_images = const FlutterIconData.ionicons(61854);
   static const IconData ios_infinite = const FlutterIconData.ionicons(62538);
   static const IconData ios_information = const FlutterIconData.ionicons(62541);
-  static const IconData ios_information_circle =
-      const FlutterIconData.ionicons(61856);
-  static const IconData ios_information_circle_outline =
-      const FlutterIconData.ionicons(61855);
+  static const IconData ios_information_circle = const FlutterIconData.ionicons(61856);
+  static const IconData ios_information_circle_outline = const FlutterIconData.ionicons(61855);
   static const IconData ios_jet = const FlutterIconData.ionicons(61861);
   static const IconData ios_journal = const FlutterIconData.ionicons(61833);
   static const IconData ios_key = const FlutterIconData.ionicons(61863);
@@ -242,17 +206,12 @@ class Ionicons {
   static const IconData ios_moon = const FlutterIconData.ionicons(62568);
   static const IconData ios_more = const FlutterIconData.ionicons(61896);
   static const IconData ios_move = const FlutterIconData.ionicons(61899);
-  static const IconData ios_musical_note =
-      const FlutterIconData.ionicons(62571);
-  static const IconData ios_musical_notes =
-      const FlutterIconData.ionicons(62572);
+  static const IconData ios_musical_note = const FlutterIconData.ionicons(62571);
+  static const IconData ios_musical_notes = const FlutterIconData.ionicons(62572);
   static const IconData ios_navigate = const FlutterIconData.ionicons(62574);
-  static const IconData ios_notifications =
-      const FlutterIconData.ionicons(61907);
-  static const IconData ios_notifications_off =
-      const FlutterIconData.ionicons(61905);
-  static const IconData ios_notifications_outline =
-      const FlutterIconData.ionicons(61747);
+  static const IconData ios_notifications = const FlutterIconData.ionicons(61907);
+  static const IconData ios_notifications_off = const FlutterIconData.ionicons(61905);
+  static const IconData ios_notifications_outline = const FlutterIconData.ionicons(61747);
   static const IconData ios_nuclear = const FlutterIconData.ionicons(61909);
   static const IconData ios_nutrition = const FlutterIconData.ionicons(62576);
   static const IconData ios_open = const FlutterIconData.ionicons(61911);
@@ -260,17 +219,14 @@ class Ionicons {
   static const IconData ios_outlet = const FlutterIconData.ionicons(61915);
   static const IconData ios_paper = const FlutterIconData.ionicons(62578);
   static const IconData ios_paper_plane = const FlutterIconData.ionicons(61917);
-  static const IconData ios_partly_sunny =
-      const FlutterIconData.ionicons(61919);
+  static const IconData ios_partly_sunny = const FlutterIconData.ionicons(61919);
   static const IconData ios_pause = const FlutterIconData.ionicons(62584);
   static const IconData ios_paw = const FlutterIconData.ionicons(62586);
   static const IconData ios_people = const FlutterIconData.ionicons(62588);
   static const IconData ios_person = const FlutterIconData.ionicons(62590);
   static const IconData ios_person_add = const FlutterIconData.ionicons(61921);
-  static const IconData ios_phone_landscape =
-      const FlutterIconData.ionicons(61922);
-  static const IconData ios_phone_portrait =
-      const FlutterIconData.ionicons(61923);
+  static const IconData ios_phone_landscape = const FlutterIconData.ionicons(61922);
+  static const IconData ios_phone_portrait = const FlutterIconData.ionicons(61923);
   static const IconData ios_photos = const FlutterIconData.ionicons(62594);
   static const IconData ios_pie = const FlutterIconData.ionicons(62596);
   static const IconData ios_pin = const FlutterIconData.ionicons(61925);
@@ -288,30 +244,23 @@ class Ionicons {
   static const IconData ios_qr_scanner = const FlutterIconData.ionicons(61939);
   static const IconData ios_quote = const FlutterIconData.ionicons(61941);
   static const IconData ios_radio = const FlutterIconData.ionicons(61945);
-  static const IconData ios_radio_button_off =
-      const FlutterIconData.ionicons(61942);
-  static const IconData ios_radio_button_on =
-      const FlutterIconData.ionicons(61943);
+  static const IconData ios_radio_button_off = const FlutterIconData.ionicons(61942);
+  static const IconData ios_radio_button_on = const FlutterIconData.ionicons(61943);
   static const IconData ios_rainy = const FlutterIconData.ionicons(62613);
   static const IconData ios_recording = const FlutterIconData.ionicons(62615);
   static const IconData ios_redo = const FlutterIconData.ionicons(62617);
   static const IconData ios_refresh = const FlutterIconData.ionicons(62620);
-  static const IconData ios_refresh_circle =
-      const FlutterIconData.ionicons(61749);
+  static const IconData ios_refresh_circle = const FlutterIconData.ionicons(61749);
   static const IconData ios_remove = const FlutterIconData.ionicons(61948);
-  static const IconData ios_remove_circle =
-      const FlutterIconData.ionicons(61947);
-  static const IconData ios_remove_circle_outline =
-      const FlutterIconData.ionicons(61946);
+  static const IconData ios_remove_circle = const FlutterIconData.ionicons(61947);
+  static const IconData ios_remove_circle_outline = const FlutterIconData.ionicons(61946);
   static const IconData ios_reorder = const FlutterIconData.ionicons(61949);
   static const IconData ios_repeat = const FlutterIconData.ionicons(61950);
   static const IconData ios_resize = const FlutterIconData.ionicons(61951);
   static const IconData ios_restaurant = const FlutterIconData.ionicons(61953);
   static const IconData ios_return_left = const FlutterIconData.ionicons(61954);
-  static const IconData ios_return_right =
-      const FlutterIconData.ionicons(61955);
-  static const IconData ios_reverse_camera =
-      const FlutterIconData.ionicons(62623);
+  static const IconData ios_return_right = const FlutterIconData.ionicons(61955);
+  static const IconData ios_reverse_camera = const FlutterIconData.ionicons(62623);
   static const IconData ios_rewind = const FlutterIconData.ionicons(62625);
   static const IconData ios_ribbon = const FlutterIconData.ionicons(61957);
   static const IconData ios_rocket = const FlutterIconData.ionicons(61771);
@@ -326,19 +275,15 @@ class Ionicons {
   static const IconData ios_share_alt = const FlutterIconData.ionicons(61967);
   static const IconData ios_shirt = const FlutterIconData.ionicons(61971);
   static const IconData ios_shuffle = const FlutterIconData.ionicons(62633);
-  static const IconData ios_skip_backward =
-      const FlutterIconData.ionicons(61973);
-  static const IconData ios_skip_forward =
-      const FlutterIconData.ionicons(61975);
+  static const IconData ios_skip_backward = const FlutterIconData.ionicons(61973);
+  static const IconData ios_skip_forward = const FlutterIconData.ionicons(61975);
   static const IconData ios_snow = const FlutterIconData.ionicons(61976);
   static const IconData ios_speedometer = const FlutterIconData.ionicons(62640);
   static const IconData ios_square = const FlutterIconData.ionicons(61978);
-  static const IconData ios_square_outline =
-      const FlutterIconData.ionicons(61788);
+  static const IconData ios_square_outline = const FlutterIconData.ionicons(61788);
   static const IconData ios_star = const FlutterIconData.ionicons(62643);
   static const IconData ios_star_half = const FlutterIconData.ionicons(62641);
-  static const IconData ios_star_outline =
-      const FlutterIconData.ionicons(62642);
+  static const IconData ios_star_outline = const FlutterIconData.ionicons(62642);
   static const IconData ios_stats = const FlutterIconData.ionicons(61980);
   static const IconData ios_stopwatch = const FlutterIconData.ionicons(62645);
   static const IconData ios_subway = const FlutterIconData.ionicons(61982);
@@ -346,25 +291,21 @@ class Ionicons {
   static const IconData ios_swap = const FlutterIconData.ionicons(61983);
   static const IconData ios_switch = const FlutterIconData.ionicons(61985);
   static const IconData ios_sync = const FlutterIconData.ionicons(61986);
-  static const IconData ios_tablet_landscape =
-      const FlutterIconData.ionicons(61987);
-  static const IconData ios_tablet_portrait =
-      const FlutterIconData.ionicons(62030);
+  static const IconData ios_tablet_landscape = const FlutterIconData.ionicons(61987);
+  static const IconData ios_tablet_portrait = const FlutterIconData.ionicons(62030);
   static const IconData ios_tennisball = const FlutterIconData.ionicons(62651);
   static const IconData ios_text = const FlutterIconData.ionicons(62032);
   static const IconData ios_thermometer = const FlutterIconData.ionicons(62034);
   static const IconData ios_thumbs_down = const FlutterIconData.ionicons(62036);
   static const IconData ios_thumbs_up = const FlutterIconData.ionicons(62038);
-  static const IconData ios_thunderstorm =
-      const FlutterIconData.ionicons(62653);
+  static const IconData ios_thunderstorm = const FlutterIconData.ionicons(62653);
   static const IconData ios_time = const FlutterIconData.ionicons(62655);
   static const IconData ios_timer = const FlutterIconData.ionicons(62657);
   static const IconData ios_today = const FlutterIconData.ionicons(61775);
   static const IconData ios_train = const FlutterIconData.ionicons(62040);
   static const IconData ios_transgender = const FlutterIconData.ionicons(62041);
   static const IconData ios_trash = const FlutterIconData.ionicons(62661);
-  static const IconData ios_trending_down =
-      const FlutterIconData.ionicons(62042);
+  static const IconData ios_trending_down = const FlutterIconData.ionicons(62042);
   static const IconData ios_trending_up = const FlutterIconData.ionicons(62043);
   static const IconData ios_trophy = const FlutterIconData.ionicons(62045);
   static const IconData ios_tv = const FlutterIconData.ionicons(61717);
@@ -391,24 +332,19 @@ class Ionicons {
   static const IconData logo_bitcoin = const FlutterIconData.ionicons(61995);
   static const IconData logo_buffer = const FlutterIconData.ionicons(61997);
   static const IconData logo_chrome = const FlutterIconData.ionicons(61999);
-  static const IconData logo_closed_captioning =
-      const FlutterIconData.ionicons(61701);
+  static const IconData logo_closed_captioning = const FlutterIconData.ionicons(61701);
   static const IconData logo_codepen = const FlutterIconData.ionicons(62000);
   static const IconData logo_css3 = const FlutterIconData.ionicons(62001);
-  static const IconData logo_designernews =
-      const FlutterIconData.ionicons(62002);
+  static const IconData logo_designernews = const FlutterIconData.ionicons(62002);
   static const IconData logo_dribbble = const FlutterIconData.ionicons(62003);
   static const IconData logo_dropbox = const FlutterIconData.ionicons(62004);
   static const IconData logo_euro = const FlutterIconData.ionicons(62005);
   static const IconData logo_facebook = const FlutterIconData.ionicons(62006);
   static const IconData logo_flickr = const FlutterIconData.ionicons(61703);
   static const IconData logo_foursquare = const FlutterIconData.ionicons(62007);
-  static const IconData logo_freebsd_devil =
-      const FlutterIconData.ionicons(62008);
-  static const IconData logo_game_controller_a =
-      const FlutterIconData.ionicons(61755);
-  static const IconData logo_game_controller_b =
-      const FlutterIconData.ionicons(61825);
+  static const IconData logo_freebsd_devil = const FlutterIconData.ionicons(62008);
+  static const IconData logo_game_controller_a = const FlutterIconData.ionicons(61755);
+  static const IconData logo_game_controller_b = const FlutterIconData.ionicons(61825);
   static const IconData logo_github = const FlutterIconData.ionicons(62009);
   static const IconData logo_google = const FlutterIconData.ionicons(62010);
   static const IconData logo_googleplus = const FlutterIconData.ionicons(62011);
@@ -426,8 +362,7 @@ class Ionicons {
   static const IconData logo_npm = const FlutterIconData.ionicons(61845);
   static const IconData logo_octocat = const FlutterIconData.ionicons(62019);
   static const IconData logo_pinterest = const FlutterIconData.ionicons(62020);
-  static const IconData logo_playstation =
-      const FlutterIconData.ionicons(62021);
+  static const IconData logo_playstation = const FlutterIconData.ionicons(62021);
   static const IconData logo_polymer = const FlutterIconData.ionicons(61790);
   static const IconData logo_python = const FlutterIconData.ionicons(62022);
   static const IconData logo_reddit = const FlutterIconData.ionicons(62023);
@@ -454,14 +389,12 @@ class Ionicons {
   static const IconData logo_youtube = const FlutterIconData.ionicons(62287);
   static const IconData md_add = const FlutterIconData.ionicons(62067);
   static const IconData md_add_circle = const FlutterIconData.ionicons(62066);
-  static const IconData md_add_circle_outline =
-      const FlutterIconData.ionicons(61784);
+  static const IconData md_add_circle_outline = const FlutterIconData.ionicons(61784);
   static const IconData md_airplane = const FlutterIconData.ionicons(61786);
   static const IconData md_alarm = const FlutterIconData.ionicons(62068);
   static const IconData md_albums = const FlutterIconData.ionicons(62069);
   static const IconData md_alert = const FlutterIconData.ionicons(62070);
-  static const IconData md_american_football =
-      const FlutterIconData.ionicons(62071);
+  static const IconData md_american_football = const FlutterIconData.ionicons(62071);
   static const IconData md_analytics = const FlutterIconData.ionicons(62072);
   static const IconData md_aperture = const FlutterIconData.ionicons(62073);
   static const IconData md_apps = const FlutterIconData.ionicons(62074);
@@ -469,31 +402,19 @@ class Ionicons {
   static const IconData md_archive = const FlutterIconData.ionicons(62076);
   static const IconData md_arrow_back = const FlutterIconData.ionicons(62077);
   static const IconData md_arrow_down = const FlutterIconData.ionicons(62078);
-  static const IconData md_arrow_dropdown =
-      const FlutterIconData.ionicons(62080);
-  static const IconData md_arrow_dropdown_circle =
-      const FlutterIconData.ionicons(62079);
-  static const IconData md_arrow_dropleft =
-      const FlutterIconData.ionicons(62082);
-  static const IconData md_arrow_dropleft_circle =
-      const FlutterIconData.ionicons(62081);
-  static const IconData md_arrow_dropright =
-      const FlutterIconData.ionicons(62084);
-  static const IconData md_arrow_dropright_circle =
-      const FlutterIconData.ionicons(62083);
+  static const IconData md_arrow_dropdown = const FlutterIconData.ionicons(62080);
+  static const IconData md_arrow_dropdown_circle = const FlutterIconData.ionicons(62079);
+  static const IconData md_arrow_dropleft = const FlutterIconData.ionicons(62082);
+  static const IconData md_arrow_dropleft_circle = const FlutterIconData.ionicons(62081);
+  static const IconData md_arrow_dropright = const FlutterIconData.ionicons(62084);
+  static const IconData md_arrow_dropright_circle = const FlutterIconData.ionicons(62083);
   static const IconData md_arrow_dropup = const FlutterIconData.ionicons(62086);
-  static const IconData md_arrow_dropup_circle =
-      const FlutterIconData.ionicons(62085);
-  static const IconData md_arrow_forward =
-      const FlutterIconData.ionicons(62087);
-  static const IconData md_arrow_round_back =
-      const FlutterIconData.ionicons(62088);
-  static const IconData md_arrow_round_down =
-      const FlutterIconData.ionicons(62089);
-  static const IconData md_arrow_round_forward =
-      const FlutterIconData.ionicons(62090);
-  static const IconData md_arrow_round_up =
-      const FlutterIconData.ionicons(62091);
+  static const IconData md_arrow_dropup_circle = const FlutterIconData.ionicons(62085);
+  static const IconData md_arrow_forward = const FlutterIconData.ionicons(62087);
+  static const IconData md_arrow_round_back = const FlutterIconData.ionicons(62088);
+  static const IconData md_arrow_round_down = const FlutterIconData.ionicons(62089);
+  static const IconData md_arrow_round_forward = const FlutterIconData.ionicons(62090);
+  static const IconData md_arrow_round_up = const FlutterIconData.ionicons(62091);
   static const IconData md_arrow_up = const FlutterIconData.ionicons(62092);
   static const IconData md_at = const FlutterIconData.ionicons(62093);
   static const IconData md_attach = const FlutterIconData.ionicons(62094);
@@ -502,8 +423,7 @@ class Ionicons {
   static const IconData md_baseball = const FlutterIconData.ionicons(62097);
   static const IconData md_basket = const FlutterIconData.ionicons(62098);
   static const IconData md_basketball = const FlutterIconData.ionicons(62099);
-  static const IconData md_battery_charging =
-      const FlutterIconData.ionicons(62100);
+  static const IconData md_battery_charging = const FlutterIconData.ionicons(62100);
   static const IconData md_battery_dead = const FlutterIconData.ionicons(62101);
   static const IconData md_battery_full = const FlutterIconData.ionicons(62102);
   static const IconData md_beaker = const FlutterIconData.ionicons(62103);
@@ -539,38 +459,30 @@ class Ionicons {
   static const IconData md_chatboxes = const FlutterIconData.ionicons(62134);
   static const IconData md_chatbubbles = const FlutterIconData.ionicons(62135);
   static const IconData md_checkbox = const FlutterIconData.ionicons(62137);
-  static const IconData md_checkbox_outline =
-      const FlutterIconData.ionicons(62136);
+  static const IconData md_checkbox_outline = const FlutterIconData.ionicons(62136);
   static const IconData md_checkmark = const FlutterIconData.ionicons(62140);
-  static const IconData md_checkmark_circle =
-      const FlutterIconData.ionicons(62139);
-  static const IconData md_checkmark_circle_outline =
-      const FlutterIconData.ionicons(62138);
+  static const IconData md_checkmark_circle = const FlutterIconData.ionicons(62139);
+  static const IconData md_checkmark_circle_outline = const FlutterIconData.ionicons(62138);
   static const IconData md_clipboard = const FlutterIconData.ionicons(62141);
   static const IconData md_clock = const FlutterIconData.ionicons(62142);
   static const IconData md_close = const FlutterIconData.ionicons(62144);
   static const IconData md_close_circle = const FlutterIconData.ionicons(62143);
-  static const IconData md_close_circle_outline =
-      const FlutterIconData.ionicons(61798);
+  static const IconData md_close_circle_outline = const FlutterIconData.ionicons(61798);
   static const IconData md_cloud = const FlutterIconData.ionicons(62153);
   static const IconData md_cloud_circle = const FlutterIconData.ionicons(62146);
   static const IconData md_cloud_done = const FlutterIconData.ionicons(62147);
-  static const IconData md_cloud_download =
-      const FlutterIconData.ionicons(62150);
-  static const IconData md_cloud_outline =
-      const FlutterIconData.ionicons(62151);
+  static const IconData md_cloud_download = const FlutterIconData.ionicons(62150);
+  static const IconData md_cloud_outline = const FlutterIconData.ionicons(62151);
   static const IconData md_cloud_upload = const FlutterIconData.ionicons(62152);
   static const IconData md_cloudy = const FlutterIconData.ionicons(62155);
   static const IconData md_cloudy_night = const FlutterIconData.ionicons(62154);
   static const IconData md_code = const FlutterIconData.ionicons(62158);
-  static const IconData md_code_download =
-      const FlutterIconData.ionicons(62156);
+  static const IconData md_code_download = const FlutterIconData.ionicons(62156);
   static const IconData md_code_working = const FlutterIconData.ionicons(62157);
   static const IconData md_cog = const FlutterIconData.ionicons(62159);
   static const IconData md_color_fill = const FlutterIconData.ionicons(62160);
   static const IconData md_color_filter = const FlutterIconData.ionicons(62161);
-  static const IconData md_color_palette =
-      const FlutterIconData.ionicons(62162);
+  static const IconData md_color_palette = const FlutterIconData.ionicons(62162);
   static const IconData md_color_wand = const FlutterIconData.ionicons(62163);
   static const IconData md_compass = const FlutterIconData.ionicons(62164);
   static const IconData md_construct = const FlutterIconData.ionicons(62165);
@@ -617,8 +529,7 @@ class Ionicons {
   static const IconData md_git_compare = const FlutterIconData.ionicons(62204);
   static const IconData md_git_merge = const FlutterIconData.ionicons(62205);
   static const IconData md_git_network = const FlutterIconData.ionicons(62206);
-  static const IconData md_git_pull_request =
-      const FlutterIconData.ionicons(62207);
+  static const IconData md_git_pull_request = const FlutterIconData.ionicons(62207);
   static const IconData md_glasses = const FlutterIconData.ionicons(62208);
   static const IconData md_globe = const FlutterIconData.ionicons(62209);
   static const IconData md_grid = const FlutterIconData.ionicons(62210);
@@ -627,15 +538,13 @@ class Ionicons {
   static const IconData md_happy = const FlutterIconData.ionicons(62213);
   static const IconData md_headset = const FlutterIconData.ionicons(62214);
   static const IconData md_heart = const FlutterIconData.ionicons(62216);
-  static const IconData md_heart_dislike =
-      const FlutterIconData.ionicons(61799);
+  static const IconData md_heart_dislike = const FlutterIconData.ionicons(61799);
   static const IconData md_heart_empty = const FlutterIconData.ionicons(61857);
   static const IconData md_heart_half = const FlutterIconData.ionicons(61858);
   static const IconData md_help = const FlutterIconData.ionicons(62219);
   static const IconData md_help_buoy = const FlutterIconData.ionicons(62217);
   static const IconData md_help_circle = const FlutterIconData.ionicons(62218);
-  static const IconData md_help_circle_outline =
-      const FlutterIconData.ionicons(61805);
+  static const IconData md_help_circle_outline = const FlutterIconData.ionicons(61805);
   static const IconData md_home = const FlutterIconData.ionicons(62220);
   static const IconData md_hourglass = const FlutterIconData.ionicons(61713);
   static const IconData md_ice_cream = const FlutterIconData.ionicons(62221);
@@ -643,10 +552,8 @@ class Ionicons {
   static const IconData md_images = const FlutterIconData.ionicons(62223);
   static const IconData md_infinite = const FlutterIconData.ionicons(62224);
   static const IconData md_information = const FlutterIconData.ionicons(62226);
-  static const IconData md_information_circle =
-      const FlutterIconData.ionicons(62225);
-  static const IconData md_information_circle_outline =
-      const FlutterIconData.ionicons(61807);
+  static const IconData md_information_circle = const FlutterIconData.ionicons(62225);
+  static const IconData md_information_circle_outline = const FlutterIconData.ionicons(61807);
   static const IconData md_jet = const FlutterIconData.ionicons(62229);
   static const IconData md_journal = const FlutterIconData.ionicons(61837);
   static const IconData md_key = const FlutterIconData.ionicons(62230);
@@ -679,15 +586,11 @@ class Ionicons {
   static const IconData md_more = const FlutterIconData.ionicons(61897);
   static const IconData md_move = const FlutterIconData.ionicons(62257);
   static const IconData md_musical_note = const FlutterIconData.ionicons(62258);
-  static const IconData md_musical_notes =
-      const FlutterIconData.ionicons(62259);
+  static const IconData md_musical_notes = const FlutterIconData.ionicons(62259);
   static const IconData md_navigate = const FlutterIconData.ionicons(62260);
-  static const IconData md_notifications =
-      const FlutterIconData.ionicons(62264);
-  static const IconData md_notifications_off =
-      const FlutterIconData.ionicons(62262);
-  static const IconData md_notifications_outline =
-      const FlutterIconData.ionicons(62263);
+  static const IconData md_notifications = const FlutterIconData.ionicons(62264);
+  static const IconData md_notifications_off = const FlutterIconData.ionicons(62262);
+  static const IconData md_notifications_outline = const FlutterIconData.ionicons(62263);
   static const IconData md_nuclear = const FlutterIconData.ionicons(62265);
   static const IconData md_nutrition = const FlutterIconData.ionicons(62266);
   static const IconData md_open = const FlutterIconData.ionicons(62267);
@@ -701,10 +604,8 @@ class Ionicons {
   static const IconData md_people = const FlutterIconData.ionicons(62275);
   static const IconData md_person = const FlutterIconData.ionicons(62277);
   static const IconData md_person_add = const FlutterIconData.ionicons(62276);
-  static const IconData md_phone_landscape =
-      const FlutterIconData.ionicons(62278);
-  static const IconData md_phone_portrait =
-      const FlutterIconData.ionicons(62279);
+  static const IconData md_phone_landscape = const FlutterIconData.ionicons(62278);
+  static const IconData md_phone_portrait = const FlutterIconData.ionicons(62279);
   static const IconData md_photos = const FlutterIconData.ionicons(62280);
   static const IconData md_pie = const FlutterIconData.ionicons(62281);
   static const IconData md_pin = const FlutterIconData.ionicons(62282);
@@ -722,29 +623,23 @@ class Ionicons {
   static const IconData md_qr_scanner = const FlutterIconData.ionicons(62302);
   static const IconData md_quote = const FlutterIconData.ionicons(62303);
   static const IconData md_radio = const FlutterIconData.ionicons(62306);
-  static const IconData md_radio_button_off =
-      const FlutterIconData.ionicons(62304);
-  static const IconData md_radio_button_on =
-      const FlutterIconData.ionicons(62305);
+  static const IconData md_radio_button_off = const FlutterIconData.ionicons(62304);
+  static const IconData md_radio_button_on = const FlutterIconData.ionicons(62305);
   static const IconData md_rainy = const FlutterIconData.ionicons(62307);
   static const IconData md_recording = const FlutterIconData.ionicons(62308);
   static const IconData md_redo = const FlutterIconData.ionicons(62309);
   static const IconData md_refresh = const FlutterIconData.ionicons(62310);
-  static const IconData md_refresh_circle =
-      const FlutterIconData.ionicons(61992);
+  static const IconData md_refresh_circle = const FlutterIconData.ionicons(61992);
   static const IconData md_remove = const FlutterIconData.ionicons(62312);
-  static const IconData md_remove_circle =
-      const FlutterIconData.ionicons(62311);
-  static const IconData md_remove_circle_outline =
-      const FlutterIconData.ionicons(61814);
+  static const IconData md_remove_circle = const FlutterIconData.ionicons(62311);
+  static const IconData md_remove_circle_outline = const FlutterIconData.ionicons(61814);
   static const IconData md_reorder = const FlutterIconData.ionicons(62313);
   static const IconData md_repeat = const FlutterIconData.ionicons(62314);
   static const IconData md_resize = const FlutterIconData.ionicons(62315);
   static const IconData md_restaurant = const FlutterIconData.ionicons(62316);
   static const IconData md_return_left = const FlutterIconData.ionicons(62317);
   static const IconData md_return_right = const FlutterIconData.ionicons(62318);
-  static const IconData md_reverse_camera =
-      const FlutterIconData.ionicons(62319);
+  static const IconData md_reverse_camera = const FlutterIconData.ionicons(62319);
   static const IconData md_rewind = const FlutterIconData.ionicons(62320);
   static const IconData md_ribbon = const FlutterIconData.ionicons(62321);
   static const IconData md_rocket = const FlutterIconData.ionicons(61817);
@@ -759,14 +654,12 @@ class Ionicons {
   static const IconData md_share_alt = const FlutterIconData.ionicons(62328);
   static const IconData md_shirt = const FlutterIconData.ionicons(62330);
   static const IconData md_shuffle = const FlutterIconData.ionicons(62331);
-  static const IconData md_skip_backward =
-      const FlutterIconData.ionicons(62332);
+  static const IconData md_skip_backward = const FlutterIconData.ionicons(62332);
   static const IconData md_skip_forward = const FlutterIconData.ionicons(62333);
   static const IconData md_snow = const FlutterIconData.ionicons(62334);
   static const IconData md_speedometer = const FlutterIconData.ionicons(62335);
   static const IconData md_square = const FlutterIconData.ionicons(62337);
-  static const IconData md_square_outline =
-      const FlutterIconData.ionicons(62336);
+  static const IconData md_square_outline = const FlutterIconData.ionicons(62336);
   static const IconData md_star = const FlutterIconData.ionicons(62340);
   static const IconData md_star_half = const FlutterIconData.ionicons(62338);
   static const IconData md_star_outline = const FlutterIconData.ionicons(62339);
@@ -777,10 +670,8 @@ class Ionicons {
   static const IconData md_swap = const FlutterIconData.ionicons(62345);
   static const IconData md_switch = const FlutterIconData.ionicons(62346);
   static const IconData md_sync = const FlutterIconData.ionicons(62347);
-  static const IconData md_tablet_landscape =
-      const FlutterIconData.ionicons(62348);
-  static const IconData md_tablet_portrait =
-      const FlutterIconData.ionicons(62349);
+  static const IconData md_tablet_landscape = const FlutterIconData.ionicons(62348);
+  static const IconData md_tablet_portrait = const FlutterIconData.ionicons(62349);
   static const IconData md_tennisball = const FlutterIconData.ionicons(62350);
   static const IconData md_text = const FlutterIconData.ionicons(62351);
   static const IconData md_thermometer = const FlutterIconData.ionicons(62352);
@@ -793,8 +684,7 @@ class Ionicons {
   static const IconData md_train = const FlutterIconData.ionicons(62358);
   static const IconData md_transgender = const FlutterIconData.ionicons(62359);
   static const IconData md_trash = const FlutterIconData.ionicons(62360);
-  static const IconData md_trending_down =
-      const FlutterIconData.ionicons(62361);
+  static const IconData md_trending_down = const FlutterIconData.ionicons(62361);
   static const IconData md_trending_up = const FlutterIconData.ionicons(62362);
   static const IconData md_trophy = const FlutterIconData.ionicons(62363);
   static const IconData md_tv = const FlutterIconData.ionicons(61823);

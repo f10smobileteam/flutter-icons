@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
 /// all Icons under EvilIcons
@@ -6,6 +7,7 @@ import 'flutter_icon_data.dart';
 /// http://evil-icons.io
 class EvilIcons {
   EvilIcons._();
+
   static const IconData archive = const FlutterIconData.evilIcons(61696);
   static const IconData arrow_down = const FlutterIconData.evilIcons(61697);
   static const IconData arrow_left = const FlutterIconData.evilIcons(61698);
@@ -53,8 +55,7 @@ class EvilIcons {
   static const IconData sc_google_plus = const FlutterIconData.evilIcons(61740);
   static const IconData sc_instagram = const FlutterIconData.evilIcons(61741);
   static const IconData sc_linkedin = const FlutterIconData.evilIcons(61742);
-  static const IconData sc_odnoklassniki =
-      const FlutterIconData.evilIcons(61743);
+  static const IconData sc_odnoklassniki = const FlutterIconData.evilIcons(61743);
   static const IconData sc_pinterest = const FlutterIconData.evilIcons(61744);
   static const IconData sc_skype = const FlutterIconData.evilIcons(61745);
   static const IconData sc_soundcloud = const FlutterIconData.evilIcons(61746);

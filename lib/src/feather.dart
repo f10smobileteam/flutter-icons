@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
 /// all Icons under Feather
@@ -6,6 +7,7 @@ import 'flutter_icon_data.dart';
 /// http://feathericons.com
 class Feather {
   Feather._();
+
   static const IconData activity = const FlutterIconData.feather(59648);
   static const IconData airplay = const FlutterIconData.feather(59649);
   static const IconData alert_circle = const FlutterIconData.feather(59650);
@@ -19,16 +21,13 @@ class Feather {
   static const IconData aperture = const FlutterIconData.feather(59658);
   static const IconData archive = const FlutterIconData.feather(59659);
   static const IconData arrow_down = const FlutterIconData.feather(59660);
-  static const IconData arrow_down_circle =
-      const FlutterIconData.feather(59661);
+  static const IconData arrow_down_circle = const FlutterIconData.feather(59661);
   static const IconData arrow_down_left = const FlutterIconData.feather(59662);
   static const IconData arrow_down_right = const FlutterIconData.feather(59663);
   static const IconData arrow_left = const FlutterIconData.feather(59664);
-  static const IconData arrow_left_circle =
-      const FlutterIconData.feather(59665);
+  static const IconData arrow_left_circle = const FlutterIconData.feather(59665);
   static const IconData arrow_right = const FlutterIconData.feather(59666);
-  static const IconData arrow_right_circle =
-      const FlutterIconData.feather(59667);
+  static const IconData arrow_right_circle = const FlutterIconData.feather(59667);
   static const IconData arrow_up = const FlutterIconData.feather(59668);
   static const IconData arrow_up_circle = const FlutterIconData.feather(59669);
   static const IconData arrow_up_left = const FlutterIconData.feather(59670);
@@ -79,12 +78,10 @@ class Feather {
   static const IconData compass = const FlutterIconData.feather(59715);
   static const IconData copy = const FlutterIconData.feather(59716);
   static const IconData corner_down_left = const FlutterIconData.feather(59717);
-  static const IconData corner_down_right =
-      const FlutterIconData.feather(59718);
+  static const IconData corner_down_right = const FlutterIconData.feather(59718);
   static const IconData corner_left_down = const FlutterIconData.feather(59719);
   static const IconData corner_left_up = const FlutterIconData.feather(59720);
-  static const IconData corner_right_down =
-      const FlutterIconData.feather(59721);
+  static const IconData corner_right_down = const FlutterIconData.feather(59721);
   static const IconData corner_right_up = const FlutterIconData.feather(59722);
   static const IconData corner_up_left = const FlutterIconData.feather(59723);
   static const IconData corner_up_right = const FlutterIconData.feather(59724);

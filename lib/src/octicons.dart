@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'flutter_icon_data.dart';
 
 /// all Icons under Octicons
@@ -6,17 +7,15 @@ import 'flutter_icon_data.dart';
 /// http://octicons.github.com
 class Octicons {
   Octicons._();
+
   static const IconData alert = const FlutterIconData.octicons(61696);
   static const IconData archive = const FlutterIconData.octicons(61697);
   static const IconData arrow_down = const FlutterIconData.octicons(61698);
   static const IconData arrow_left = const FlutterIconData.octicons(61699);
   static const IconData arrow_right = const FlutterIconData.octicons(61700);
-  static const IconData arrow_small_down =
-      const FlutterIconData.octicons(61701);
-  static const IconData arrow_small_left =
-      const FlutterIconData.octicons(61702);
-  static const IconData arrow_small_right =
-      const FlutterIconData.octicons(61703);
+  static const IconData arrow_small_down = const FlutterIconData.octicons(61701);
+  static const IconData arrow_small_left = const FlutterIconData.octicons(61702);
+  static const IconData arrow_small_right = const FlutterIconData.octicons(61703);
   static const IconData arrow_small_up = const FlutterIconData.octicons(61704);
   static const IconData arrow_up = const FlutterIconData.octicons(61705);
   static const IconData beaker = const FlutterIconData.octicons(61706);
@@ -43,17 +42,14 @@ class Octicons {
   static const IconData cloud_upload = const FlutterIconData.octicons(61727);
   static const IconData code = const FlutterIconData.octicons(61728);
   static const IconData comment = const FlutterIconData.octicons(61729);
-  static const IconData comment_discussion =
-      const FlutterIconData.octicons(61730);
+  static const IconData comment_discussion = const FlutterIconData.octicons(61730);
   static const IconData credit_card = const FlutterIconData.octicons(61731);
   static const IconData dash = const FlutterIconData.octicons(61732);
   static const IconData dashboard = const FlutterIconData.octicons(61733);
   static const IconData database = const FlutterIconData.octicons(61734);
-  static const IconData desktop_download =
-      const FlutterIconData.octicons(61735);
+  static const IconData desktop_download = const FlutterIconData.octicons(61735);
   static const IconData device_camera = const FlutterIconData.octicons(61736);
-  static const IconData device_camera_video =
-      const FlutterIconData.octicons(61737);
+  static const IconData device_camera_video = const FlutterIconData.octicons(61737);
   static const IconData device_desktop = const FlutterIconData.octicons(61738);
   static const IconData device_mobile = const FlutterIconData.octicons(61739);
   static const IconData diff = const FlutterIconData.octicons(61740);
@@ -71,10 +67,8 @@ class Octicons {
   static const IconData file_media = const FlutterIconData.octicons(61752);
   static const IconData file_pdf = const FlutterIconData.octicons(61753);
   static const IconData file_submodule = const FlutterIconData.octicons(61754);
-  static const IconData file_symlink_directory =
-      const FlutterIconData.octicons(61755);
-  static const IconData file_symlink_file =
-      const FlutterIconData.octicons(61756);
+  static const IconData file_symlink_directory = const FlutterIconData.octicons(61755);
+  static const IconData file_symlink_file = const FlutterIconData.octicons(61756);
   static const IconData file_zip = const FlutterIconData.octicons(61757);
   static const IconData flame = const FlutterIconData.octicons(61758);
   static const IconData fold = const FlutterIconData.octicons(61759);
@@ -86,8 +80,7 @@ class Octicons {
   static const IconData git_commit = const FlutterIconData.octicons(61765);
   static const IconData git_compare = const FlutterIconData.octicons(61766);
   static const IconData git_merge = const FlutterIconData.octicons(61767);
-  static const IconData git_pull_request =
-      const FlutterIconData.octicons(61768);
+  static const IconData git_pull_request = const FlutterIconData.octicons(61768);
   static const IconData globe = const FlutterIconData.octicons(61769);
   static const IconData grabber = const FlutterIconData.octicons(61770);
   static const IconData graph = const FlutterIconData.octicons(61771);
@@ -103,8 +96,7 @@ class Octicons {
   static const IconData issue_reopened = const FlutterIconData.octicons(61781);
   static const IconData italic = const FlutterIconData.octicons(61782);
   static const IconData jersey = const FlutterIconData.octicons(61783);
-  static const IconData kebab_horizontal =
-      const FlutterIconData.octicons(61784);
+  static const IconData kebab_horizontal = const FlutterIconData.octicons(61784);
   static const IconData kebab_vertical = const FlutterIconData.octicons(61785);
   static const IconData key = const FlutterIconData.octicons(61786);
   static const IconData keyboard = const FlutterIconData.octicons(61787);
@@ -141,8 +133,7 @@ class Octicons {
   static const IconData plus = const FlutterIconData.octicons(61818);
   static const IconData plus_small = const FlutterIconData.octicons(61819);
   static const IconData primitive_dot = const FlutterIconData.octicons(61820);
-  static const IconData primitive_square =
-      const FlutterIconData.octicons(61821);
+  static const IconData primitive_square = const FlutterIconData.octicons(61821);
   static const IconData project = const FlutterIconData.octicons(61822);
   static const IconData pulse = const FlutterIconData.octicons(61823);
   static const IconData question = const FlutterIconData.octicons(61824);
