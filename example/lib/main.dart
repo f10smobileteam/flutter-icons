@@ -4,6 +4,8 @@ import 'package:flutter_icons/flutter_icons.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -21,22 +23,21 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Icons'),
+      home: const MyHomePage(title: 'Flutter Icons'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({super.key, required this.title});
+  const MyHomePage({super.key, required this.title});
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -57,17 +58,17 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Icon(AntDesign.stepforward),
-//            Icon(Ionicons.ios_search),
-//            Icon(FontAwesome.glass),
-//            Icon(MaterialIcons.ac_unit),
-//            Icon(FontAwesome5.address_book),
-//            Icon(FontAwesome5Solid.address_book),
-//            Icon(FontAwesome5Brands.$500px),
-//            Icon(FlutterIcons.$500px_ent),
-//            Icon(FlutterIcons.$500px_faw5d),
-//            Icon(WeatherIcons.wi_alien),
-//            Icon(WeatherIcons.wi_cloud),
-//            Icon(WeatherIcons.wi_day_rain)
+            Icon(Ionicons.ios_search),
+            Icon(FontAwesome.glass),
+            Icon(MaterialIcons.ac_unit),
+            Icon(FontAwesome5.address_book),
+            Icon(FontAwesome5Solid.address_book),
+            Icon(FontAwesome5Brands.$500px),
+            Icon(FlutterIcons.$500px_ent),
+            Icon(FlutterIcons.$500px_faw5d),
+            Icon(WeatherIcons.wi_alien),
+            Icon(WeatherIcons.wi_cloud),
+            Icon(WeatherIcons.wi_day_rain)
           ],
         ),
       ),
