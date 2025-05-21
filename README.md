@@ -5,6 +5,7 @@ English | [简体中文](./README_zh-CN.md)
 [![pub package](https://img.shields.io/pub/v/flutter_icons.svg)](https://pub.dartlang.org/packages/flutter_icons)
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+Originally Forked from https://github.com/flutter-studio/flutter-icons.git
 
 ## Notice
 >> 1. `v1.0.0` has major Api changes, please be careful to upgrade
@@ -126,7 +127,7 @@ Add the font you want to leave in the project's pubspec file
 //Zocial Icons -> zoc,
 //Weather Icons -> wea
 
-...
+```
 
 flutter_icons:
   includes:
