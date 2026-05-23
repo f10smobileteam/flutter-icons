@@ -5,6 +5,7 @@
 * Refactors `FlutterIcon` to extend the standard `Icon` widget instead of `FaIcon`.
 * Updated `FontAwesome7` icon definitions to use standard `IconData`.
 * Synchronized `FontAwesome7` icons with Font Awesome 7.2.0, adding many new icons.
+* Updated all files icon definitions to use standard `IconData` instead of `FlutterIconData`.
 
 ## 1.3.2
 
