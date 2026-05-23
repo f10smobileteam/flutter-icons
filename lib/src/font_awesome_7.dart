@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'flutter_icon_data.dart';
+
 /// All Icons under FontAwesome7
 ///
 /// https://fontawesome.com/icons
@@ -15,7 +17,7 @@ class FontAwesome7 {
   static const IconData zero = IconData(
     0x30,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 1 icon
@@ -25,7 +27,7 @@ class FontAwesome7 {
   static const IconData one = IconData(
     0x31,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 2 icon
@@ -35,7 +37,7 @@ class FontAwesome7 {
   static const IconData two = IconData(
     0x32,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 3 icon
@@ -45,7 +47,7 @@ class FontAwesome7 {
   static const IconData three = IconData(
     0x33,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 4 icon
@@ -55,7 +57,7 @@ class FontAwesome7 {
   static const IconData four = IconData(
     0x34,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 5 icon
@@ -65,7 +67,7 @@ class FontAwesome7 {
   static const IconData five = IconData(
     0x35,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 6 icon
@@ -75,7 +77,7 @@ class FontAwesome7 {
   static const IconData six = IconData(
     0x36,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 7 icon
@@ -85,7 +87,7 @@ class FontAwesome7 {
   static const IconData seven = IconData(
     0x37,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 8 icon
@@ -95,7 +97,7 @@ class FontAwesome7 {
   static const IconData eight = IconData(
     0x38,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid 9 icon
@@ -105,7 +107,7 @@ class FontAwesome7 {
   static const IconData nine = IconData(
     0x39,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands 42 Group icon
@@ -115,7 +117,7 @@ class FontAwesome7 {
   static const IconData fortyTwoGroup = IconData(
     0xe080,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias innosoft for icon [fortyTwoGroup]
@@ -129,7 +131,7 @@ class FontAwesome7 {
   static const IconData fiveHundredPx = IconData(
     0xf26e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid A icon
@@ -139,7 +141,7 @@ class FontAwesome7 {
   static const IconData a = IconData(
     0x41,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Accessible Icon icon
@@ -149,7 +151,7 @@ class FontAwesome7 {
   static const IconData accessibleIcon = IconData(
     0xf368,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Accusoft icon
@@ -159,7 +161,7 @@ class FontAwesome7 {
   static const IconData accusoft = IconData(
     0xf369,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Address Book icon
@@ -169,7 +171,7 @@ class FontAwesome7 {
   static const IconData solidAddressBook = IconData(
     0xf2b9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias contact-book for icon [solidAddressBook]
@@ -183,7 +185,7 @@ class FontAwesome7 {
   static const IconData addressBook = IconData(
     0xf2b9,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias contact-book for icon [addressBook]
@@ -197,7 +199,7 @@ class FontAwesome7 {
   static const IconData solidAddressCard = IconData(
     0xf2bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias contact-card for icon [solidAddressCard]
@@ -215,7 +217,7 @@ class FontAwesome7 {
   static const IconData addressCard = IconData(
     0xf2bb,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias contact-card for icon [addressCard]
@@ -233,7 +235,7 @@ class FontAwesome7 {
   static const IconData adn = IconData(
     0xf170,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Adversal icon
@@ -243,7 +245,7 @@ class FontAwesome7 {
   static const IconData adversal = IconData(
     0xf36a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Affiliatetheme icon
@@ -253,7 +255,7 @@ class FontAwesome7 {
   static const IconData affiliatetheme = IconData(
     0xf36b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Airbnb icon
@@ -263,7 +265,7 @@ class FontAwesome7 {
   static const IconData airbnb = IconData(
     0xf834,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Alarm Clock icon
@@ -273,7 +275,7 @@ class FontAwesome7 {
   static const IconData solidAlarmClock = IconData(
     0xf34e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Alarm Clock icon
@@ -283,7 +285,7 @@ class FontAwesome7 {
   static const IconData alarmClock = IconData(
     0xf34e,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Algolia icon
@@ -293,7 +295,7 @@ class FontAwesome7 {
   static const IconData algolia = IconData(
     0xf36c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Align Center icon
@@ -303,7 +305,7 @@ class FontAwesome7 {
   static const IconData alignCenter = IconData(
     0xf037,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Align Justify icon
@@ -313,7 +315,7 @@ class FontAwesome7 {
   static const IconData alignJustify = IconData(
     0xf039,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Align Left icon
@@ -323,7 +325,7 @@ class FontAwesome7 {
   static const IconData alignLeft = IconData(
     0xf036,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Align Right icon
@@ -333,7 +335,7 @@ class FontAwesome7 {
   static const IconData alignRight = IconData(
     0xf038,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Alipay icon
@@ -343,7 +345,7 @@ class FontAwesome7 {
   static const IconData alipay = IconData(
     0xf642,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Amazon icon
@@ -353,7 +355,7 @@ class FontAwesome7 {
   static const IconData amazon = IconData(
     0xf270,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Amazon Pay icon
@@ -363,7 +365,7 @@ class FontAwesome7 {
   static const IconData amazonPay = IconData(
     0xf42c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Amilia icon
@@ -373,7 +375,7 @@ class FontAwesome7 {
   static const IconData amilia = IconData(
     0xf36d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Anchor icon
@@ -383,7 +385,7 @@ class FontAwesome7 {
   static const IconData anchor = IconData(
     0xf13d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Anchor Circle Check icon
@@ -393,7 +395,7 @@ class FontAwesome7 {
   static const IconData anchorCircleCheck = IconData(
     0xe4aa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Anchor Circle Exclamation icon
@@ -403,7 +405,7 @@ class FontAwesome7 {
   static const IconData anchorCircleExclamation = IconData(
     0xe4ab,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Anchor Circle Xmark icon
@@ -413,7 +415,7 @@ class FontAwesome7 {
   static const IconData anchorCircleXmark = IconData(
     0xe4ac,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Anchor Lock icon
@@ -423,7 +425,7 @@ class FontAwesome7 {
   static const IconData anchorLock = IconData(
     0xe4ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Android icon
@@ -433,7 +435,7 @@ class FontAwesome7 {
   static const IconData android = IconData(
     0xf17b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Angellist icon
@@ -443,7 +445,7 @@ class FontAwesome7 {
   static const IconData angellist = IconData(
     0xf209,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Angle Down icon
@@ -453,7 +455,7 @@ class FontAwesome7 {
   static const IconData angleDown = IconData(
     0xf107,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Angle Left icon
@@ -463,7 +465,7 @@ class FontAwesome7 {
   static const IconData angleLeft = IconData(
     0xf104,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Angle Right icon
@@ -473,7 +475,7 @@ class FontAwesome7 {
   static const IconData angleRight = IconData(
     0xf105,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Angle Up icon
@@ -483,7 +485,7 @@ class FontAwesome7 {
   static const IconData angleUp = IconData(
     0xf106,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Angles Down icon
@@ -493,7 +495,7 @@ class FontAwesome7 {
   static const IconData anglesDown = IconData(
     0xf103,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angle-double-down for icon [anglesDown]
@@ -507,7 +509,7 @@ class FontAwesome7 {
   static const IconData anglesLeft = IconData(
     0xf100,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angle-double-left for icon [anglesLeft]
@@ -521,7 +523,7 @@ class FontAwesome7 {
   static const IconData anglesRight = IconData(
     0xf101,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angle-double-right for icon [anglesRight]
@@ -535,7 +537,7 @@ class FontAwesome7 {
   static const IconData anglesUp = IconData(
     0xf102,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angle-double-up for icon [anglesUp]
@@ -549,7 +551,7 @@ class FontAwesome7 {
   static const IconData angrycreative = IconData(
     0xf36e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Angular icon
@@ -559,7 +561,7 @@ class FontAwesome7 {
   static const IconData angular = IconData(
     0xf420,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ankh icon
@@ -569,7 +571,7 @@ class FontAwesome7 {
   static const IconData ankh = IconData(
     0xf644,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands App Store icon
@@ -579,7 +581,7 @@ class FontAwesome7 {
   static const IconData appStore = IconData(
     0xf36f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands App Store Ios icon
@@ -589,7 +591,7 @@ class FontAwesome7 {
   static const IconData appStoreIos = IconData(
     0xf370,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Apper icon
@@ -599,7 +601,7 @@ class FontAwesome7 {
   static const IconData apper = IconData(
     0xf371,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Apple icon
@@ -609,7 +611,7 @@ class FontAwesome7 {
   static const IconData apple = IconData(
     0xf179,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Apple Pay icon
@@ -619,7 +621,7 @@ class FontAwesome7 {
   static const IconData applePay = IconData(
     0xf415,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Apple Whole icon
@@ -629,7 +631,7 @@ class FontAwesome7 {
   static const IconData appleWhole = IconData(
     0xf5d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias apple-alt for icon [appleWhole]
@@ -643,7 +645,7 @@ class FontAwesome7 {
   static const IconData aquarius = IconData(
     0xe845,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Arch Linux icon
@@ -652,7 +654,7 @@ class FontAwesome7 {
   static const IconData archLinux = IconData(
     0xe867,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Archway icon
@@ -662,7 +664,7 @@ class FontAwesome7 {
   static const IconData archway = IconData(
     0xf557,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Aries icon
@@ -672,7 +674,7 @@ class FontAwesome7 {
   static const IconData aries = IconData(
     0xe846,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Down icon
@@ -682,7 +684,7 @@ class FontAwesome7 {
   static const IconData arrowDown = IconData(
     0xf063,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Down 1 9 icon
@@ -692,7 +694,7 @@ class FontAwesome7 {
   static const IconData arrowDown19 = IconData(
     0xf162,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-numeric-asc for icon [arrowDown19]
@@ -710,7 +712,7 @@ class FontAwesome7 {
   static const IconData arrowDown91 = IconData(
     0xf886,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-numeric-desc for icon [arrowDown91]
@@ -728,7 +730,7 @@ class FontAwesome7 {
   static const IconData arrowDownAZ = IconData(
     0xf15d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-alpha-asc for icon [arrowDownAZ]
@@ -746,7 +748,7 @@ class FontAwesome7 {
   static const IconData arrowDownLong = IconData(
     0xf175,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-down for icon [arrowDownLong]
@@ -760,7 +762,7 @@ class FontAwesome7 {
   static const IconData arrowDownShortWide = IconData(
     0xf884,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-amount-desc for icon [arrowDownShortWide]
@@ -778,7 +780,7 @@ class FontAwesome7 {
   static const IconData arrowDownUpAcrossLine = IconData(
     0xe4af,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Down Up Lock icon
@@ -788,7 +790,7 @@ class FontAwesome7 {
   static const IconData arrowDownUpLock = IconData(
     0xe4b0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Down Wide Short icon
@@ -798,7 +800,7 @@ class FontAwesome7 {
   static const IconData arrowDownWideShort = IconData(
     0xf160,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-amount-asc for icon [arrowDownWideShort]
@@ -816,7 +818,7 @@ class FontAwesome7 {
   static const IconData arrowDownZA = IconData(
     0xf881,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-alpha-desc for icon [arrowDownZA]
@@ -834,7 +836,7 @@ class FontAwesome7 {
   static const IconData arrowLeft = IconData(
     0xf060,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Left Long icon
@@ -844,7 +846,7 @@ class FontAwesome7 {
   static const IconData arrowLeftLong = IconData(
     0xf177,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-left for icon [arrowLeftLong]
@@ -858,7 +860,7 @@ class FontAwesome7 {
   static const IconData arrowPointer = IconData(
     0xf245,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mouse-pointer for icon [arrowPointer]
@@ -872,7 +874,7 @@ class FontAwesome7 {
   static const IconData arrowRight = IconData(
     0xf061,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Right Arrow Left icon
@@ -882,7 +884,7 @@ class FontAwesome7 {
   static const IconData arrowRightArrowLeft = IconData(
     0xf0ec,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias exchange for icon [arrowRightArrowLeft]
@@ -896,7 +898,7 @@ class FontAwesome7 {
   static const IconData arrowRightFromBracket = IconData(
     0xf08b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign-out for icon [arrowRightFromBracket]
@@ -910,7 +912,7 @@ class FontAwesome7 {
   static const IconData arrowRightLong = IconData(
     0xf178,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-right for icon [arrowRightLong]
@@ -924,7 +926,7 @@ class FontAwesome7 {
   static const IconData arrowRightToBracket = IconData(
     0xf090,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign-in for icon [arrowRightToBracket]
@@ -938,7 +940,7 @@ class FontAwesome7 {
   static const IconData arrowRightToCity = IconData(
     0xe4b3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Rotate Left icon
@@ -948,7 +950,7 @@ class FontAwesome7 {
   static const IconData arrowRotateLeft = IconData(
     0xf0e2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-left-rotate for icon [arrowRotateLeft]
@@ -974,7 +976,7 @@ class FontAwesome7 {
   static const IconData arrowRotateRight = IconData(
     0xf01e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-right-rotate for icon [arrowRotateRight]
@@ -996,7 +998,7 @@ class FontAwesome7 {
   static const IconData arrowTrendDown = IconData(
     0xe097,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Trend Up icon
@@ -1006,7 +1008,7 @@ class FontAwesome7 {
   static const IconData arrowTrendUp = IconData(
     0xe098,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Turn Down icon
@@ -1016,7 +1018,7 @@ class FontAwesome7 {
   static const IconData arrowTurnDown = IconData(
     0xf149,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias level-down for icon [arrowTurnDown]
@@ -1030,7 +1032,7 @@ class FontAwesome7 {
   static const IconData arrowTurnUp = IconData(
     0xf148,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias level-up for icon [arrowTurnUp]
@@ -1044,7 +1046,7 @@ class FontAwesome7 {
   static const IconData arrowUp = IconData(
     0xf062,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Up 1 9 icon
@@ -1054,7 +1056,7 @@ class FontAwesome7 {
   static const IconData arrowUp19 = IconData(
     0xf163,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-numeric-up for icon [arrowUp19]
@@ -1068,7 +1070,7 @@ class FontAwesome7 {
   static const IconData arrowUp91 = IconData(
     0xf887,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-numeric-up-alt for icon [arrowUp91]
@@ -1082,7 +1084,7 @@ class FontAwesome7 {
   static const IconData arrowUpAZ = IconData(
     0xf15e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-alpha-up for icon [arrowUpAZ]
@@ -1096,7 +1098,7 @@ class FontAwesome7 {
   static const IconData arrowUpFromBracket = IconData(
     0xe09a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Up From Ground Water icon
@@ -1106,7 +1108,7 @@ class FontAwesome7 {
   static const IconData arrowUpFromGroundWater = IconData(
     0xe4b5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Up From Water Pump icon
@@ -1116,7 +1118,7 @@ class FontAwesome7 {
   static const IconData arrowUpFromWaterPump = IconData(
     0xe4b6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Up Long icon
@@ -1126,7 +1128,7 @@ class FontAwesome7 {
   static const IconData arrowUpLong = IconData(
     0xf176,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-up for icon [arrowUpLong]
@@ -1140,7 +1142,7 @@ class FontAwesome7 {
   static const IconData arrowUpRightDots = IconData(
     0xe4b7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrow Up Right From Square icon
@@ -1150,7 +1152,7 @@ class FontAwesome7 {
   static const IconData arrowUpRightFromSquare = IconData(
     0xf08e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias external-link for icon [arrowUpRightFromSquare]
@@ -1164,7 +1166,7 @@ class FontAwesome7 {
   static const IconData arrowUpShortWide = IconData(
     0xf885,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-amount-up-alt for icon [arrowUpShortWide]
@@ -1178,7 +1180,7 @@ class FontAwesome7 {
   static const IconData arrowUpWideShort = IconData(
     0xf161,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-amount-up for icon [arrowUpWideShort]
@@ -1192,7 +1194,7 @@ class FontAwesome7 {
   static const IconData arrowUpZA = IconData(
     0xf882,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-alpha-up-alt for icon [arrowUpZA]
@@ -1206,7 +1208,7 @@ class FontAwesome7 {
   static const IconData arrowsDownToLine = IconData(
     0xe4b8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Down To People icon
@@ -1216,7 +1218,7 @@ class FontAwesome7 {
   static const IconData arrowsDownToPeople = IconData(
     0xe4b9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Left Right icon
@@ -1226,7 +1228,7 @@ class FontAwesome7 {
   static const IconData arrowsLeftRight = IconData(
     0xf07e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows-h for icon [arrowsLeftRight]
@@ -1240,7 +1242,7 @@ class FontAwesome7 {
   static const IconData arrowsLeftRightToLine = IconData(
     0xe4ba,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Rotate icon
@@ -1250,7 +1252,7 @@ class FontAwesome7 {
   static const IconData arrowsRotate = IconData(
     0xf021,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias refresh for icon [arrowsRotate]
@@ -1268,7 +1270,7 @@ class FontAwesome7 {
   static const IconData arrowsSpin = IconData(
     0xe4bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Split Up And Left icon
@@ -1278,7 +1280,7 @@ class FontAwesome7 {
   static const IconData arrowsSplitUpAndLeft = IconData(
     0xe4bc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows To Circle icon
@@ -1288,7 +1290,7 @@ class FontAwesome7 {
   static const IconData arrowsToCircle = IconData(
     0xe4bd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows To Dot icon
@@ -1298,7 +1300,7 @@ class FontAwesome7 {
   static const IconData arrowsToDot = IconData(
     0xe4be,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows To Eye icon
@@ -1308,7 +1310,7 @@ class FontAwesome7 {
   static const IconData arrowsToEye = IconData(
     0xe4bf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Turn Right icon
@@ -1318,7 +1320,7 @@ class FontAwesome7 {
   static const IconData arrowsTurnRight = IconData(
     0xe4c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Turn To Dots icon
@@ -1328,7 +1330,7 @@ class FontAwesome7 {
   static const IconData arrowsTurnToDots = IconData(
     0xe4c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Arrows Up Down icon
@@ -1338,7 +1340,7 @@ class FontAwesome7 {
   static const IconData arrowsUpDown = IconData(
     0xf07d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows-v for icon [arrowsUpDown]
@@ -1352,7 +1354,7 @@ class FontAwesome7 {
   static const IconData arrowsUpDownLeftRight = IconData(
     0xf047,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows for icon [arrowsUpDownLeftRight]
@@ -1366,7 +1368,7 @@ class FontAwesome7 {
   static const IconData arrowsUpToLine = IconData(
     0xe4c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Artstation icon
@@ -1376,7 +1378,7 @@ class FontAwesome7 {
   static const IconData artstation = IconData(
     0xf77a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Asterisk icon
@@ -1386,7 +1388,7 @@ class FontAwesome7 {
   static const IconData asterisk = IconData(
     0x2a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Asymmetrik icon
@@ -1396,7 +1398,7 @@ class FontAwesome7 {
   static const IconData asymmetrik = IconData(
     0xf372,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid At icon
@@ -1406,7 +1408,7 @@ class FontAwesome7 {
   static const IconData at = IconData(
     0x40,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Atlassian icon
@@ -1416,7 +1418,7 @@ class FontAwesome7 {
   static const IconData atlassian = IconData(
     0xf77b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Atom icon
@@ -1426,7 +1428,7 @@ class FontAwesome7 {
   static const IconData atom = IconData(
     0xf5d2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Audible icon
@@ -1436,7 +1438,7 @@ class FontAwesome7 {
   static const IconData audible = IconData(
     0xf373,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Audio Description icon
@@ -1446,7 +1448,7 @@ class FontAwesome7 {
   static const IconData audioDescription = IconData(
     0xf29e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Austral Sign icon
@@ -1456,7 +1458,7 @@ class FontAwesome7 {
   static const IconData australSign = IconData(
     0xe0a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Autoprefixer icon
@@ -1466,7 +1468,7 @@ class FontAwesome7 {
   static const IconData autoprefixer = IconData(
     0xf41c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Avianex icon
@@ -1476,7 +1478,7 @@ class FontAwesome7 {
   static const IconData avianex = IconData(
     0xf374,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Aviato icon
@@ -1486,7 +1488,7 @@ class FontAwesome7 {
   static const IconData aviato = IconData(
     0xf421,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Award icon
@@ -1496,7 +1498,7 @@ class FontAwesome7 {
   static const IconData award = IconData(
     0xf559,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Aws icon
@@ -1506,7 +1508,7 @@ class FontAwesome7 {
   static const IconData aws = IconData(
     0xf375,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid B icon
@@ -1516,7 +1518,7 @@ class FontAwesome7 {
   static const IconData b = IconData(
     0x42,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Baby icon
@@ -1526,7 +1528,7 @@ class FontAwesome7 {
   static const IconData baby = IconData(
     0xf77c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Baby Carriage icon
@@ -1536,7 +1538,7 @@ class FontAwesome7 {
   static const IconData babyCarriage = IconData(
     0xf77d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias carriage-baby for icon [babyCarriage]
@@ -1550,7 +1552,7 @@ class FontAwesome7 {
   static const IconData backward = IconData(
     0xf04a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Backward Fast icon
@@ -1560,7 +1562,7 @@ class FontAwesome7 {
   static const IconData backwardFast = IconData(
     0xf049,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias fast-backward for icon [backwardFast]
@@ -1574,7 +1576,7 @@ class FontAwesome7 {
   static const IconData backwardStep = IconData(
     0xf048,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias step-backward for icon [backwardStep]
@@ -1588,7 +1590,7 @@ class FontAwesome7 {
   static const IconData bacon = IconData(
     0xf7e5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bacteria icon
@@ -1598,7 +1600,7 @@ class FontAwesome7 {
   static const IconData bacteria = IconData(
     0xe059,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bacterium icon
@@ -1608,7 +1610,7 @@ class FontAwesome7 {
   static const IconData bacterium = IconData(
     0xe05a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bag Shopping icon
@@ -1618,7 +1620,7 @@ class FontAwesome7 {
   static const IconData bagShopping = IconData(
     0xf290,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shopping-bag for icon [bagShopping]
@@ -1632,7 +1634,7 @@ class FontAwesome7 {
   static const IconData bahai = IconData(
     0xf666,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias haykal for icon [bahai]
@@ -1646,7 +1648,7 @@ class FontAwesome7 {
   static const IconData bahtSign = IconData(
     0xe0ac,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ban icon
@@ -1656,7 +1658,7 @@ class FontAwesome7 {
   static const IconData ban = IconData(
     0xf05e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cancel for icon [ban]
@@ -1670,7 +1672,7 @@ class FontAwesome7 {
   static const IconData banSmoking = IconData(
     0xf54d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smoking-ban for icon [banSmoking]
@@ -1684,7 +1686,7 @@ class FontAwesome7 {
   static const IconData bandage = IconData(
     0xf462,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias band-aid for icon [bandage]
@@ -1698,7 +1700,7 @@ class FontAwesome7 {
   static const IconData bandcamp = IconData(
     0xf2d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bangladeshi Taka Sign icon
@@ -1708,7 +1710,7 @@ class FontAwesome7 {
   static const IconData bangladeshiTakaSign = IconData(
     0xe2e6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Barcode icon
@@ -1718,7 +1720,7 @@ class FontAwesome7 {
   static const IconData barcode = IconData(
     0xf02a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bars icon
@@ -1728,7 +1730,7 @@ class FontAwesome7 {
   static const IconData bars = IconData(
     0xf0c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias navicon for icon [bars]
@@ -1742,7 +1744,7 @@ class FontAwesome7 {
   static const IconData barsProgress = IconData(
     0xf828,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tasks-alt for icon [barsProgress]
@@ -1756,7 +1758,7 @@ class FontAwesome7 {
   static const IconData barsStaggered = IconData(
     0xf550,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias reorder for icon [barsStaggered]
@@ -1774,7 +1776,7 @@ class FontAwesome7 {
   static const IconData baseball = IconData(
     0xf433,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias baseball-ball for icon [baseball]
@@ -1788,7 +1790,7 @@ class FontAwesome7 {
   static const IconData baseballBatBall = IconData(
     0xf432,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Basket Shopping icon
@@ -1798,7 +1800,7 @@ class FontAwesome7 {
   static const IconData basketShopping = IconData(
     0xf291,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shopping-basket for icon [basketShopping]
@@ -1812,7 +1814,7 @@ class FontAwesome7 {
   static const IconData basketball = IconData(
     0xf434,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias basketball-ball for icon [basketball]
@@ -1826,7 +1828,7 @@ class FontAwesome7 {
   static const IconData bath = IconData(
     0xf2cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bathtub for icon [bath]
@@ -1840,7 +1842,7 @@ class FontAwesome7 {
   static const IconData batteryEmpty = IconData(
     0xf244,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery-0 for icon [batteryEmpty]
@@ -1854,7 +1856,7 @@ class FontAwesome7 {
   static const IconData batteryFull = IconData(
     0xf240,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery for icon [batteryFull]
@@ -1872,7 +1874,7 @@ class FontAwesome7 {
   static const IconData batteryHalf = IconData(
     0xf242,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery-3 for icon [batteryHalf]
@@ -1886,7 +1888,7 @@ class FontAwesome7 {
   static const IconData batteryQuarter = IconData(
     0xf243,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery-2 for icon [batteryQuarter]
@@ -1900,7 +1902,7 @@ class FontAwesome7 {
   static const IconData batteryThreeQuarters = IconData(
     0xf241,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery-4 for icon [batteryThreeQuarters]
@@ -1914,7 +1916,7 @@ class FontAwesome7 {
   static const IconData battleNet = IconData(
     0xf835,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bed icon
@@ -1924,7 +1926,7 @@ class FontAwesome7 {
   static const IconData bed = IconData(
     0xf236,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bed Pulse icon
@@ -1934,7 +1936,7 @@ class FontAwesome7 {
   static const IconData bedPulse = IconData(
     0xf487,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias procedures for icon [bedPulse]
@@ -1948,7 +1950,7 @@ class FontAwesome7 {
   static const IconData beerMugEmpty = IconData(
     0xf0fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias beer for icon [beerMugEmpty]
@@ -1962,7 +1964,7 @@ class FontAwesome7 {
   static const IconData behance = IconData(
     0xf1b4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bell icon
@@ -1972,7 +1974,7 @@ class FontAwesome7 {
   static const IconData solidBell = IconData(
     0xf0f3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Bell icon
@@ -1982,7 +1984,7 @@ class FontAwesome7 {
   static const IconData bell = IconData(
     0xf0f3,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bell Concierge icon
@@ -1992,7 +1994,7 @@ class FontAwesome7 {
   static const IconData bellConcierge = IconData(
     0xf562,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias concierge-bell for icon [bellConcierge]
@@ -2006,7 +2008,7 @@ class FontAwesome7 {
   static const IconData solidBellSlash = IconData(
     0xf1f6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Bell Slash icon
@@ -2016,7 +2018,7 @@ class FontAwesome7 {
   static const IconData bellSlash = IconData(
     0xf1f6,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bezier Curve icon
@@ -2026,7 +2028,7 @@ class FontAwesome7 {
   static const IconData bezierCurve = IconData(
     0xf55b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bicycle icon
@@ -2036,7 +2038,7 @@ class FontAwesome7 {
   static const IconData bicycle = IconData(
     0xf206,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bilibili icon
@@ -2046,7 +2048,7 @@ class FontAwesome7 {
   static const IconData bilibili = IconData(
     0xe3d9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bimobject icon
@@ -2056,7 +2058,7 @@ class FontAwesome7 {
   static const IconData bimobject = IconData(
     0xf378,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Binoculars icon
@@ -2066,7 +2068,7 @@ class FontAwesome7 {
   static const IconData binoculars = IconData(
     0xf1e5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Biohazard icon
@@ -2076,7 +2078,7 @@ class FontAwesome7 {
   static const IconData biohazard = IconData(
     0xf780,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bitbucket icon
@@ -2086,7 +2088,7 @@ class FontAwesome7 {
   static const IconData bitbucket = IconData(
     0xf171,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bitcoin icon
@@ -2096,7 +2098,7 @@ class FontAwesome7 {
   static const IconData bitcoin = IconData(
     0xf379,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bitcoin Sign icon
@@ -2106,7 +2108,7 @@ class FontAwesome7 {
   static const IconData bitcoinSign = IconData(
     0xe0b4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bity icon
@@ -2116,7 +2118,7 @@ class FontAwesome7 {
   static const IconData bity = IconData(
     0xf37a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Black Tie icon
@@ -2126,7 +2128,7 @@ class FontAwesome7 {
   static const IconData blackTie = IconData(
     0xf27e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Blackberry icon
@@ -2136,7 +2138,7 @@ class FontAwesome7 {
   static const IconData blackberry = IconData(
     0xf37b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Blender icon
@@ -2146,7 +2148,7 @@ class FontAwesome7 {
   static const IconData blender = IconData(
     0xf517,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Blender Phone icon
@@ -2156,7 +2158,7 @@ class FontAwesome7 {
   static const IconData blenderPhone = IconData(
     0xf6b6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Blog icon
@@ -2166,7 +2168,7 @@ class FontAwesome7 {
   static const IconData blog = IconData(
     0xf781,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Blogger icon
@@ -2176,7 +2178,7 @@ class FontAwesome7 {
   static const IconData blogger = IconData(
     0xf37c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Blogger B icon
@@ -2186,7 +2188,7 @@ class FontAwesome7 {
   static const IconData bloggerB = IconData(
     0xf37d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bluesky icon
@@ -2196,7 +2198,7 @@ class FontAwesome7 {
   static const IconData bluesky = IconData(
     0xe671,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bluetooth icon
@@ -2206,7 +2208,7 @@ class FontAwesome7 {
   static const IconData bluetooth = IconData(
     0xf293,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bluetooth B icon
@@ -2216,7 +2218,7 @@ class FontAwesome7 {
   static const IconData bluetoothB = IconData(
     0xf294,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Board Game Geek icon
@@ -2225,7 +2227,7 @@ class FontAwesome7 {
   static const IconData boardGameGeek = IconData(
     0xe855,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bgg for icon [boardGameGeek]
@@ -2239,7 +2241,7 @@ class FontAwesome7 {
   static const IconData bold = IconData(
     0xf032,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bolt icon
@@ -2249,7 +2251,7 @@ class FontAwesome7 {
   static const IconData bolt = IconData(
     0xf0e7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias zap for icon [bolt]
@@ -2263,7 +2265,7 @@ class FontAwesome7 {
   static const IconData boltLightning = IconData(
     0xe0b7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bomb icon
@@ -2273,7 +2275,7 @@ class FontAwesome7 {
   static const IconData bomb = IconData(
     0xf1e2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bone icon
@@ -2283,7 +2285,7 @@ class FontAwesome7 {
   static const IconData bone = IconData(
     0xf5d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bong icon
@@ -2293,7 +2295,7 @@ class FontAwesome7 {
   static const IconData bong = IconData(
     0xf55c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Book icon
@@ -2303,7 +2305,7 @@ class FontAwesome7 {
   static const IconData book = IconData(
     0xf02d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Book Atlas icon
@@ -2313,7 +2315,7 @@ class FontAwesome7 {
   static const IconData bookAtlas = IconData(
     0xf558,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias atlas for icon [bookAtlas]
@@ -2327,7 +2329,7 @@ class FontAwesome7 {
   static const IconData bookBible = IconData(
     0xf647,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bible for icon [bookBible]
@@ -2341,7 +2343,7 @@ class FontAwesome7 {
   static const IconData bookBookmark = IconData(
     0xe0bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Book Journal Whills icon
@@ -2351,7 +2353,7 @@ class FontAwesome7 {
   static const IconData bookJournalWhills = IconData(
     0xf66a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias journal-whills for icon [bookJournalWhills]
@@ -2365,7 +2367,7 @@ class FontAwesome7 {
   static const IconData bookMedical = IconData(
     0xf7e6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Book Open icon
@@ -2375,7 +2377,7 @@ class FontAwesome7 {
   static const IconData bookOpen = IconData(
     0xf518,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Book Open Reader icon
@@ -2385,7 +2387,7 @@ class FontAwesome7 {
   static const IconData bookOpenReader = IconData(
     0xf5da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias book-reader for icon [bookOpenReader]
@@ -2399,7 +2401,7 @@ class FontAwesome7 {
   static const IconData bookQuran = IconData(
     0xf687,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias quran for icon [bookQuran]
@@ -2413,7 +2415,7 @@ class FontAwesome7 {
   static const IconData bookSkull = IconData(
     0xf6b7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias book-dead for icon [bookSkull]
@@ -2427,7 +2429,7 @@ class FontAwesome7 {
   static const IconData bookTanakh = IconData(
     0xf827,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tanakh for icon [bookTanakh]
@@ -2441,7 +2443,7 @@ class FontAwesome7 {
   static const IconData solidBookmark = IconData(
     0xf02e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Bookmark icon
@@ -2451,7 +2453,7 @@ class FontAwesome7 {
   static const IconData bookmark = IconData(
     0xf02e,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bootstrap icon
@@ -2461,7 +2463,7 @@ class FontAwesome7 {
   static const IconData bootstrap = IconData(
     0xf836,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Border All icon
@@ -2471,7 +2473,7 @@ class FontAwesome7 {
   static const IconData borderAll = IconData(
     0xf84c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Border None icon
@@ -2481,7 +2483,7 @@ class FontAwesome7 {
   static const IconData borderNone = IconData(
     0xf850,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Border Top Left icon
@@ -2491,7 +2493,7 @@ class FontAwesome7 {
   static const IconData borderTopLeft = IconData(
     0xf853,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias border-style for icon [borderTopLeft]
@@ -2505,7 +2507,7 @@ class FontAwesome7 {
   static const IconData boreHole = IconData(
     0xe4c3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Bots icon
@@ -2515,7 +2517,7 @@ class FontAwesome7 {
   static const IconData bots = IconData(
     0xe340,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bottle Droplet icon
@@ -2525,7 +2527,7 @@ class FontAwesome7 {
   static const IconData bottleDroplet = IconData(
     0xe4c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bottle Water icon
@@ -2535,7 +2537,7 @@ class FontAwesome7 {
   static const IconData bottleWater = IconData(
     0xe4c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bowl Food icon
@@ -2545,7 +2547,7 @@ class FontAwesome7 {
   static const IconData bowlFood = IconData(
     0xe4c6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bowl Rice icon
@@ -2555,7 +2557,7 @@ class FontAwesome7 {
   static const IconData bowlRice = IconData(
     0xe2eb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bowling Ball icon
@@ -2565,7 +2567,7 @@ class FontAwesome7 {
   static const IconData bowlingBall = IconData(
     0xf436,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Box icon
@@ -2575,7 +2577,7 @@ class FontAwesome7 {
   static const IconData box = IconData(
     0xf466,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Box Archive icon
@@ -2585,7 +2587,7 @@ class FontAwesome7 {
   static const IconData boxArchive = IconData(
     0xf187,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias archive for icon [boxArchive]
@@ -2599,7 +2601,7 @@ class FontAwesome7 {
   static const IconData boxOpen = IconData(
     0xf49e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Box Tissue icon
@@ -2609,7 +2611,7 @@ class FontAwesome7 {
   static const IconData boxTissue = IconData(
     0xe05b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Boxes Packing icon
@@ -2619,7 +2621,7 @@ class FontAwesome7 {
   static const IconData boxesPacking = IconData(
     0xe4c7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Boxes Stacked icon
@@ -2629,7 +2631,7 @@ class FontAwesome7 {
   static const IconData boxesStacked = IconData(
     0xf468,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias boxes for icon [boxesStacked]
@@ -2647,7 +2649,7 @@ class FontAwesome7 {
   static const IconData braille = IconData(
     0xf2a1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Brain icon
@@ -2657,7 +2659,7 @@ class FontAwesome7 {
   static const IconData brain = IconData(
     0xf5dc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Brave icon
@@ -2667,7 +2669,7 @@ class FontAwesome7 {
   static const IconData brave = IconData(
     0xe63c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Brave Reverse icon
@@ -2677,7 +2679,7 @@ class FontAwesome7 {
   static const IconData braveReverse = IconData(
     0xe63d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Brazilian Real Sign icon
@@ -2687,7 +2689,7 @@ class FontAwesome7 {
   static const IconData brazilianRealSign = IconData(
     0xe46c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bread Slice icon
@@ -2697,7 +2699,7 @@ class FontAwesome7 {
   static const IconData breadSlice = IconData(
     0xf7ec,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge icon
@@ -2707,7 +2709,7 @@ class FontAwesome7 {
   static const IconData bridge = IconData(
     0xe4c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge Circle Check icon
@@ -2717,7 +2719,7 @@ class FontAwesome7 {
   static const IconData bridgeCircleCheck = IconData(
     0xe4c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge Circle Exclamation icon
@@ -2727,7 +2729,7 @@ class FontAwesome7 {
   static const IconData bridgeCircleExclamation = IconData(
     0xe4ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge Circle Xmark icon
@@ -2737,7 +2739,7 @@ class FontAwesome7 {
   static const IconData bridgeCircleXmark = IconData(
     0xe4cb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge Lock icon
@@ -2747,7 +2749,7 @@ class FontAwesome7 {
   static const IconData bridgeLock = IconData(
     0xe4cc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bridge Water icon
@@ -2757,7 +2759,7 @@ class FontAwesome7 {
   static const IconData bridgeWater = IconData(
     0xe4ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Briefcase icon
@@ -2767,7 +2769,7 @@ class FontAwesome7 {
   static const IconData briefcase = IconData(
     0xf0b1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Briefcase Medical icon
@@ -2777,7 +2779,7 @@ class FontAwesome7 {
   static const IconData briefcaseMedical = IconData(
     0xf469,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Broom icon
@@ -2787,7 +2789,7 @@ class FontAwesome7 {
   static const IconData broom = IconData(
     0xf51a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Broom Ball icon
@@ -2797,7 +2799,7 @@ class FontAwesome7 {
   static const IconData broomBall = IconData(
     0xf458,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias quidditch for icon [broomBall]
@@ -2815,7 +2817,7 @@ class FontAwesome7 {
   static const IconData brush = IconData(
     0xf55d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Btc icon
@@ -2825,7 +2827,7 @@ class FontAwesome7 {
   static const IconData btc = IconData(
     0xf15a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bucket icon
@@ -2835,7 +2837,7 @@ class FontAwesome7 {
   static const IconData bucket = IconData(
     0xe4cf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Buffer icon
@@ -2845,7 +2847,7 @@ class FontAwesome7 {
   static const IconData buffer = IconData(
     0xf837,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bug icon
@@ -2855,7 +2857,7 @@ class FontAwesome7 {
   static const IconData bug = IconData(
     0xf188,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bug Slash icon
@@ -2865,7 +2867,7 @@ class FontAwesome7 {
   static const IconData bugSlash = IconData(
     0xe490,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bugs icon
@@ -2875,7 +2877,7 @@ class FontAwesome7 {
   static const IconData bugs = IconData(
     0xe4d0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building icon
@@ -2885,7 +2887,7 @@ class FontAwesome7 {
   static const IconData solidBuilding = IconData(
     0xf1ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Building icon
@@ -2895,7 +2897,7 @@ class FontAwesome7 {
   static const IconData building = IconData(
     0xf1ad,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Circle Arrow Right icon
@@ -2905,7 +2907,7 @@ class FontAwesome7 {
   static const IconData buildingCircleArrowRight = IconData(
     0xe4d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Circle Check icon
@@ -2915,7 +2917,7 @@ class FontAwesome7 {
   static const IconData buildingCircleCheck = IconData(
     0xe4d2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Circle Exclamation icon
@@ -2925,7 +2927,7 @@ class FontAwesome7 {
   static const IconData buildingCircleExclamation = IconData(
     0xe4d3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Circle Xmark icon
@@ -2935,7 +2937,7 @@ class FontAwesome7 {
   static const IconData buildingCircleXmark = IconData(
     0xe4d4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Columns icon
@@ -2945,7 +2947,7 @@ class FontAwesome7 {
   static const IconData buildingColumns = IconData(
     0xf19c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bank for icon [buildingColumns]
@@ -2971,7 +2973,7 @@ class FontAwesome7 {
   static const IconData buildingFlag = IconData(
     0xe4d5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Lock icon
@@ -2981,7 +2983,7 @@ class FontAwesome7 {
   static const IconData buildingLock = IconData(
     0xe4d6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Ngo icon
@@ -2991,7 +2993,7 @@ class FontAwesome7 {
   static const IconData buildingNgo = IconData(
     0xe4d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Shield icon
@@ -3001,7 +3003,7 @@ class FontAwesome7 {
   static const IconData buildingShield = IconData(
     0xe4d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Un icon
@@ -3011,7 +3013,7 @@ class FontAwesome7 {
   static const IconData buildingUn = IconData(
     0xe4d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building User icon
@@ -3021,7 +3023,7 @@ class FontAwesome7 {
   static const IconData buildingUser = IconData(
     0xe4da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Building Wheat icon
@@ -3031,7 +3033,7 @@ class FontAwesome7 {
   static const IconData buildingWheat = IconData(
     0xe4db,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bullhorn icon
@@ -3041,7 +3043,7 @@ class FontAwesome7 {
   static const IconData bullhorn = IconData(
     0xf0a1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bullseye icon
@@ -3051,7 +3053,7 @@ class FontAwesome7 {
   static const IconData bullseye = IconData(
     0xf140,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Burger icon
@@ -3061,7 +3063,7 @@ class FontAwesome7 {
   static const IconData burger = IconData(
     0xf805,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hamburger for icon [burger]
@@ -3075,7 +3077,7 @@ class FontAwesome7 {
   static const IconData buromobelexperte = IconData(
     0xf37f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Burst icon
@@ -3085,7 +3087,7 @@ class FontAwesome7 {
   static const IconData burst = IconData(
     0xe4dc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bus icon
@@ -3095,7 +3097,7 @@ class FontAwesome7 {
   static const IconData bus = IconData(
     0xf207,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bus Side icon
@@ -3105,7 +3107,7 @@ class FontAwesome7 {
   static const IconData busSide = IconData(
     0xe81d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Bus Simple icon
@@ -3115,7 +3117,7 @@ class FontAwesome7 {
   static const IconData busSimple = IconData(
     0xf55e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bus-alt for icon [busSimple]
@@ -3129,7 +3131,7 @@ class FontAwesome7 {
   static const IconData businessTime = IconData(
     0xf64a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias briefcase-clock for icon [businessTime]
@@ -3143,7 +3145,7 @@ class FontAwesome7 {
   static const IconData buyNLarge = IconData(
     0xf8a6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Buysellads icon
@@ -3153,7 +3155,7 @@ class FontAwesome7 {
   static const IconData buysellads = IconData(
     0xf20d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid C icon
@@ -3163,7 +3165,7 @@ class FontAwesome7 {
   static const IconData c = IconData(
     0x43,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cable Car icon
@@ -3173,7 +3175,7 @@ class FontAwesome7 {
   static const IconData cableCar = IconData(
     0xf7da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tram for icon [cableCar]
@@ -3187,7 +3189,7 @@ class FontAwesome7 {
   static const IconData cakeCandles = IconData(
     0xf1fd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias birthday-cake for icon [cakeCandles]
@@ -3205,7 +3207,7 @@ class FontAwesome7 {
   static const IconData calculator = IconData(
     0xf1ec,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar icon
@@ -3215,7 +3217,7 @@ class FontAwesome7 {
   static const IconData solidCalendar = IconData(
     0xf133,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Calendar icon
@@ -3225,7 +3227,7 @@ class FontAwesome7 {
   static const IconData calendar = IconData(
     0xf133,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Check icon
@@ -3235,7 +3237,7 @@ class FontAwesome7 {
   static const IconData solidCalendarCheck = IconData(
     0xf274,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Calendar Check icon
@@ -3245,7 +3247,7 @@ class FontAwesome7 {
   static const IconData calendarCheck = IconData(
     0xf274,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Day icon
@@ -3255,7 +3257,7 @@ class FontAwesome7 {
   static const IconData calendarDay = IconData(
     0xf783,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Days icon
@@ -3265,7 +3267,7 @@ class FontAwesome7 {
   static const IconData solidCalendarDays = IconData(
     0xf073,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias calendar-alt for icon [solidCalendarDays]
@@ -3279,7 +3281,7 @@ class FontAwesome7 {
   static const IconData calendarDays = IconData(
     0xf073,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias calendar-alt for icon [calendarDays]
@@ -3293,7 +3295,7 @@ class FontAwesome7 {
   static const IconData solidCalendarMinus = IconData(
     0xf272,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Calendar Minus icon
@@ -3303,7 +3305,7 @@ class FontAwesome7 {
   static const IconData calendarMinus = IconData(
     0xf272,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Plus icon
@@ -3313,7 +3315,7 @@ class FontAwesome7 {
   static const IconData solidCalendarPlus = IconData(
     0xf271,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Calendar Plus icon
@@ -3323,7 +3325,7 @@ class FontAwesome7 {
   static const IconData calendarPlus = IconData(
     0xf271,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Week icon
@@ -3333,7 +3335,7 @@ class FontAwesome7 {
   static const IconData calendarWeek = IconData(
     0xf784,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Calendar Xmark icon
@@ -3343,7 +3345,7 @@ class FontAwesome7 {
   static const IconData solidCalendarXmark = IconData(
     0xf273,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias calendar-times for icon [solidCalendarXmark]
@@ -3357,7 +3359,7 @@ class FontAwesome7 {
   static const IconData calendarXmark = IconData(
     0xf273,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias calendar-times for icon [calendarXmark]
@@ -3371,7 +3373,7 @@ class FontAwesome7 {
   static const IconData solidCamera = IconData(
     0xf030,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias camera-alt for icon [solidCamera]
@@ -3385,7 +3387,7 @@ class FontAwesome7 {
   static const IconData camera = IconData(
     0xf030,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias camera-alt for icon [camera]
@@ -3399,7 +3401,7 @@ class FontAwesome7 {
   static const IconData cameraRetro = IconData(
     0xf083,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Camera Rotate icon
@@ -3409,7 +3411,7 @@ class FontAwesome7 {
   static const IconData cameraRotate = IconData(
     0xe0d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Campground icon
@@ -3419,7 +3421,7 @@ class FontAwesome7 {
   static const IconData campground = IconData(
     0xf6bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Canadian Maple Leaf icon
@@ -3429,7 +3431,7 @@ class FontAwesome7 {
   static const IconData canadianMapleLeaf = IconData(
     0xf785,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cancer icon
@@ -3439,7 +3441,7 @@ class FontAwesome7 {
   static const IconData cancer = IconData(
     0xe847,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Candy Cane icon
@@ -3449,7 +3451,7 @@ class FontAwesome7 {
   static const IconData candyCane = IconData(
     0xf786,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cannabis icon
@@ -3459,7 +3461,7 @@ class FontAwesome7 {
   static const IconData cannabis = IconData(
     0xf55f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Capricorn icon
@@ -3469,7 +3471,7 @@ class FontAwesome7 {
   static const IconData capricorn = IconData(
     0xe848,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Capsules icon
@@ -3479,7 +3481,7 @@ class FontAwesome7 {
   static const IconData capsules = IconData(
     0xf46b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Car icon
@@ -3489,7 +3491,7 @@ class FontAwesome7 {
   static const IconData car = IconData(
     0xf1b9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias automobile for icon [car]
@@ -3503,7 +3505,7 @@ class FontAwesome7 {
   static const IconData carBattery = IconData(
     0xf5df,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias battery-car for icon [carBattery]
@@ -3517,7 +3519,7 @@ class FontAwesome7 {
   static const IconData carBurst = IconData(
     0xf5e1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias car-crash for icon [carBurst]
@@ -3531,7 +3533,7 @@ class FontAwesome7 {
   static const IconData carOn = IconData(
     0xe4dd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Car Rear icon
@@ -3541,7 +3543,7 @@ class FontAwesome7 {
   static const IconData carRear = IconData(
     0xf5de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias car-alt for icon [carRear]
@@ -3555,7 +3557,7 @@ class FontAwesome7 {
   static const IconData carSide = IconData(
     0xf5e4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Car Tunnel icon
@@ -3565,7 +3567,7 @@ class FontAwesome7 {
   static const IconData carTunnel = IconData(
     0xe4de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Caravan icon
@@ -3575,7 +3577,7 @@ class FontAwesome7 {
   static const IconData caravan = IconData(
     0xf8ff,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Caret Down icon
@@ -3585,7 +3587,7 @@ class FontAwesome7 {
   static const IconData caretDown = IconData(
     0xf0d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Caret Left icon
@@ -3595,7 +3597,7 @@ class FontAwesome7 {
   static const IconData caretLeft = IconData(
     0xf0d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Caret Right icon
@@ -3605,7 +3607,7 @@ class FontAwesome7 {
   static const IconData caretRight = IconData(
     0xf0da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Caret Up icon
@@ -3615,7 +3617,7 @@ class FontAwesome7 {
   static const IconData caretUp = IconData(
     0xf0d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Carrot icon
@@ -3625,7 +3627,7 @@ class FontAwesome7 {
   static const IconData carrot = IconData(
     0xf787,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cart Arrow Down icon
@@ -3635,7 +3637,7 @@ class FontAwesome7 {
   static const IconData cartArrowDown = IconData(
     0xf218,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cart Flatbed icon
@@ -3645,7 +3647,7 @@ class FontAwesome7 {
   static const IconData cartFlatbed = IconData(
     0xf474,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dolly-flatbed for icon [cartFlatbed]
@@ -3659,7 +3661,7 @@ class FontAwesome7 {
   static const IconData cartFlatbedSuitcase = IconData(
     0xf59d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias luggage-cart for icon [cartFlatbedSuitcase]
@@ -3673,7 +3675,7 @@ class FontAwesome7 {
   static const IconData cartPlus = IconData(
     0xf217,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cart Shopping icon
@@ -3683,7 +3685,7 @@ class FontAwesome7 {
   static const IconData cartShopping = IconData(
     0xf07a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shopping-cart for icon [cartShopping]
@@ -3697,7 +3699,7 @@ class FontAwesome7 {
   static const IconData cashApp = IconData(
     0xe7d4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cash Register icon
@@ -3707,7 +3709,7 @@ class FontAwesome7 {
   static const IconData cashRegister = IconData(
     0xf788,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cat icon
@@ -3717,7 +3719,7 @@ class FontAwesome7 {
   static const IconData cat = IconData(
     0xf6be,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Amazon Pay icon
@@ -3727,7 +3729,7 @@ class FontAwesome7 {
   static const IconData ccAmazonPay = IconData(
     0xf42d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Amex icon
@@ -3737,7 +3739,7 @@ class FontAwesome7 {
   static const IconData ccAmex = IconData(
     0xf1f3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Apple Pay icon
@@ -3747,7 +3749,7 @@ class FontAwesome7 {
   static const IconData ccApplePay = IconData(
     0xf416,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Diners Club icon
@@ -3757,7 +3759,7 @@ class FontAwesome7 {
   static const IconData ccDinersClub = IconData(
     0xf24c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Discover icon
@@ -3767,7 +3769,7 @@ class FontAwesome7 {
   static const IconData ccDiscover = IconData(
     0xf1f2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Jcb icon
@@ -3777,7 +3779,7 @@ class FontAwesome7 {
   static const IconData ccJcb = IconData(
     0xf24b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Mastercard icon
@@ -3787,7 +3789,7 @@ class FontAwesome7 {
   static const IconData ccMastercard = IconData(
     0xf1f1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Paypal icon
@@ -3797,7 +3799,7 @@ class FontAwesome7 {
   static const IconData ccPaypal = IconData(
     0xf1f4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Stripe icon
@@ -3807,7 +3809,7 @@ class FontAwesome7 {
   static const IconData ccStripe = IconData(
     0xf1f5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cc Visa icon
@@ -3817,7 +3819,7 @@ class FontAwesome7 {
   static const IconData ccVisa = IconData(
     0xf1f0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cedi Sign icon
@@ -3827,7 +3829,7 @@ class FontAwesome7 {
   static const IconData cediSign = IconData(
     0xe0df,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cent Sign icon
@@ -3837,7 +3839,7 @@ class FontAwesome7 {
   static const IconData centSign = IconData(
     0xe3f5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Centercode icon
@@ -3847,7 +3849,7 @@ class FontAwesome7 {
   static const IconData centercode = IconData(
     0xf380,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Centos icon
@@ -3857,7 +3859,7 @@ class FontAwesome7 {
   static const IconData centos = IconData(
     0xf789,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Certificate icon
@@ -3867,7 +3869,7 @@ class FontAwesome7 {
   static const IconData certificate = IconData(
     0xf0a3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chair icon
@@ -3877,7 +3879,7 @@ class FontAwesome7 {
   static const IconData chair = IconData(
     0xf6c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chalkboard icon
@@ -3887,7 +3889,7 @@ class FontAwesome7 {
   static const IconData chalkboard = IconData(
     0xf51b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias blackboard for icon [chalkboard]
@@ -3901,7 +3903,7 @@ class FontAwesome7 {
   static const IconData chalkboardUser = IconData(
     0xf51c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chalkboard-teacher for icon [chalkboardUser]
@@ -3915,7 +3917,7 @@ class FontAwesome7 {
   static const IconData champagneGlasses = IconData(
     0xf79f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias glass-cheers for icon [champagneGlasses]
@@ -3929,7 +3931,7 @@ class FontAwesome7 {
   static const IconData chargingStation = IconData(
     0xf5e7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chart Area icon
@@ -3939,7 +3941,7 @@ class FontAwesome7 {
   static const IconData chartArea = IconData(
     0xf1fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias area-chart for icon [chartArea]
@@ -3953,7 +3955,7 @@ class FontAwesome7 {
   static const IconData solidChartBar = IconData(
     0xf080,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bar-chart for icon [solidChartBar]
@@ -3967,7 +3969,7 @@ class FontAwesome7 {
   static const IconData chartBar = IconData(
     0xf080,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias bar-chart for icon [chartBar]
@@ -3981,7 +3983,7 @@ class FontAwesome7 {
   static const IconData chartColumn = IconData(
     0xe0e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chart Diagram icon
@@ -3991,7 +3993,7 @@ class FontAwesome7 {
   static const IconData chartDiagram = IconData(
     0xe695,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chart Gantt icon
@@ -4001,7 +4003,7 @@ class FontAwesome7 {
   static const IconData chartGantt = IconData(
     0xe0e4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chart Line icon
@@ -4011,7 +4013,7 @@ class FontAwesome7 {
   static const IconData chartLine = IconData(
     0xf201,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias line-chart for icon [chartLine]
@@ -4025,7 +4027,7 @@ class FontAwesome7 {
   static const IconData chartPie = IconData(
     0xf200,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pie-chart for icon [chartPie]
@@ -4039,7 +4041,7 @@ class FontAwesome7 {
   static const IconData chartSimple = IconData(
     0xe473,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Check icon
@@ -4049,7 +4051,7 @@ class FontAwesome7 {
   static const IconData check = IconData(
     0xf00c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Check Double icon
@@ -4059,7 +4061,7 @@ class FontAwesome7 {
   static const IconData checkDouble = IconData(
     0xf560,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Check To Slot icon
@@ -4069,7 +4071,7 @@ class FontAwesome7 {
   static const IconData checkToSlot = IconData(
     0xf772,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias vote-yea for icon [checkToSlot]
@@ -4083,7 +4085,7 @@ class FontAwesome7 {
   static const IconData cheese = IconData(
     0xf7ef,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess icon
@@ -4093,7 +4095,7 @@ class FontAwesome7 {
   static const IconData chess = IconData(
     0xf439,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Bishop icon
@@ -4103,7 +4105,7 @@ class FontAwesome7 {
   static const IconData solidChessBishop = IconData(
     0xf43a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess Bishop icon
@@ -4113,7 +4115,7 @@ class FontAwesome7 {
   static const IconData chessBishop = IconData(
     0xf43a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Board icon
@@ -4123,7 +4125,7 @@ class FontAwesome7 {
   static const IconData chessBoard = IconData(
     0xf43c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess King icon
@@ -4133,7 +4135,7 @@ class FontAwesome7 {
   static const IconData solidChessKing = IconData(
     0xf43f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess King icon
@@ -4143,7 +4145,7 @@ class FontAwesome7 {
   static const IconData chessKing = IconData(
     0xf43f,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Knight icon
@@ -4153,7 +4155,7 @@ class FontAwesome7 {
   static const IconData solidChessKnight = IconData(
     0xf441,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess Knight icon
@@ -4163,7 +4165,7 @@ class FontAwesome7 {
   static const IconData chessKnight = IconData(
     0xf441,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Pawn icon
@@ -4173,7 +4175,7 @@ class FontAwesome7 {
   static const IconData solidChessPawn = IconData(
     0xf443,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess Pawn icon
@@ -4183,7 +4185,7 @@ class FontAwesome7 {
   static const IconData chessPawn = IconData(
     0xf443,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Queen icon
@@ -4193,7 +4195,7 @@ class FontAwesome7 {
   static const IconData solidChessQueen = IconData(
     0xf445,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess Queen icon
@@ -4203,7 +4205,7 @@ class FontAwesome7 {
   static const IconData chessQueen = IconData(
     0xf445,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chess Rook icon
@@ -4213,7 +4215,7 @@ class FontAwesome7 {
   static const IconData solidChessRook = IconData(
     0xf447,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Chess Rook icon
@@ -4223,7 +4225,7 @@ class FontAwesome7 {
   static const IconData chessRook = IconData(
     0xf447,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chevron Down icon
@@ -4233,7 +4235,7 @@ class FontAwesome7 {
   static const IconData chevronDown = IconData(
     0xf078,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chevron Left icon
@@ -4243,7 +4245,7 @@ class FontAwesome7 {
   static const IconData chevronLeft = IconData(
     0xf053,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chevron Right icon
@@ -4253,7 +4255,7 @@ class FontAwesome7 {
   static const IconData chevronRight = IconData(
     0xf054,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Chevron Up icon
@@ -4263,7 +4265,7 @@ class FontAwesome7 {
   static const IconData chevronUp = IconData(
     0xf077,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Child icon
@@ -4273,7 +4275,7 @@ class FontAwesome7 {
   static const IconData child = IconData(
     0xf1ae,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Child Combatant icon
@@ -4283,7 +4285,7 @@ class FontAwesome7 {
   static const IconData childCombatant = IconData(
     0xe4e0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias child-rifle for icon [childCombatant]
@@ -4297,7 +4299,7 @@ class FontAwesome7 {
   static const IconData childDress = IconData(
     0xe59c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Child Reaching icon
@@ -4307,7 +4309,7 @@ class FontAwesome7 {
   static const IconData childReaching = IconData(
     0xe59d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Children icon
@@ -4317,7 +4319,7 @@ class FontAwesome7 {
   static const IconData children = IconData(
     0xe4e1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Chrome icon
@@ -4327,7 +4329,7 @@ class FontAwesome7 {
   static const IconData chrome = IconData(
     0xf268,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Chromecast icon
@@ -4337,7 +4339,7 @@ class FontAwesome7 {
   static const IconData chromecast = IconData(
     0xf838,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Church icon
@@ -4347,7 +4349,7 @@ class FontAwesome7 {
   static const IconData church = IconData(
     0xf51d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Circle icon
@@ -4357,7 +4359,7 @@ class FontAwesome7 {
   static const IconData solidCircle = IconData(
     0xf111,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Circle icon
@@ -4367,7 +4369,7 @@ class FontAwesome7 {
   static const IconData circle = IconData(
     0xf111,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Circle Arrow Down icon
@@ -4377,7 +4379,7 @@ class FontAwesome7 {
   static const IconData circleArrowDown = IconData(
     0xf0ab,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-circle-down for icon [circleArrowDown]
@@ -4391,7 +4393,7 @@ class FontAwesome7 {
   static const IconData circleArrowLeft = IconData(
     0xf0a8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-circle-left for icon [circleArrowLeft]
@@ -4405,7 +4407,7 @@ class FontAwesome7 {
   static const IconData circleArrowRight = IconData(
     0xf0a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-circle-right for icon [circleArrowRight]
@@ -4419,7 +4421,7 @@ class FontAwesome7 {
   static const IconData circleArrowUp = IconData(
     0xf0aa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-circle-up for icon [circleArrowUp]
@@ -4433,7 +4435,7 @@ class FontAwesome7 {
   static const IconData solidCircleCheck = IconData(
     0xf058,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias check-circle for icon [solidCircleCheck]
@@ -4447,7 +4449,7 @@ class FontAwesome7 {
   static const IconData circleCheck = IconData(
     0xf058,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias check-circle for icon [circleCheck]
@@ -4461,7 +4463,7 @@ class FontAwesome7 {
   static const IconData circleChevronDown = IconData(
     0xf13a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chevron-circle-down for icon [circleChevronDown]
@@ -4475,7 +4477,7 @@ class FontAwesome7 {
   static const IconData circleChevronLeft = IconData(
     0xf137,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chevron-circle-left for icon [circleChevronLeft]
@@ -4489,7 +4491,7 @@ class FontAwesome7 {
   static const IconData circleChevronRight = IconData(
     0xf138,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chevron-circle-right for icon [circleChevronRight]
@@ -4503,7 +4505,7 @@ class FontAwesome7 {
   static const IconData circleChevronUp = IconData(
     0xf139,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chevron-circle-up for icon [circleChevronUp]
@@ -4517,7 +4519,7 @@ class FontAwesome7 {
   static const IconData circleDollarToSlot = IconData(
     0xf4b9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias donate for icon [circleDollarToSlot]
@@ -4531,7 +4533,7 @@ class FontAwesome7 {
   static const IconData solidCircleDot = IconData(
     0xf192,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dot-circle for icon [solidCircleDot]
@@ -4545,7 +4547,7 @@ class FontAwesome7 {
   static const IconData circleDot = IconData(
     0xf192,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dot-circle for icon [circleDot]
@@ -4559,7 +4561,7 @@ class FontAwesome7 {
   static const IconData solidCircleDown = IconData(
     0xf358,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-down for icon [solidCircleDown]
@@ -4573,7 +4575,7 @@ class FontAwesome7 {
   static const IconData circleDown = IconData(
     0xf358,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-down for icon [circleDown]
@@ -4587,7 +4589,7 @@ class FontAwesome7 {
   static const IconData circleExclamation = IconData(
     0xf06a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias exclamation-circle for icon [circleExclamation]
@@ -4601,7 +4603,7 @@ class FontAwesome7 {
   static const IconData circleH = IconData(
     0xf47e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hospital-symbol for icon [circleH]
@@ -4615,7 +4617,7 @@ class FontAwesome7 {
   static const IconData circleHalfStroke = IconData(
     0xf042,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias adjust for icon [circleHalfStroke]
@@ -4629,7 +4631,7 @@ class FontAwesome7 {
   static const IconData circleInfo = IconData(
     0xf05a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias info-circle for icon [circleInfo]
@@ -4643,7 +4645,7 @@ class FontAwesome7 {
   static const IconData solidCircleLeft = IconData(
     0xf359,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-left for icon [solidCircleLeft]
@@ -4657,7 +4659,7 @@ class FontAwesome7 {
   static const IconData circleLeft = IconData(
     0xf359,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-left for icon [circleLeft]
@@ -4671,7 +4673,7 @@ class FontAwesome7 {
   static const IconData circleMinus = IconData(
     0xf056,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias minus-circle for icon [circleMinus]
@@ -4685,7 +4687,7 @@ class FontAwesome7 {
   static const IconData circleNodes = IconData(
     0xe4e2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Circle Notch icon
@@ -4695,7 +4697,7 @@ class FontAwesome7 {
   static const IconData circleNotch = IconData(
     0xf1ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Circle Pause icon
@@ -4705,7 +4707,7 @@ class FontAwesome7 {
   static const IconData solidCirclePause = IconData(
     0xf28b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pause-circle for icon [solidCirclePause]
@@ -4719,7 +4721,7 @@ class FontAwesome7 {
   static const IconData circlePause = IconData(
     0xf28b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pause-circle for icon [circlePause]
@@ -4733,7 +4735,7 @@ class FontAwesome7 {
   static const IconData solidCirclePlay = IconData(
     0xf144,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias play-circle for icon [solidCirclePlay]
@@ -4747,7 +4749,7 @@ class FontAwesome7 {
   static const IconData circlePlay = IconData(
     0xf144,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias play-circle for icon [circlePlay]
@@ -4761,7 +4763,7 @@ class FontAwesome7 {
   static const IconData circlePlus = IconData(
     0xf055,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias plus-circle for icon [circlePlus]
@@ -4775,7 +4777,7 @@ class FontAwesome7 {
   static const IconData solidCircleQuestion = IconData(
     0xf059,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias question-circle for icon [solidCircleQuestion]
@@ -4789,7 +4791,7 @@ class FontAwesome7 {
   static const IconData circleQuestion = IconData(
     0xf059,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias question-circle for icon [circleQuestion]
@@ -4803,7 +4805,7 @@ class FontAwesome7 {
   static const IconData circleRadiation = IconData(
     0xf7ba,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias radiation-alt for icon [circleRadiation]
@@ -4817,7 +4819,7 @@ class FontAwesome7 {
   static const IconData solidCircleRight = IconData(
     0xf35a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-right for icon [solidCircleRight]
@@ -4831,7 +4833,7 @@ class FontAwesome7 {
   static const IconData circleRight = IconData(
     0xf35a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-right for icon [circleRight]
@@ -4845,7 +4847,7 @@ class FontAwesome7 {
   static const IconData solidCircleStop = IconData(
     0xf28d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias stop-circle for icon [solidCircleStop]
@@ -4859,7 +4861,7 @@ class FontAwesome7 {
   static const IconData circleStop = IconData(
     0xf28d,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias stop-circle for icon [circleStop]
@@ -4873,7 +4875,7 @@ class FontAwesome7 {
   static const IconData solidCircleUp = IconData(
     0xf35b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-up for icon [solidCircleUp]
@@ -4887,7 +4889,7 @@ class FontAwesome7 {
   static const IconData circleUp = IconData(
     0xf35b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-alt-circle-up for icon [circleUp]
@@ -4901,7 +4903,7 @@ class FontAwesome7 {
   static const IconData solidCircleUser = IconData(
     0xf2bd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-circle for icon [solidCircleUser]
@@ -4915,7 +4917,7 @@ class FontAwesome7 {
   static const IconData circleUser = IconData(
     0xf2bd,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-circle for icon [circleUser]
@@ -4929,7 +4931,7 @@ class FontAwesome7 {
   static const IconData solidCircleXmark = IconData(
     0xf057,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias times-circle for icon [solidCircleXmark]
@@ -4947,7 +4949,7 @@ class FontAwesome7 {
   static const IconData circleXmark = IconData(
     0xf057,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias times-circle for icon [circleXmark]
@@ -4964,7 +4966,7 @@ class FontAwesome7 {
   static const IconData circleZulip = IconData(
     0xe851,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid City icon
@@ -4974,7 +4976,7 @@ class FontAwesome7 {
   static const IconData city = IconData(
     0xf64f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clapperboard icon
@@ -4984,7 +4986,7 @@ class FontAwesome7 {
   static const IconData clapperboard = IconData(
     0xe131,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Claude icon
@@ -4993,7 +4995,7 @@ class FontAwesome7 {
   static const IconData claude = IconData(
     0xe861,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clipboard icon
@@ -5003,7 +5005,7 @@ class FontAwesome7 {
   static const IconData solidClipboard = IconData(
     0xf328,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Clipboard icon
@@ -5013,7 +5015,7 @@ class FontAwesome7 {
   static const IconData clipboard = IconData(
     0xf328,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clipboard Check icon
@@ -5023,7 +5025,7 @@ class FontAwesome7 {
   static const IconData clipboardCheck = IconData(
     0xf46c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clipboard List icon
@@ -5033,7 +5035,7 @@ class FontAwesome7 {
   static const IconData clipboardList = IconData(
     0xf46d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clipboard Question icon
@@ -5043,7 +5045,7 @@ class FontAwesome7 {
   static const IconData clipboardQuestion = IconData(
     0xe4e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clipboard User icon
@@ -5053,7 +5055,7 @@ class FontAwesome7 {
   static const IconData clipboardUser = IconData(
     0xf7f3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clock icon
@@ -5063,7 +5065,7 @@ class FontAwesome7 {
   static const IconData solidClock = IconData(
     0xf017,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias clock-four for icon [solidClock]
@@ -5077,7 +5079,7 @@ class FontAwesome7 {
   static const IconData clock = IconData(
     0xf017,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias clock-four for icon [clock]
@@ -5091,7 +5093,7 @@ class FontAwesome7 {
   static const IconData clockRotateLeft = IconData(
     0xf1da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias history for icon [clockRotateLeft]
@@ -5105,7 +5107,7 @@ class FontAwesome7 {
   static const IconData solidClone = IconData(
     0xf24d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Clone icon
@@ -5115,7 +5117,7 @@ class FontAwesome7 {
   static const IconData clone = IconData(
     0xf24d,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Closed Captioning icon
@@ -5125,7 +5127,7 @@ class FontAwesome7 {
   static const IconData solidClosedCaptioning = IconData(
     0xf20a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Closed Captioning icon
@@ -5135,7 +5137,7 @@ class FontAwesome7 {
   static const IconData closedCaptioning = IconData(
     0xf20a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Closed Captioning Slash icon
@@ -5145,7 +5147,7 @@ class FontAwesome7 {
   static const IconData closedCaptioningSlash = IconData(
     0xe135,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud icon
@@ -5155,7 +5157,7 @@ class FontAwesome7 {
   static const IconData solidCloud = IconData(
     0xf0c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Cloud icon
@@ -5165,7 +5167,7 @@ class FontAwesome7 {
   static const IconData cloud = IconData(
     0xf0c2,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Arrow Down icon
@@ -5175,7 +5177,7 @@ class FontAwesome7 {
   static const IconData cloudArrowDown = IconData(
     0xf0ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cloud-download for icon [cloudArrowDown]
@@ -5193,7 +5195,7 @@ class FontAwesome7 {
   static const IconData cloudArrowUp = IconData(
     0xf0ee,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cloud-upload for icon [cloudArrowUp]
@@ -5211,7 +5213,7 @@ class FontAwesome7 {
   static const IconData cloudBolt = IconData(
     0xf76c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias thunderstorm for icon [cloudBolt]
@@ -5225,7 +5227,7 @@ class FontAwesome7 {
   static const IconData cloudMeatball = IconData(
     0xf73b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Moon icon
@@ -5235,7 +5237,7 @@ class FontAwesome7 {
   static const IconData cloudMoon = IconData(
     0xf6c3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Moon Rain icon
@@ -5245,7 +5247,7 @@ class FontAwesome7 {
   static const IconData cloudMoonRain = IconData(
     0xf73c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Rain icon
@@ -5255,7 +5257,7 @@ class FontAwesome7 {
   static const IconData cloudRain = IconData(
     0xf73d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Showers Heavy icon
@@ -5265,7 +5267,7 @@ class FontAwesome7 {
   static const IconData cloudShowersHeavy = IconData(
     0xf740,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Showers Water icon
@@ -5275,7 +5277,7 @@ class FontAwesome7 {
   static const IconData cloudShowersWater = IconData(
     0xe4e4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Sun icon
@@ -5285,7 +5287,7 @@ class FontAwesome7 {
   static const IconData cloudSun = IconData(
     0xf6c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cloud Sun Rain icon
@@ -5295,7 +5297,7 @@ class FontAwesome7 {
   static const IconData cloudSunRain = IconData(
     0xf743,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cloudflare icon
@@ -5305,7 +5307,7 @@ class FontAwesome7 {
   static const IconData cloudflare = IconData(
     0xe07d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cloudscale icon
@@ -5315,7 +5317,7 @@ class FontAwesome7 {
   static const IconData cloudscale = IconData(
     0xf383,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cloudsmith icon
@@ -5325,7 +5327,7 @@ class FontAwesome7 {
   static const IconData cloudsmith = IconData(
     0xf384,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cloudversify icon
@@ -5335,7 +5337,7 @@ class FontAwesome7 {
   static const IconData cloudversify = IconData(
     0xf385,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Clover icon
@@ -5345,7 +5347,7 @@ class FontAwesome7 {
   static const IconData clover = IconData(
     0xe139,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cmplid icon
@@ -5355,7 +5357,7 @@ class FontAwesome7 {
   static const IconData cmplid = IconData(
     0xe360,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code icon
@@ -5365,7 +5367,7 @@ class FontAwesome7 {
   static const IconData code = IconData(
     0xf121,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Branch icon
@@ -5375,7 +5377,7 @@ class FontAwesome7 {
   static const IconData codeBranch = IconData(
     0xf126,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Commit icon
@@ -5385,7 +5387,7 @@ class FontAwesome7 {
   static const IconData codeCommit = IconData(
     0xf386,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Compare icon
@@ -5395,7 +5397,7 @@ class FontAwesome7 {
   static const IconData codeCompare = IconData(
     0xe13a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Fork icon
@@ -5405,7 +5407,7 @@ class FontAwesome7 {
   static const IconData codeFork = IconData(
     0xe13b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Merge icon
@@ -5415,7 +5417,7 @@ class FontAwesome7 {
   static const IconData codeMerge = IconData(
     0xf387,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Code Pull Request icon
@@ -5425,7 +5427,7 @@ class FontAwesome7 {
   static const IconData codePullRequest = IconData(
     0xe13c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Codepen icon
@@ -5435,7 +5437,7 @@ class FontAwesome7 {
   static const IconData codepen = IconData(
     0xf1cb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Codiepie icon
@@ -5445,7 +5447,7 @@ class FontAwesome7 {
   static const IconData codiepie = IconData(
     0xf284,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Coins icon
@@ -5455,7 +5457,7 @@ class FontAwesome7 {
   static const IconData coins = IconData(
     0xf51e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Colon Sign icon
@@ -5465,7 +5467,7 @@ class FontAwesome7 {
   static const IconData colonSign = IconData(
     0xe140,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment icon
@@ -5475,7 +5477,7 @@ class FontAwesome7 {
   static const IconData solidComment = IconData(
     0xf075,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Comment icon
@@ -5485,7 +5487,7 @@ class FontAwesome7 {
   static const IconData comment = IconData(
     0xf075,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment Dollar icon
@@ -5495,7 +5497,7 @@ class FontAwesome7 {
   static const IconData commentDollar = IconData(
     0xf651,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment Dots icon
@@ -5505,7 +5507,7 @@ class FontAwesome7 {
   static const IconData solidCommentDots = IconData(
     0xf4ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias commenting for icon [solidCommentDots]
@@ -5519,7 +5521,7 @@ class FontAwesome7 {
   static const IconData commentDots = IconData(
     0xf4ad,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias commenting for icon [commentDots]
@@ -5533,7 +5535,7 @@ class FontAwesome7 {
   static const IconData commentMedical = IconData(
     0xf7f5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment Nodes icon
@@ -5543,7 +5545,7 @@ class FontAwesome7 {
   static const IconData commentNodes = IconData(
     0xe696,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment Slash icon
@@ -5553,7 +5555,7 @@ class FontAwesome7 {
   static const IconData commentSlash = IconData(
     0xf4b3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comment Sms icon
@@ -5563,7 +5565,7 @@ class FontAwesome7 {
   static const IconData commentSms = IconData(
     0xf7cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sms for icon [commentSms]
@@ -5577,7 +5579,7 @@ class FontAwesome7 {
   static const IconData solidComments = IconData(
     0xf086,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Comments icon
@@ -5587,7 +5589,7 @@ class FontAwesome7 {
   static const IconData comments = IconData(
     0xf086,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Comments Dollar icon
@@ -5597,7 +5599,7 @@ class FontAwesome7 {
   static const IconData commentsDollar = IconData(
     0xf653,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Compact Disc icon
@@ -5607,7 +5609,7 @@ class FontAwesome7 {
   static const IconData compactDisc = IconData(
     0xf51f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Compass icon
@@ -5617,7 +5619,7 @@ class FontAwesome7 {
   static const IconData solidCompass = IconData(
     0xf14e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Compass icon
@@ -5627,7 +5629,7 @@ class FontAwesome7 {
   static const IconData compass = IconData(
     0xf14e,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Compass Drafting icon
@@ -5637,7 +5639,7 @@ class FontAwesome7 {
   static const IconData compassDrafting = IconData(
     0xf568,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias drafting-compass for icon [compassDrafting]
@@ -5651,7 +5653,7 @@ class FontAwesome7 {
   static const IconData compress = IconData(
     0xf066,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Computer icon
@@ -5661,7 +5663,7 @@ class FontAwesome7 {
   static const IconData computer = IconData(
     0xe4e5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Computer Mouse icon
@@ -5671,7 +5673,7 @@ class FontAwesome7 {
   static const IconData computerMouse = IconData(
     0xf8cc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mouse for icon [computerMouse]
@@ -5685,7 +5687,7 @@ class FontAwesome7 {
   static const IconData confluence = IconData(
     0xf78d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Connectdevelop icon
@@ -5695,7 +5697,7 @@ class FontAwesome7 {
   static const IconData connectdevelop = IconData(
     0xf20e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Contao icon
@@ -5705,7 +5707,7 @@ class FontAwesome7 {
   static const IconData contao = IconData(
     0xf26d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cookie icon
@@ -5715,7 +5717,7 @@ class FontAwesome7 {
   static const IconData cookie = IconData(
     0xf563,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cookie Bite icon
@@ -5725,7 +5727,7 @@ class FontAwesome7 {
   static const IconData cookieBite = IconData(
     0xf564,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Copy icon
@@ -5735,7 +5737,7 @@ class FontAwesome7 {
   static const IconData solidCopy = IconData(
     0xf0c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Copy icon
@@ -5745,7 +5747,7 @@ class FontAwesome7 {
   static const IconData copy = IconData(
     0xf0c5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Copyright icon
@@ -5755,7 +5757,7 @@ class FontAwesome7 {
   static const IconData solidCopyright = IconData(
     0xf1f9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Copyright icon
@@ -5765,7 +5767,7 @@ class FontAwesome7 {
   static const IconData copyright = IconData(
     0xf1f9,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cotton Bureau icon
@@ -5775,7 +5777,7 @@ class FontAwesome7 {
   static const IconData cottonBureau = IconData(
     0xf89e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Couch icon
@@ -5785,7 +5787,7 @@ class FontAwesome7 {
   static const IconData couch = IconData(
     0xf4b8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cow icon
@@ -5795,7 +5797,7 @@ class FontAwesome7 {
   static const IconData cow = IconData(
     0xf6c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cpanel icon
@@ -5805,7 +5807,7 @@ class FontAwesome7 {
   static const IconData cpanel = IconData(
     0xf388,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons icon
@@ -5815,7 +5817,7 @@ class FontAwesome7 {
   static const IconData creativeCommons = IconData(
     0xf25e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons By icon
@@ -5825,7 +5827,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsBy = IconData(
     0xf4e7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Nc icon
@@ -5835,7 +5837,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsNc = IconData(
     0xf4e8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Nc Eu icon
@@ -5845,7 +5847,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsNcEu = IconData(
     0xf4e9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Nc Jp icon
@@ -5855,7 +5857,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsNcJp = IconData(
     0xf4ea,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Nd icon
@@ -5865,7 +5867,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsNd = IconData(
     0xf4eb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Pd icon
@@ -5875,7 +5877,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsPd = IconData(
     0xf4ec,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Pd Alt icon
@@ -5885,7 +5887,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsPdAlt = IconData(
     0xf4ed,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Remix icon
@@ -5895,7 +5897,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsRemix = IconData(
     0xf4ee,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Sa icon
@@ -5905,7 +5907,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsSa = IconData(
     0xf4ef,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Sampling icon
@@ -5915,7 +5917,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsSampling = IconData(
     0xf4f0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Sampling Plus icon
@@ -5925,7 +5927,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsSamplingPlus = IconData(
     0xf4f1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Share icon
@@ -5935,7 +5937,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsShare = IconData(
     0xf4f2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Creative Commons Zero icon
@@ -5945,7 +5947,7 @@ class FontAwesome7 {
   static const IconData creativeCommonsZero = IconData(
     0xf4f3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Credit Card icon
@@ -5955,7 +5957,7 @@ class FontAwesome7 {
   static const IconData solidCreditCard = IconData(
     0xf09d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias credit-card-alt for icon [solidCreditCard]
@@ -5969,7 +5971,7 @@ class FontAwesome7 {
   static const IconData creditCard = IconData(
     0xf09d,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias credit-card-alt for icon [creditCard]
@@ -5983,7 +5985,7 @@ class FontAwesome7 {
   static const IconData criticalRole = IconData(
     0xf6c9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crop icon
@@ -5993,7 +5995,7 @@ class FontAwesome7 {
   static const IconData crop = IconData(
     0xf125,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crop Simple icon
@@ -6003,7 +6005,7 @@ class FontAwesome7 {
   static const IconData cropSimple = IconData(
     0xf565,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias crop-alt for icon [cropSimple]
@@ -6017,7 +6019,7 @@ class FontAwesome7 {
   static const IconData cross = IconData(
     0xf654,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crosshairs icon
@@ -6027,7 +6029,7 @@ class FontAwesome7 {
   static const IconData crosshairs = IconData(
     0xf05b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crow icon
@@ -6037,7 +6039,7 @@ class FontAwesome7 {
   static const IconData crow = IconData(
     0xf520,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crown icon
@@ -6047,7 +6049,7 @@ class FontAwesome7 {
   static const IconData crown = IconData(
     0xf521,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Crutch icon
@@ -6057,7 +6059,7 @@ class FontAwesome7 {
   static const IconData crutch = IconData(
     0xf7f7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cruzeiro Sign icon
@@ -6067,7 +6069,7 @@ class FontAwesome7 {
   static const IconData cruzeiroSign = IconData(
     0xe152,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Css icon
@@ -6077,7 +6079,7 @@ class FontAwesome7 {
   static const IconData css = IconData(
     0xe6a2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Css3 icon
@@ -6087,7 +6089,7 @@ class FontAwesome7 {
   static const IconData css3 = IconData(
     0xf13c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Css3 Alt icon
@@ -6097,7 +6099,7 @@ class FontAwesome7 {
   static const IconData css3Alt = IconData(
     0xf38b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cube icon
@@ -6107,7 +6109,7 @@ class FontAwesome7 {
   static const IconData cube = IconData(
     0xf1b2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cubes icon
@@ -6117,7 +6119,7 @@ class FontAwesome7 {
   static const IconData cubes = IconData(
     0xf1b3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Cubes Stacked icon
@@ -6127,7 +6129,7 @@ class FontAwesome7 {
   static const IconData cubesStacked = IconData(
     0xe4e6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Cuttlefish icon
@@ -6137,7 +6139,7 @@ class FontAwesome7 {
   static const IconData cuttlefish = IconData(
     0xf38c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid D icon
@@ -6147,7 +6149,7 @@ class FontAwesome7 {
   static const IconData d = IconData(
     0x44,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands D And D icon
@@ -6157,7 +6159,7 @@ class FontAwesome7 {
   static const IconData dAndD = IconData(
     0xf38d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands D And D Beyond icon
@@ -6167,7 +6169,7 @@ class FontAwesome7 {
   static const IconData dAndDBeyond = IconData(
     0xf6ca,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dailymotion icon
@@ -6177,7 +6179,7 @@ class FontAwesome7 {
   static const IconData dailymotion = IconData(
     0xe052,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dart Lang icon
@@ -6187,7 +6189,7 @@ class FontAwesome7 {
   static const IconData dartLang = IconData(
     0xe693,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dashcube icon
@@ -6197,7 +6199,7 @@ class FontAwesome7 {
   static const IconData dashcube = IconData(
     0xf210,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Database icon
@@ -6207,7 +6209,7 @@ class FontAwesome7 {
   static const IconData database = IconData(
     0xf1c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Debian icon
@@ -6217,7 +6219,7 @@ class FontAwesome7 {
   static const IconData debian = IconData(
     0xe60b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Deezer icon
@@ -6227,7 +6229,7 @@ class FontAwesome7 {
   static const IconData deezer = IconData(
     0xe077,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Delete Left icon
@@ -6237,7 +6239,7 @@ class FontAwesome7 {
   static const IconData deleteLeft = IconData(
     0xf55a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias backspace for icon [deleteLeft]
@@ -6251,7 +6253,7 @@ class FontAwesome7 {
   static const IconData delicious = IconData(
     0xf1a5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Democrat icon
@@ -6261,7 +6263,7 @@ class FontAwesome7 {
   static const IconData democrat = IconData(
     0xf747,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Deploydog icon
@@ -6271,7 +6273,7 @@ class FontAwesome7 {
   static const IconData deploydog = IconData(
     0xf38e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Deskpro icon
@@ -6281,7 +6283,7 @@ class FontAwesome7 {
   static const IconData deskpro = IconData(
     0xf38f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Desktop icon
@@ -6291,7 +6293,7 @@ class FontAwesome7 {
   static const IconData desktop = IconData(
     0xf390,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias desktop-alt for icon [desktop]
@@ -6305,7 +6307,7 @@ class FontAwesome7 {
   static const IconData dev = IconData(
     0xf6cc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Deviantart icon
@@ -6315,7 +6317,7 @@ class FontAwesome7 {
   static const IconData deviantart = IconData(
     0xf1bd,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dharmachakra icon
@@ -6325,7 +6327,7 @@ class FontAwesome7 {
   static const IconData dharmachakra = IconData(
     0xf655,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dhl icon
@@ -6335,7 +6337,7 @@ class FontAwesome7 {
   static const IconData dhl = IconData(
     0xf790,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Diagram Next icon
@@ -6345,7 +6347,7 @@ class FontAwesome7 {
   static const IconData diagramNext = IconData(
     0xe476,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Diagram Predecessor icon
@@ -6355,7 +6357,7 @@ class FontAwesome7 {
   static const IconData diagramPredecessor = IconData(
     0xe477,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Diagram Project icon
@@ -6365,7 +6367,7 @@ class FontAwesome7 {
   static const IconData diagramProject = IconData(
     0xf542,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias project-diagram for icon [diagramProject]
@@ -6379,7 +6381,7 @@ class FontAwesome7 {
   static const IconData diagramSuccessor = IconData(
     0xe47a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Diamond icon
@@ -6389,7 +6391,7 @@ class FontAwesome7 {
   static const IconData diamond = IconData(
     0xf219,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Diamond Turn Right icon
@@ -6399,7 +6401,7 @@ class FontAwesome7 {
   static const IconData diamondTurnRight = IconData(
     0xf5eb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias directions for icon [diamondTurnRight]
@@ -6413,7 +6415,7 @@ class FontAwesome7 {
   static const IconData diaspora = IconData(
     0xf791,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice icon
@@ -6423,7 +6425,7 @@ class FontAwesome7 {
   static const IconData dice = IconData(
     0xf522,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice D20 icon
@@ -6433,7 +6435,7 @@ class FontAwesome7 {
   static const IconData diceD20 = IconData(
     0xf6cf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice D6 icon
@@ -6443,7 +6445,7 @@ class FontAwesome7 {
   static const IconData diceD6 = IconData(
     0xf6d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice Five icon
@@ -6453,7 +6455,7 @@ class FontAwesome7 {
   static const IconData diceFive = IconData(
     0xf523,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice Four icon
@@ -6463,7 +6465,7 @@ class FontAwesome7 {
   static const IconData diceFour = IconData(
     0xf524,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice One icon
@@ -6473,7 +6475,7 @@ class FontAwesome7 {
   static const IconData diceOne = IconData(
     0xf525,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice Six icon
@@ -6483,7 +6485,7 @@ class FontAwesome7 {
   static const IconData diceSix = IconData(
     0xf526,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice Three icon
@@ -6493,7 +6495,7 @@ class FontAwesome7 {
   static const IconData diceThree = IconData(
     0xf527,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dice Two icon
@@ -6503,7 +6505,7 @@ class FontAwesome7 {
   static const IconData diceTwo = IconData(
     0xf528,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Digg icon
@@ -6513,7 +6515,7 @@ class FontAwesome7 {
   static const IconData digg = IconData(
     0xf1a6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Digital Ocean icon
@@ -6523,7 +6525,7 @@ class FontAwesome7 {
   static const IconData digitalOcean = IconData(
     0xf391,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Discord icon
@@ -6533,7 +6535,7 @@ class FontAwesome7 {
   static const IconData discord = IconData(
     0xf392,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Discourse icon
@@ -6543,7 +6545,7 @@ class FontAwesome7 {
   static const IconData discourse = IconData(
     0xf393,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Disease icon
@@ -6553,7 +6555,7 @@ class FontAwesome7 {
   static const IconData disease = IconData(
     0xf7fa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Display icon
@@ -6563,7 +6565,7 @@ class FontAwesome7 {
   static const IconData display = IconData(
     0xe163,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Disqus icon
@@ -6573,7 +6575,7 @@ class FontAwesome7 {
   static const IconData disqus = IconData(
     0xe7d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Divide icon
@@ -6583,7 +6585,7 @@ class FontAwesome7 {
   static const IconData divide = IconData(
     0xf529,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dna icon
@@ -6593,7 +6595,7 @@ class FontAwesome7 {
   static const IconData dna = IconData(
     0xf471,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dochub icon
@@ -6603,7 +6605,7 @@ class FontAwesome7 {
   static const IconData dochub = IconData(
     0xf394,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Docker icon
@@ -6613,7 +6615,7 @@ class FontAwesome7 {
   static const IconData docker = IconData(
     0xf395,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dog icon
@@ -6623,7 +6625,7 @@ class FontAwesome7 {
   static const IconData dog = IconData(
     0xf6d3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dollar Sign icon
@@ -6633,7 +6635,7 @@ class FontAwesome7 {
   static const IconData dollarSign = IconData(
     0x24,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dollar for icon [dollarSign]
@@ -6651,7 +6653,7 @@ class FontAwesome7 {
   static const IconData dolly = IconData(
     0xf472,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dolly-box for icon [dolly]
@@ -6665,7 +6667,7 @@ class FontAwesome7 {
   static const IconData dongSign = IconData(
     0xe169,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Door Closed icon
@@ -6675,7 +6677,7 @@ class FontAwesome7 {
   static const IconData doorClosed = IconData(
     0xf52a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Door Open icon
@@ -6685,7 +6687,7 @@ class FontAwesome7 {
   static const IconData doorOpen = IconData(
     0xf52b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dove icon
@@ -6695,7 +6697,7 @@ class FontAwesome7 {
   static const IconData dove = IconData(
     0xf4ba,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Down Left And Up Right To Center icon
@@ -6705,7 +6707,7 @@ class FontAwesome7 {
   static const IconData downLeftAndUpRightToCenter = IconData(
     0xf422,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias compress-alt for icon [downLeftAndUpRightToCenter]
@@ -6719,7 +6721,7 @@ class FontAwesome7 {
   static const IconData downLong = IconData(
     0xf309,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-alt-down for icon [downLong]
@@ -6733,7 +6735,7 @@ class FontAwesome7 {
   static const IconData download = IconData(
     0xf019,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Draft2digital icon
@@ -6743,7 +6745,7 @@ class FontAwesome7 {
   static const IconData draft2digital = IconData(
     0xf396,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dragon icon
@@ -6753,7 +6755,7 @@ class FontAwesome7 {
   static const IconData dragon = IconData(
     0xf6d5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Draw Polygon icon
@@ -6763,7 +6765,7 @@ class FontAwesome7 {
   static const IconData drawPolygon = IconData(
     0xf5ee,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias vector-polygon for icon [drawPolygon]
@@ -6777,7 +6779,7 @@ class FontAwesome7 {
   static const IconData dribbble = IconData(
     0xf17d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dropbox icon
@@ -6787,7 +6789,7 @@ class FontAwesome7 {
   static const IconData dropbox = IconData(
     0xf16b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Droplet icon
@@ -6797,7 +6799,7 @@ class FontAwesome7 {
   static const IconData droplet = IconData(
     0xf043,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tint for icon [droplet]
@@ -6811,7 +6813,7 @@ class FontAwesome7 {
   static const IconData dropletSlash = IconData(
     0xf5c7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tint-slash for icon [dropletSlash]
@@ -6825,7 +6827,7 @@ class FontAwesome7 {
   static const IconData drum = IconData(
     0xf569,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Drum Steelpan icon
@@ -6835,7 +6837,7 @@ class FontAwesome7 {
   static const IconData drumSteelpan = IconData(
     0xf56a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Drumstick Bite icon
@@ -6845,7 +6847,7 @@ class FontAwesome7 {
   static const IconData drumstickBite = IconData(
     0xf6d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Drupal icon
@@ -6855,7 +6857,7 @@ class FontAwesome7 {
   static const IconData drupal = IconData(
     0xf1a9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dumbbell icon
@@ -6865,7 +6867,7 @@ class FontAwesome7 {
   static const IconData dumbbell = IconData(
     0xf44b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dumpster icon
@@ -6875,7 +6877,7 @@ class FontAwesome7 {
   static const IconData dumpster = IconData(
     0xf793,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dumpster Fire icon
@@ -6885,7 +6887,7 @@ class FontAwesome7 {
   static const IconData dumpsterFire = IconData(
     0xf794,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Dungeon icon
@@ -6895,7 +6897,7 @@ class FontAwesome7 {
   static const IconData dungeon = IconData(
     0xf6d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Duolingo icon
@@ -6905,7 +6907,7 @@ class FontAwesome7 {
   static const IconData duolingo = IconData(
     0xe812,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Dyalog icon
@@ -6915,7 +6917,7 @@ class FontAwesome7 {
   static const IconData dyalog = IconData(
     0xf399,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid E icon
@@ -6925,7 +6927,7 @@ class FontAwesome7 {
   static const IconData e = IconData(
     0x45,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ear Deaf icon
@@ -6935,7 +6937,7 @@ class FontAwesome7 {
   static const IconData earDeaf = IconData(
     0xf2a4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias deaf for icon [earDeaf]
@@ -6957,7 +6959,7 @@ class FontAwesome7 {
   static const IconData earListen = IconData(
     0xf2a2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias assistive-listening-systems for icon [earListen]
@@ -6971,7 +6973,7 @@ class FontAwesome7 {
   static const IconData earlybirds = IconData(
     0xf39a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Earth Africa icon
@@ -6981,7 +6983,7 @@ class FontAwesome7 {
   static const IconData earthAfrica = IconData(
     0xf57c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias globe-africa for icon [earthAfrica]
@@ -6995,7 +6997,7 @@ class FontAwesome7 {
   static const IconData earthAmericas = IconData(
     0xf57d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias earth for icon [earthAmericas]
@@ -7017,7 +7019,7 @@ class FontAwesome7 {
   static const IconData earthAsia = IconData(
     0xf57e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias globe-asia for icon [earthAsia]
@@ -7031,7 +7033,7 @@ class FontAwesome7 {
   static const IconData earthEurope = IconData(
     0xf7a2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias globe-europe for icon [earthEurope]
@@ -7045,7 +7047,7 @@ class FontAwesome7 {
   static const IconData earthOceania = IconData(
     0xe47b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias globe-oceania for icon [earthOceania]
@@ -7059,7 +7061,7 @@ class FontAwesome7 {
   static const IconData ebay = IconData(
     0xf4f4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Edge icon
@@ -7069,7 +7071,7 @@ class FontAwesome7 {
   static const IconData edge = IconData(
     0xf282,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Edge Legacy icon
@@ -7079,7 +7081,7 @@ class FontAwesome7 {
   static const IconData edgeLegacy = IconData(
     0xe078,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Egg icon
@@ -7089,7 +7091,7 @@ class FontAwesome7 {
   static const IconData egg = IconData(
     0xf7fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Eject icon
@@ -7099,7 +7101,7 @@ class FontAwesome7 {
   static const IconData eject = IconData(
     0xf052,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Elementor icon
@@ -7109,7 +7111,7 @@ class FontAwesome7 {
   static const IconData elementor = IconData(
     0xf430,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Elevator icon
@@ -7119,7 +7121,7 @@ class FontAwesome7 {
   static const IconData elevator = IconData(
     0xe16d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Eleventy icon
@@ -7129,7 +7131,7 @@ class FontAwesome7 {
   static const IconData eleventy = IconData(
     0xe7d6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ellipsis icon
@@ -7139,7 +7141,7 @@ class FontAwesome7 {
   static const IconData ellipsis = IconData(
     0xf141,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ellipsis-h for icon [ellipsis]
@@ -7153,7 +7155,7 @@ class FontAwesome7 {
   static const IconData ellipsisVertical = IconData(
     0xf142,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ellipsis-v for icon [ellipsisVertical]
@@ -7167,7 +7169,7 @@ class FontAwesome7 {
   static const IconData ello = IconData(
     0xf5f1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ember icon
@@ -7177,7 +7179,7 @@ class FontAwesome7 {
   static const IconData ember = IconData(
     0xf423,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Empire icon
@@ -7187,7 +7189,7 @@ class FontAwesome7 {
   static const IconData empire = IconData(
     0xf1d1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Envelope icon
@@ -7197,7 +7199,7 @@ class FontAwesome7 {
   static const IconData solidEnvelope = IconData(
     0xf0e0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Envelope icon
@@ -7207,7 +7209,7 @@ class FontAwesome7 {
   static const IconData envelope = IconData(
     0xf0e0,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Envelope Circle Check icon
@@ -7217,7 +7219,7 @@ class FontAwesome7 {
   static const IconData envelopeCircleCheck = IconData(
     0xe4e8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Envelope Open icon
@@ -7227,7 +7229,7 @@ class FontAwesome7 {
   static const IconData solidEnvelopeOpen = IconData(
     0xf2b6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Envelope Open icon
@@ -7237,7 +7239,7 @@ class FontAwesome7 {
   static const IconData envelopeOpen = IconData(
     0xf2b6,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Envelope Open Text icon
@@ -7247,7 +7249,7 @@ class FontAwesome7 {
   static const IconData envelopeOpenText = IconData(
     0xf658,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Envelopes Bulk icon
@@ -7257,7 +7259,7 @@ class FontAwesome7 {
   static const IconData envelopesBulk = IconData(
     0xf674,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mail-bulk for icon [envelopesBulk]
@@ -7271,7 +7273,7 @@ class FontAwesome7 {
   static const IconData envira = IconData(
     0xf299,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Equals icon
@@ -7281,7 +7283,7 @@ class FontAwesome7 {
   static const IconData equals = IconData(
     0x3d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Eraser icon
@@ -7291,7 +7293,7 @@ class FontAwesome7 {
   static const IconData eraser = IconData(
     0xf12d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Erlang icon
@@ -7301,7 +7303,7 @@ class FontAwesome7 {
   static const IconData erlang = IconData(
     0xf39d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ethereum icon
@@ -7311,7 +7313,7 @@ class FontAwesome7 {
   static const IconData ethereum = IconData(
     0xf42e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ethernet icon
@@ -7321,7 +7323,7 @@ class FontAwesome7 {
   static const IconData ethernet = IconData(
     0xf796,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Etsy icon
@@ -7331,7 +7333,7 @@ class FontAwesome7 {
   static const IconData etsy = IconData(
     0xf2d7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Euro Sign icon
@@ -7341,7 +7343,7 @@ class FontAwesome7 {
   static const IconData euroSign = IconData(
     0xf153,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias eur for icon [euroSign]
@@ -7359,7 +7361,7 @@ class FontAwesome7 {
   static const IconData evernote = IconData(
     0xf839,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Exclamation icon
@@ -7369,7 +7371,7 @@ class FontAwesome7 {
   static const IconData exclamation = IconData(
     0x21,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Expand icon
@@ -7379,7 +7381,7 @@ class FontAwesome7 {
   static const IconData expand = IconData(
     0xf065,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Expeditedssl icon
@@ -7389,7 +7391,7 @@ class FontAwesome7 {
   static const IconData expeditedssl = IconData(
     0xf23e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Explosion icon
@@ -7399,7 +7401,7 @@ class FontAwesome7 {
   static const IconData explosion = IconData(
     0xe4e9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Eye icon
@@ -7409,7 +7411,7 @@ class FontAwesome7 {
   static const IconData solidEye = IconData(
     0xf06e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Eye icon
@@ -7419,7 +7421,7 @@ class FontAwesome7 {
   static const IconData eye = IconData(
     0xf06e,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Eye Dropper icon
@@ -7429,7 +7431,7 @@ class FontAwesome7 {
   static const IconData eyeDropper = IconData(
     0xf1fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias eye-dropper-empty for icon [eyeDropper]
@@ -7447,7 +7449,7 @@ class FontAwesome7 {
   static const IconData eyeLowVision = IconData(
     0xf2a8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias low-vision for icon [eyeLowVision]
@@ -7461,7 +7463,7 @@ class FontAwesome7 {
   static const IconData solidEyeSlash = IconData(
     0xf070,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Eye Slash icon
@@ -7471,7 +7473,7 @@ class FontAwesome7 {
   static const IconData eyeSlash = IconData(
     0xf070,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid F icon
@@ -7481,7 +7483,7 @@ class FontAwesome7 {
   static const IconData f = IconData(
     0x46,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Face Angry icon
@@ -7491,7 +7493,7 @@ class FontAwesome7 {
   static const IconData solidFaceAngry = IconData(
     0xf556,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angry for icon [solidFaceAngry]
@@ -7505,7 +7507,7 @@ class FontAwesome7 {
   static const IconData faceAngry = IconData(
     0xf556,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias angry for icon [faceAngry]
@@ -7519,7 +7521,7 @@ class FontAwesome7 {
   static const IconData solidFaceDizzy = IconData(
     0xf567,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dizzy for icon [solidFaceDizzy]
@@ -7533,7 +7535,7 @@ class FontAwesome7 {
   static const IconData faceDizzy = IconData(
     0xf567,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dizzy for icon [faceDizzy]
@@ -7547,7 +7549,7 @@ class FontAwesome7 {
   static const IconData solidFaceFlushed = IconData(
     0xf579,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias flushed for icon [solidFaceFlushed]
@@ -7561,7 +7563,7 @@ class FontAwesome7 {
   static const IconData faceFlushed = IconData(
     0xf579,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias flushed for icon [faceFlushed]
@@ -7575,7 +7577,7 @@ class FontAwesome7 {
   static const IconData solidFaceFrown = IconData(
     0xf119,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias frown for icon [solidFaceFrown]
@@ -7589,7 +7591,7 @@ class FontAwesome7 {
   static const IconData faceFrown = IconData(
     0xf119,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias frown for icon [faceFrown]
@@ -7603,7 +7605,7 @@ class FontAwesome7 {
   static const IconData solidFaceFrownOpen = IconData(
     0xf57a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias frown-open for icon [solidFaceFrownOpen]
@@ -7617,7 +7619,7 @@ class FontAwesome7 {
   static const IconData faceFrownOpen = IconData(
     0xf57a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias frown-open for icon [faceFrownOpen]
@@ -7631,7 +7633,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrimace = IconData(
     0xf57f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grimace for icon [solidFaceGrimace]
@@ -7645,7 +7647,7 @@ class FontAwesome7 {
   static const IconData faceGrimace = IconData(
     0xf57f,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grimace for icon [faceGrimace]
@@ -7659,7 +7661,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrin = IconData(
     0xf580,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin for icon [solidFaceGrin]
@@ -7673,7 +7675,7 @@ class FontAwesome7 {
   static const IconData faceGrin = IconData(
     0xf580,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin for icon [faceGrin]
@@ -7687,7 +7689,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinBeam = IconData(
     0xf582,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-beam for icon [solidFaceGrinBeam]
@@ -7701,7 +7703,7 @@ class FontAwesome7 {
   static const IconData faceGrinBeam = IconData(
     0xf582,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-beam for icon [faceGrinBeam]
@@ -7715,7 +7717,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinBeamSweat = IconData(
     0xf583,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-beam-sweat for icon [solidFaceGrinBeamSweat]
@@ -7729,7 +7731,7 @@ class FontAwesome7 {
   static const IconData faceGrinBeamSweat = IconData(
     0xf583,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-beam-sweat for icon [faceGrinBeamSweat]
@@ -7743,7 +7745,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinHearts = IconData(
     0xf584,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-hearts for icon [solidFaceGrinHearts]
@@ -7757,7 +7759,7 @@ class FontAwesome7 {
   static const IconData faceGrinHearts = IconData(
     0xf584,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-hearts for icon [faceGrinHearts]
@@ -7771,7 +7773,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinSquint = IconData(
     0xf585,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-squint for icon [solidFaceGrinSquint]
@@ -7785,7 +7787,7 @@ class FontAwesome7 {
   static const IconData faceGrinSquint = IconData(
     0xf585,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-squint for icon [faceGrinSquint]
@@ -7799,7 +7801,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinSquintTears = IconData(
     0xf586,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-squint-tears for icon [solidFaceGrinSquintTears]
@@ -7813,7 +7815,7 @@ class FontAwesome7 {
   static const IconData faceGrinSquintTears = IconData(
     0xf586,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-squint-tears for icon [faceGrinSquintTears]
@@ -7827,7 +7829,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinStars = IconData(
     0xf587,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-stars for icon [solidFaceGrinStars]
@@ -7841,7 +7843,7 @@ class FontAwesome7 {
   static const IconData faceGrinStars = IconData(
     0xf587,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-stars for icon [faceGrinStars]
@@ -7855,7 +7857,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinTears = IconData(
     0xf588,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tears for icon [solidFaceGrinTears]
@@ -7869,7 +7871,7 @@ class FontAwesome7 {
   static const IconData faceGrinTears = IconData(
     0xf588,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tears for icon [faceGrinTears]
@@ -7883,7 +7885,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinTongue = IconData(
     0xf589,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue for icon [solidFaceGrinTongue]
@@ -7897,7 +7899,7 @@ class FontAwesome7 {
   static const IconData faceGrinTongue = IconData(
     0xf589,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue for icon [faceGrinTongue]
@@ -7911,7 +7913,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinTongueSquint = IconData(
     0xf58a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue-squint for icon [solidFaceGrinTongueSquint]
@@ -7925,7 +7927,7 @@ class FontAwesome7 {
   static const IconData faceGrinTongueSquint = IconData(
     0xf58a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue-squint for icon [faceGrinTongueSquint]
@@ -7939,7 +7941,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinTongueWink = IconData(
     0xf58b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue-wink for icon [solidFaceGrinTongueWink]
@@ -7953,7 +7955,7 @@ class FontAwesome7 {
   static const IconData faceGrinTongueWink = IconData(
     0xf58b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-tongue-wink for icon [faceGrinTongueWink]
@@ -7967,7 +7969,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinWide = IconData(
     0xf581,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-alt for icon [solidFaceGrinWide]
@@ -7981,7 +7983,7 @@ class FontAwesome7 {
   static const IconData faceGrinWide = IconData(
     0xf581,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-alt for icon [faceGrinWide]
@@ -7995,7 +7997,7 @@ class FontAwesome7 {
   static const IconData solidFaceGrinWink = IconData(
     0xf58c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-wink for icon [solidFaceGrinWink]
@@ -8009,7 +8011,7 @@ class FontAwesome7 {
   static const IconData faceGrinWink = IconData(
     0xf58c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grin-wink for icon [faceGrinWink]
@@ -8023,7 +8025,7 @@ class FontAwesome7 {
   static const IconData solidFaceKiss = IconData(
     0xf596,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss for icon [solidFaceKiss]
@@ -8037,7 +8039,7 @@ class FontAwesome7 {
   static const IconData faceKiss = IconData(
     0xf596,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss for icon [faceKiss]
@@ -8051,7 +8053,7 @@ class FontAwesome7 {
   static const IconData solidFaceKissBeam = IconData(
     0xf597,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss-beam for icon [solidFaceKissBeam]
@@ -8065,7 +8067,7 @@ class FontAwesome7 {
   static const IconData faceKissBeam = IconData(
     0xf597,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss-beam for icon [faceKissBeam]
@@ -8079,7 +8081,7 @@ class FontAwesome7 {
   static const IconData solidFaceKissWinkHeart = IconData(
     0xf598,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss-wink-heart for icon [solidFaceKissWinkHeart]
@@ -8093,7 +8095,7 @@ class FontAwesome7 {
   static const IconData faceKissWinkHeart = IconData(
     0xf598,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias kiss-wink-heart for icon [faceKissWinkHeart]
@@ -8107,7 +8109,7 @@ class FontAwesome7 {
   static const IconData solidFaceLaugh = IconData(
     0xf599,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh for icon [solidFaceLaugh]
@@ -8121,7 +8123,7 @@ class FontAwesome7 {
   static const IconData faceLaugh = IconData(
     0xf599,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh for icon [faceLaugh]
@@ -8135,7 +8137,7 @@ class FontAwesome7 {
   static const IconData solidFaceLaughBeam = IconData(
     0xf59a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-beam for icon [solidFaceLaughBeam]
@@ -8149,7 +8151,7 @@ class FontAwesome7 {
   static const IconData faceLaughBeam = IconData(
     0xf59a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-beam for icon [faceLaughBeam]
@@ -8163,7 +8165,7 @@ class FontAwesome7 {
   static const IconData solidFaceLaughSquint = IconData(
     0xf59b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-squint for icon [solidFaceLaughSquint]
@@ -8177,7 +8179,7 @@ class FontAwesome7 {
   static const IconData faceLaughSquint = IconData(
     0xf59b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-squint for icon [faceLaughSquint]
@@ -8191,7 +8193,7 @@ class FontAwesome7 {
   static const IconData solidFaceLaughWink = IconData(
     0xf59c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-wink for icon [solidFaceLaughWink]
@@ -8205,7 +8207,7 @@ class FontAwesome7 {
   static const IconData faceLaughWink = IconData(
     0xf59c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laugh-wink for icon [faceLaughWink]
@@ -8219,7 +8221,7 @@ class FontAwesome7 {
   static const IconData solidFaceMeh = IconData(
     0xf11a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh for icon [solidFaceMeh]
@@ -8233,7 +8235,7 @@ class FontAwesome7 {
   static const IconData faceMeh = IconData(
     0xf11a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh for icon [faceMeh]
@@ -8247,7 +8249,7 @@ class FontAwesome7 {
   static const IconData solidFaceMehBlank = IconData(
     0xf5a4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh-blank for icon [solidFaceMehBlank]
@@ -8261,7 +8263,7 @@ class FontAwesome7 {
   static const IconData faceMehBlank = IconData(
     0xf5a4,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh-blank for icon [faceMehBlank]
@@ -8275,7 +8277,7 @@ class FontAwesome7 {
   static const IconData solidFaceRollingEyes = IconData(
     0xf5a5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh-rolling-eyes for icon [solidFaceRollingEyes]
@@ -8289,7 +8291,7 @@ class FontAwesome7 {
   static const IconData faceRollingEyes = IconData(
     0xf5a5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias meh-rolling-eyes for icon [faceRollingEyes]
@@ -8303,7 +8305,7 @@ class FontAwesome7 {
   static const IconData solidFaceSadCry = IconData(
     0xf5b3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sad-cry for icon [solidFaceSadCry]
@@ -8317,7 +8319,7 @@ class FontAwesome7 {
   static const IconData faceSadCry = IconData(
     0xf5b3,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sad-cry for icon [faceSadCry]
@@ -8331,7 +8333,7 @@ class FontAwesome7 {
   static const IconData solidFaceSadTear = IconData(
     0xf5b4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sad-tear for icon [solidFaceSadTear]
@@ -8345,7 +8347,7 @@ class FontAwesome7 {
   static const IconData faceSadTear = IconData(
     0xf5b4,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sad-tear for icon [faceSadTear]
@@ -8359,7 +8361,7 @@ class FontAwesome7 {
   static const IconData solidFaceSmile = IconData(
     0xf118,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile for icon [solidFaceSmile]
@@ -8373,7 +8375,7 @@ class FontAwesome7 {
   static const IconData faceSmile = IconData(
     0xf118,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile for icon [faceSmile]
@@ -8387,7 +8389,7 @@ class FontAwesome7 {
   static const IconData solidFaceSmileBeam = IconData(
     0xf5b8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile-beam for icon [solidFaceSmileBeam]
@@ -8401,7 +8403,7 @@ class FontAwesome7 {
   static const IconData faceSmileBeam = IconData(
     0xf5b8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile-beam for icon [faceSmileBeam]
@@ -8415,7 +8417,7 @@ class FontAwesome7 {
   static const IconData solidFaceSmileWink = IconData(
     0xf4da,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile-wink for icon [solidFaceSmileWink]
@@ -8429,7 +8431,7 @@ class FontAwesome7 {
   static const IconData faceSmileWink = IconData(
     0xf4da,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias smile-wink for icon [faceSmileWink]
@@ -8443,7 +8445,7 @@ class FontAwesome7 {
   static const IconData solidFaceSurprise = IconData(
     0xf5c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias surprise for icon [solidFaceSurprise]
@@ -8457,7 +8459,7 @@ class FontAwesome7 {
   static const IconData faceSurprise = IconData(
     0xf5c2,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias surprise for icon [faceSurprise]
@@ -8471,7 +8473,7 @@ class FontAwesome7 {
   static const IconData solidFaceTired = IconData(
     0xf5c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tired for icon [solidFaceTired]
@@ -8485,7 +8487,7 @@ class FontAwesome7 {
   static const IconData faceTired = IconData(
     0xf5c8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tired for icon [faceTired]
@@ -8499,7 +8501,7 @@ class FontAwesome7 {
   static const IconData facebook = IconData(
     0xf09a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Facebook F icon
@@ -8509,7 +8511,7 @@ class FontAwesome7 {
   static const IconData facebookF = IconData(
     0xf39e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Facebook Messenger icon
@@ -8519,7 +8521,7 @@ class FontAwesome7 {
   static const IconData facebookMessenger = IconData(
     0xf39f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fan icon
@@ -8529,7 +8531,7 @@ class FontAwesome7 {
   static const IconData fan = IconData(
     0xf863,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fantasy Flight Games icon
@@ -8539,7 +8541,7 @@ class FontAwesome7 {
   static const IconData fantasyFlightGames = IconData(
     0xf6dc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Faucet icon
@@ -8549,7 +8551,7 @@ class FontAwesome7 {
   static const IconData faucet = IconData(
     0xe005,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Faucet Drip icon
@@ -8559,7 +8561,7 @@ class FontAwesome7 {
   static const IconData faucetDrip = IconData(
     0xe006,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fax icon
@@ -8569,7 +8571,7 @@ class FontAwesome7 {
   static const IconData fax = IconData(
     0xf1ac,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Feather icon
@@ -8579,7 +8581,7 @@ class FontAwesome7 {
   static const IconData feather = IconData(
     0xf52d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Feather Pointed icon
@@ -8589,7 +8591,7 @@ class FontAwesome7 {
   static const IconData featherPointed = IconData(
     0xf56b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias feather-alt for icon [featherPointed]
@@ -8603,7 +8605,7 @@ class FontAwesome7 {
   static const IconData fedex = IconData(
     0xf797,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fediverse icon
@@ -8612,7 +8614,7 @@ class FontAwesome7 {
   static const IconData fediverse = IconData(
     0xe865,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fedora icon
@@ -8622,7 +8624,7 @@ class FontAwesome7 {
   static const IconData fedora = IconData(
     0xf798,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ferry icon
@@ -8632,7 +8634,7 @@ class FontAwesome7 {
   static const IconData ferry = IconData(
     0xe4ea,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Figma icon
@@ -8642,7 +8644,7 @@ class FontAwesome7 {
   static const IconData figma = IconData(
     0xf799,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File icon
@@ -8652,7 +8654,7 @@ class FontAwesome7 {
   static const IconData solidFile = IconData(
     0xf15b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File icon
@@ -8662,7 +8664,7 @@ class FontAwesome7 {
   static const IconData file = IconData(
     0xf15b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Arrow Down icon
@@ -8672,7 +8674,7 @@ class FontAwesome7 {
   static const IconData fileArrowDown = IconData(
     0xf56d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-download for icon [fileArrowDown]
@@ -8686,7 +8688,7 @@ class FontAwesome7 {
   static const IconData fileArrowUp = IconData(
     0xf574,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-upload for icon [fileArrowUp]
@@ -8700,7 +8702,7 @@ class FontAwesome7 {
   static const IconData solidFileAudio = IconData(
     0xf1c7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Audio icon
@@ -8710,7 +8712,7 @@ class FontAwesome7 {
   static const IconData fileAudio = IconData(
     0xf1c7,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Check icon
@@ -8720,7 +8722,7 @@ class FontAwesome7 {
   static const IconData fileCircleCheck = IconData(
     0xe5a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Exclamation icon
@@ -8730,7 +8732,7 @@ class FontAwesome7 {
   static const IconData fileCircleExclamation = IconData(
     0xe4eb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Minus icon
@@ -8740,7 +8742,7 @@ class FontAwesome7 {
   static const IconData fileCircleMinus = IconData(
     0xe4ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Plus icon
@@ -8750,7 +8752,7 @@ class FontAwesome7 {
   static const IconData fileCirclePlus = IconData(
     0xe494,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Question icon
@@ -8760,7 +8762,7 @@ class FontAwesome7 {
   static const IconData fileCircleQuestion = IconData(
     0xe4ef,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Circle Xmark icon
@@ -8770,7 +8772,7 @@ class FontAwesome7 {
   static const IconData fileCircleXmark = IconData(
     0xe5a1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Code icon
@@ -8780,7 +8782,7 @@ class FontAwesome7 {
   static const IconData solidFileCode = IconData(
     0xf1c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Code icon
@@ -8790,7 +8792,7 @@ class FontAwesome7 {
   static const IconData fileCode = IconData(
     0xf1c9,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Contract icon
@@ -8800,7 +8802,7 @@ class FontAwesome7 {
   static const IconData fileContract = IconData(
     0xf56c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Csv icon
@@ -8810,7 +8812,7 @@ class FontAwesome7 {
   static const IconData fileCsv = IconData(
     0xf6dd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Excel icon
@@ -8820,7 +8822,7 @@ class FontAwesome7 {
   static const IconData solidFileExcel = IconData(
     0xf1c3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Excel icon
@@ -8830,7 +8832,7 @@ class FontAwesome7 {
   static const IconData fileExcel = IconData(
     0xf1c3,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Export icon
@@ -8840,7 +8842,7 @@ class FontAwesome7 {
   static const IconData fileExport = IconData(
     0xf56e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-right-from-file for icon [fileExport]
@@ -8854,7 +8856,7 @@ class FontAwesome7 {
   static const IconData fileFragment = IconData(
     0xe697,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Half Dashed icon
@@ -8864,7 +8866,7 @@ class FontAwesome7 {
   static const IconData fileHalfDashed = IconData(
     0xe698,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Image icon
@@ -8874,7 +8876,7 @@ class FontAwesome7 {
   static const IconData solidFileImage = IconData(
     0xf1c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Image icon
@@ -8884,7 +8886,7 @@ class FontAwesome7 {
   static const IconData fileImage = IconData(
     0xf1c5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Import icon
@@ -8894,7 +8896,7 @@ class FontAwesome7 {
   static const IconData fileImport = IconData(
     0xf56f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrow-right-to-file for icon [fileImport]
@@ -8908,7 +8910,7 @@ class FontAwesome7 {
   static const IconData fileInvoice = IconData(
     0xf570,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Invoice Dollar icon
@@ -8918,7 +8920,7 @@ class FontAwesome7 {
   static const IconData fileInvoiceDollar = IconData(
     0xf571,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Lines icon
@@ -8928,7 +8930,7 @@ class FontAwesome7 {
   static const IconData solidFileLines = IconData(
     0xf15c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-alt for icon [solidFileLines]
@@ -8946,7 +8948,7 @@ class FontAwesome7 {
   static const IconData fileLines = IconData(
     0xf15c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-alt for icon [fileLines]
@@ -8964,7 +8966,7 @@ class FontAwesome7 {
   static const IconData fileMedical = IconData(
     0xf477,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Pdf icon
@@ -8974,7 +8976,7 @@ class FontAwesome7 {
   static const IconData solidFilePdf = IconData(
     0xf1c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Pdf icon
@@ -8984,7 +8986,7 @@ class FontAwesome7 {
   static const IconData filePdf = IconData(
     0xf1c1,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Pen icon
@@ -8994,7 +8996,7 @@ class FontAwesome7 {
   static const IconData filePen = IconData(
     0xf31c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-edit for icon [filePen]
@@ -9008,7 +9010,7 @@ class FontAwesome7 {
   static const IconData solidFilePowerpoint = IconData(
     0xf1c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Powerpoint icon
@@ -9018,7 +9020,7 @@ class FontAwesome7 {
   static const IconData filePowerpoint = IconData(
     0xf1c4,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Prescription icon
@@ -9028,7 +9030,7 @@ class FontAwesome7 {
   static const IconData filePrescription = IconData(
     0xf572,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Shield icon
@@ -9038,7 +9040,7 @@ class FontAwesome7 {
   static const IconData fileShield = IconData(
     0xe4f0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Signature icon
@@ -9048,7 +9050,7 @@ class FontAwesome7 {
   static const IconData fileSignature = IconData(
     0xf573,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Video icon
@@ -9058,7 +9060,7 @@ class FontAwesome7 {
   static const IconData solidFileVideo = IconData(
     0xf1c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Video icon
@@ -9068,7 +9070,7 @@ class FontAwesome7 {
   static const IconData fileVideo = IconData(
     0xf1c8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Waveform icon
@@ -9078,7 +9080,7 @@ class FontAwesome7 {
   static const IconData fileWaveform = IconData(
     0xf478,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-medical-alt for icon [fileWaveform]
@@ -9092,7 +9094,7 @@ class FontAwesome7 {
   static const IconData solidFileWord = IconData(
     0xf1c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular File Word icon
@@ -9102,7 +9104,7 @@ class FontAwesome7 {
   static const IconData fileWord = IconData(
     0xf1c2,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid File Zipper icon
@@ -9112,7 +9114,7 @@ class FontAwesome7 {
   static const IconData solidFileZipper = IconData(
     0xf1c6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-archive for icon [solidFileZipper]
@@ -9126,7 +9128,7 @@ class FontAwesome7 {
   static const IconData fileZipper = IconData(
     0xf1c6,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-archive for icon [fileZipper]
@@ -9140,7 +9142,7 @@ class FontAwesome7 {
   static const IconData filesPinwheel = IconData(
     0xe69f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fill icon
@@ -9150,7 +9152,7 @@ class FontAwesome7 {
   static const IconData fill = IconData(
     0xf575,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fill Drip icon
@@ -9160,7 +9162,7 @@ class FontAwesome7 {
   static const IconData fillDrip = IconData(
     0xf576,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Film icon
@@ -9170,7 +9172,7 @@ class FontAwesome7 {
   static const IconData film = IconData(
     0xf008,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias film-alt for icon [film]
@@ -9188,7 +9190,7 @@ class FontAwesome7 {
   static const IconData filter = IconData(
     0xf0b0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Filter Circle Dollar icon
@@ -9198,7 +9200,7 @@ class FontAwesome7 {
   static const IconData filterCircleDollar = IconData(
     0xf662,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias funnel-dollar for icon [filterCircleDollar]
@@ -9212,7 +9214,7 @@ class FontAwesome7 {
   static const IconData filterCircleXmark = IconData(
     0xe17b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fingerprint icon
@@ -9222,7 +9224,7 @@ class FontAwesome7 {
   static const IconData fingerprint = IconData(
     0xf577,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fire icon
@@ -9232,7 +9234,7 @@ class FontAwesome7 {
   static const IconData fire = IconData(
     0xf06d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fire Burner icon
@@ -9242,7 +9244,7 @@ class FontAwesome7 {
   static const IconData fireBurner = IconData(
     0xe4f1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fire Extinguisher icon
@@ -9252,7 +9254,7 @@ class FontAwesome7 {
   static const IconData fireExtinguisher = IconData(
     0xf134,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fire Flame Curved icon
@@ -9262,7 +9264,7 @@ class FontAwesome7 {
   static const IconData fireFlameCurved = IconData(
     0xf7e4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias fire-alt for icon [fireFlameCurved]
@@ -9276,7 +9278,7 @@ class FontAwesome7 {
   static const IconData fireFlameSimple = IconData(
     0xf46a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias burn for icon [fireFlameSimple]
@@ -9290,7 +9292,7 @@ class FontAwesome7 {
   static const IconData firefox = IconData(
     0xf269,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Firefox Browser icon
@@ -9300,7 +9302,7 @@ class FontAwesome7 {
   static const IconData firefoxBrowser = IconData(
     0xe007,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands First Order icon
@@ -9310,7 +9312,7 @@ class FontAwesome7 {
   static const IconData firstOrder = IconData(
     0xf2b0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands First Order Alt icon
@@ -9320,7 +9322,7 @@ class FontAwesome7 {
   static const IconData firstOrderAlt = IconData(
     0xf50a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Firstdraft icon
@@ -9330,7 +9332,7 @@ class FontAwesome7 {
   static const IconData firstdraft = IconData(
     0xf3a1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fish icon
@@ -9340,7 +9342,7 @@ class FontAwesome7 {
   static const IconData fish = IconData(
     0xf578,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Fish Fins icon
@@ -9350,7 +9352,7 @@ class FontAwesome7 {
   static const IconData fishFins = IconData(
     0xe4f2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Flag icon
@@ -9360,7 +9362,7 @@ class FontAwesome7 {
   static const IconData solidFlag = IconData(
     0xf024,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Flag icon
@@ -9370,7 +9372,7 @@ class FontAwesome7 {
   static const IconData flag = IconData(
     0xf024,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Flag Checkered icon
@@ -9380,7 +9382,7 @@ class FontAwesome7 {
   static const IconData flagCheckered = IconData(
     0xf11e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Flag Usa icon
@@ -9390,7 +9392,7 @@ class FontAwesome7 {
   static const IconData flagUsa = IconData(
     0xf74d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Flask icon
@@ -9400,7 +9402,7 @@ class FontAwesome7 {
   static const IconData flask = IconData(
     0xf0c3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Flask Vial icon
@@ -9410,7 +9412,7 @@ class FontAwesome7 {
   static const IconData flaskVial = IconData(
     0xe4f3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Flickr icon
@@ -9420,7 +9422,7 @@ class FontAwesome7 {
   static const IconData flickr = IconData(
     0xf16e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Flipboard icon
@@ -9430,7 +9432,7 @@ class FontAwesome7 {
   static const IconData flipboard = IconData(
     0xf44d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Floppy Disk icon
@@ -9440,7 +9442,7 @@ class FontAwesome7 {
   static const IconData solidFloppyDisk = IconData(
     0xf0c7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias save for icon [solidFloppyDisk]
@@ -9454,7 +9456,7 @@ class FontAwesome7 {
   static const IconData floppyDisk = IconData(
     0xf0c7,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias save for icon [floppyDisk]
@@ -9468,7 +9470,7 @@ class FontAwesome7 {
   static const IconData florinSign = IconData(
     0xe184,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Flutter icon
@@ -9478,7 +9480,7 @@ class FontAwesome7 {
   static const IconData flutter = IconData(
     0xe694,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fly icon
@@ -9488,7 +9490,7 @@ class FontAwesome7 {
   static const IconData fly = IconData(
     0xf417,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Folder icon
@@ -9498,7 +9500,7 @@ class FontAwesome7 {
   static const IconData solidFolder = IconData(
     0xf07b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias folder-blank for icon [solidFolder]
@@ -9512,7 +9514,7 @@ class FontAwesome7 {
   static const IconData folder = IconData(
     0xf07b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias folder-blank for icon [folder]
@@ -9526,7 +9528,7 @@ class FontAwesome7 {
   static const IconData solidFolderClosed = IconData(
     0xe185,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Folder Closed icon
@@ -9536,7 +9538,7 @@ class FontAwesome7 {
   static const IconData folderClosed = IconData(
     0xe185,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Folder Minus icon
@@ -9546,7 +9548,7 @@ class FontAwesome7 {
   static const IconData folderMinus = IconData(
     0xf65d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Folder Open icon
@@ -9556,7 +9558,7 @@ class FontAwesome7 {
   static const IconData solidFolderOpen = IconData(
     0xf07c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Folder Open icon
@@ -9566,7 +9568,7 @@ class FontAwesome7 {
   static const IconData folderOpen = IconData(
     0xf07c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Folder Plus icon
@@ -9576,7 +9578,7 @@ class FontAwesome7 {
   static const IconData folderPlus = IconData(
     0xf65e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Folder Tree icon
@@ -9586,7 +9588,7 @@ class FontAwesome7 {
   static const IconData folderTree = IconData(
     0xf802,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Font icon
@@ -9596,7 +9598,7 @@ class FontAwesome7 {
   static const IconData font = IconData(
     0xf031,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Font Awesome icon
@@ -9606,7 +9608,7 @@ class FontAwesome7 {
   static const IconData solidFontAwesome = IconData(
     0xf2b4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias font-awesome-flag for icon [solidFontAwesome]
@@ -9624,7 +9626,7 @@ class FontAwesome7 {
   static const IconData fontAwesome = IconData(
     0xf2b4,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias font-awesome-flag for icon [fontAwesome]
@@ -9642,7 +9644,7 @@ class FontAwesome7 {
   static const IconData brandsFontAwesome = IconData(
     0xf2b4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias font-awesome-flag for icon [brandsFontAwesome]
@@ -9660,7 +9662,7 @@ class FontAwesome7 {
   static const IconData fonticons = IconData(
     0xf280,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fonticons Fi icon
@@ -9670,7 +9672,7 @@ class FontAwesome7 {
   static const IconData fonticonsFi = IconData(
     0xf3a2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Football icon
@@ -9680,7 +9682,7 @@ class FontAwesome7 {
   static const IconData football = IconData(
     0xf44e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias football-ball for icon [football]
@@ -9693,7 +9695,7 @@ class FontAwesome7 {
   static const IconData forgejo = IconData(
     0xe860,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fort Awesome icon
@@ -9703,7 +9705,7 @@ class FontAwesome7 {
   static const IconData fortAwesome = IconData(
     0xf286,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fort Awesome Alt icon
@@ -9713,7 +9715,7 @@ class FontAwesome7 {
   static const IconData fortAwesomeAlt = IconData(
     0xf3a3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Forumbee icon
@@ -9723,7 +9725,7 @@ class FontAwesome7 {
   static const IconData forumbee = IconData(
     0xf211,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Forward icon
@@ -9733,7 +9735,7 @@ class FontAwesome7 {
   static const IconData forward = IconData(
     0xf04e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Forward Fast icon
@@ -9743,7 +9745,7 @@ class FontAwesome7 {
   static const IconData forwardFast = IconData(
     0xf050,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias fast-forward for icon [forwardFast]
@@ -9757,7 +9759,7 @@ class FontAwesome7 {
   static const IconData forwardStep = IconData(
     0xf051,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias step-forward for icon [forwardStep]
@@ -9771,7 +9773,7 @@ class FontAwesome7 {
   static const IconData foursquare = IconData(
     0xf180,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Franc Sign icon
@@ -9781,7 +9783,7 @@ class FontAwesome7 {
   static const IconData francSign = IconData(
     0xe18f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Free Code Camp icon
@@ -9791,7 +9793,7 @@ class FontAwesome7 {
   static const IconData freeCodeCamp = IconData(
     0xf2c5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Freebsd icon
@@ -9801,7 +9803,7 @@ class FontAwesome7 {
   static const IconData freebsd = IconData(
     0xf3a4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Frog icon
@@ -9811,7 +9813,7 @@ class FontAwesome7 {
   static const IconData frog = IconData(
     0xf52e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Fulcrum icon
@@ -9821,7 +9823,7 @@ class FontAwesome7 {
   static const IconData fulcrum = IconData(
     0xf50b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Futbol icon
@@ -9831,7 +9833,7 @@ class FontAwesome7 {
   static const IconData solidFutbol = IconData(
     0xf1e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias futbol-ball for icon [solidFutbol]
@@ -9849,7 +9851,7 @@ class FontAwesome7 {
   static const IconData futbol = IconData(
     0xf1e3,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias futbol-ball for icon [futbol]
@@ -9867,7 +9869,7 @@ class FontAwesome7 {
   static const IconData g = IconData(
     0x47,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Galactic Republic icon
@@ -9877,7 +9879,7 @@ class FontAwesome7 {
   static const IconData galacticRepublic = IconData(
     0xf50c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Galactic Senate icon
@@ -9887,7 +9889,7 @@ class FontAwesome7 {
   static const IconData galacticSenate = IconData(
     0xf50d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gamepad icon
@@ -9897,7 +9899,7 @@ class FontAwesome7 {
   static const IconData gamepad = IconData(
     0xf11b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gas Pump icon
@@ -9907,7 +9909,7 @@ class FontAwesome7 {
   static const IconData gasPump = IconData(
     0xf52f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gauge icon
@@ -9917,7 +9919,7 @@ class FontAwesome7 {
   static const IconData gauge = IconData(
     0xf624,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dashboard for icon [gauge]
@@ -9939,7 +9941,7 @@ class FontAwesome7 {
   static const IconData gaugeHigh = IconData(
     0xf625,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tachometer-alt for icon [gaugeHigh]
@@ -9957,7 +9959,7 @@ class FontAwesome7 {
   static const IconData gaugeSimple = IconData(
     0xf629,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias gauge-simple-med for icon [gaugeSimple]
@@ -9975,7 +9977,7 @@ class FontAwesome7 {
   static const IconData gaugeSimpleHigh = IconData(
     0xf62a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tachometer for icon [gaugeSimpleHigh]
@@ -9993,7 +9995,7 @@ class FontAwesome7 {
   static const IconData gavel = IconData(
     0xf0e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias legal for icon [gavel]
@@ -10007,7 +10009,7 @@ class FontAwesome7 {
   static const IconData gear = IconData(
     0xf013,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cog for icon [gear]
@@ -10021,7 +10023,7 @@ class FontAwesome7 {
   static const IconData gears = IconData(
     0xf085,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cogs for icon [gears]
@@ -10035,7 +10037,7 @@ class FontAwesome7 {
   static const IconData solidGem = IconData(
     0xf3a5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Gem icon
@@ -10045,7 +10047,7 @@ class FontAwesome7 {
   static const IconData gem = IconData(
     0xf3a5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gemini icon
@@ -10055,7 +10057,7 @@ class FontAwesome7 {
   static const IconData gemini = IconData(
     0xe849,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Genderless icon
@@ -10065,7 +10067,7 @@ class FontAwesome7 {
   static const IconData genderless = IconData(
     0xf22d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Get Pocket icon
@@ -10075,7 +10077,7 @@ class FontAwesome7 {
   static const IconData getPocket = IconData(
     0xf265,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gg icon
@@ -10085,7 +10087,7 @@ class FontAwesome7 {
   static const IconData gg = IconData(
     0xf260,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gg Circle icon
@@ -10095,7 +10097,7 @@ class FontAwesome7 {
   static const IconData ggCircle = IconData(
     0xf261,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ghost icon
@@ -10105,7 +10107,7 @@ class FontAwesome7 {
   static const IconData ghost = IconData(
     0xf6e2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gift icon
@@ -10115,7 +10117,7 @@ class FontAwesome7 {
   static const IconData gift = IconData(
     0xf06b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gifts icon
@@ -10125,7 +10127,7 @@ class FontAwesome7 {
   static const IconData gifts = IconData(
     0xf79c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Git icon
@@ -10135,7 +10137,7 @@ class FontAwesome7 {
   static const IconData git = IconData(
     0xf1d3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Git Alt icon
@@ -10145,7 +10147,7 @@ class FontAwesome7 {
   static const IconData gitAlt = IconData(
     0xf841,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gitee icon
@@ -10154,7 +10156,7 @@ class FontAwesome7 {
   static const IconData gitee = IconData(
     0xe863,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Github icon
@@ -10164,7 +10166,7 @@ class FontAwesome7 {
   static const IconData github = IconData(
     0xf09b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Github Alt icon
@@ -10174,7 +10176,7 @@ class FontAwesome7 {
   static const IconData githubAlt = IconData(
     0xf113,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gitkraken icon
@@ -10184,7 +10186,7 @@ class FontAwesome7 {
   static const IconData gitkraken = IconData(
     0xf3a6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gitlab icon
@@ -10194,7 +10196,7 @@ class FontAwesome7 {
   static const IconData gitlab = IconData(
     0xf296,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gitter icon
@@ -10204,7 +10206,7 @@ class FontAwesome7 {
   static const IconData gitter = IconData(
     0xf426,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Glass Water icon
@@ -10214,7 +10216,7 @@ class FontAwesome7 {
   static const IconData glassWater = IconData(
     0xe4f4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Glass Water Droplet icon
@@ -10224,7 +10226,7 @@ class FontAwesome7 {
   static const IconData glassWaterDroplet = IconData(
     0xe4f5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Glasses icon
@@ -10234,7 +10236,7 @@ class FontAwesome7 {
   static const IconData glasses = IconData(
     0xf530,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Glide icon
@@ -10244,7 +10246,7 @@ class FontAwesome7 {
   static const IconData glide = IconData(
     0xf2a5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Glide G icon
@@ -10254,7 +10256,7 @@ class FontAwesome7 {
   static const IconData glideG = IconData(
     0xf2a6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Globaleaks icon
@@ -10263,7 +10265,7 @@ class FontAwesome7 {
   static const IconData globaleaks = IconData(
     0xe85d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Globe icon
@@ -10273,7 +10275,7 @@ class FontAwesome7 {
   static const IconData globe = IconData(
     0xf0ac,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gofore icon
@@ -10283,7 +10285,7 @@ class FontAwesome7 {
   static const IconData gofore = IconData(
     0xf3a7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Golang icon
@@ -10293,7 +10295,7 @@ class FontAwesome7 {
   static const IconData golang = IconData(
     0xe40f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Golf Ball Tee icon
@@ -10303,7 +10305,7 @@ class FontAwesome7 {
   static const IconData golfBallTee = IconData(
     0xf450,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias golf-ball for icon [golfBallTee]
@@ -10317,7 +10319,7 @@ class FontAwesome7 {
   static const IconData goodreads = IconData(
     0xf3a8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Goodreads G icon
@@ -10327,7 +10329,7 @@ class FontAwesome7 {
   static const IconData goodreadsG = IconData(
     0xf3a9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google icon
@@ -10337,7 +10339,7 @@ class FontAwesome7 {
   static const IconData google = IconData(
     0xf1a0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Drive icon
@@ -10347,7 +10349,7 @@ class FontAwesome7 {
   static const IconData googleDrive = IconData(
     0xf3aa,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Pay icon
@@ -10357,7 +10359,7 @@ class FontAwesome7 {
   static const IconData googlePay = IconData(
     0xe079,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Play icon
@@ -10367,7 +10369,7 @@ class FontAwesome7 {
   static const IconData googlePlay = IconData(
     0xf3ab,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Plus icon
@@ -10377,7 +10379,7 @@ class FontAwesome7 {
   static const IconData googlePlus = IconData(
     0xf2b3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Plus G icon
@@ -10387,7 +10389,7 @@ class FontAwesome7 {
   static const IconData googlePlusG = IconData(
     0xf0d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Scholar icon
@@ -10397,7 +10399,7 @@ class FontAwesome7 {
   static const IconData googleScholar = IconData(
     0xe63b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Google Wallet icon
@@ -10407,7 +10409,7 @@ class FontAwesome7 {
   static const IconData googleWallet = IconData(
     0xf1ee,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gopuram icon
@@ -10417,7 +10419,7 @@ class FontAwesome7 {
   static const IconData gopuram = IconData(
     0xf664,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Graduation Cap icon
@@ -10427,7 +10429,7 @@ class FontAwesome7 {
   static const IconData graduationCap = IconData(
     0xf19d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mortar-board for icon [graduationCap]
@@ -10441,7 +10443,7 @@ class FontAwesome7 {
   static const IconData gratipay = IconData(
     0xf184,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Grav icon
@@ -10451,7 +10453,7 @@ class FontAwesome7 {
   static const IconData grav = IconData(
     0xf2d6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Greater Than icon
@@ -10461,7 +10463,7 @@ class FontAwesome7 {
   static const IconData greaterThan = IconData(
     0x3e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Greater Than Equal icon
@@ -10471,7 +10473,7 @@ class FontAwesome7 {
   static const IconData greaterThanEqual = IconData(
     0xf532,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Grip icon
@@ -10481,7 +10483,7 @@ class FontAwesome7 {
   static const IconData grip = IconData(
     0xf58d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grid-horizontal for icon [grip]
@@ -10499,7 +10501,7 @@ class FontAwesome7 {
   static const IconData gripLines = IconData(
     0xf7a4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Grip Lines Vertical icon
@@ -10509,7 +10511,7 @@ class FontAwesome7 {
   static const IconData gripLinesVertical = IconData(
     0xf7a5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Grip Vertical icon
@@ -10519,7 +10521,7 @@ class FontAwesome7 {
   static const IconData gripVertical = IconData(
     0xf58e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias grid-vertical for icon [gripVertical]
@@ -10533,7 +10535,7 @@ class FontAwesome7 {
   static const IconData gripfire = IconData(
     0xf3ac,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Group Arrows Rotate icon
@@ -10543,7 +10545,7 @@ class FontAwesome7 {
   static const IconData groupArrowsRotate = IconData(
     0xe4f6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Grunt icon
@@ -10553,7 +10555,7 @@ class FontAwesome7 {
   static const IconData grunt = IconData(
     0xf3ad,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Guarani Sign icon
@@ -10563,7 +10565,7 @@ class FontAwesome7 {
   static const IconData guaraniSign = IconData(
     0xe19a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Guilded icon
@@ -10573,7 +10575,7 @@ class FontAwesome7 {
   static const IconData guilded = IconData(
     0xe07e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Guitar icon
@@ -10583,7 +10585,7 @@ class FontAwesome7 {
   static const IconData guitar = IconData(
     0xf7a6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Gulp icon
@@ -10593,7 +10595,7 @@ class FontAwesome7 {
   static const IconData gulp = IconData(
     0xf3ae,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Gun icon
@@ -10603,7 +10605,7 @@ class FontAwesome7 {
   static const IconData gun = IconData(
     0xe19b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid H icon
@@ -10613,7 +10615,7 @@ class FontAwesome7 {
   static const IconData h = IconData(
     0x48,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hacker News icon
@@ -10623,7 +10625,7 @@ class FontAwesome7 {
   static const IconData hackerNews = IconData(
     0xf1d4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hackerrank icon
@@ -10633,7 +10635,7 @@ class FontAwesome7 {
   static const IconData hackerrank = IconData(
     0xf5f7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hammer icon
@@ -10643,7 +10645,7 @@ class FontAwesome7 {
   static const IconData hammer = IconData(
     0xf6e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hamsa icon
@@ -10653,7 +10655,7 @@ class FontAwesome7 {
   static const IconData hamsa = IconData(
     0xf665,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand icon
@@ -10663,7 +10665,7 @@ class FontAwesome7 {
   static const IconData solidHand = IconData(
     0xf256,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-paper for icon [solidHand]
@@ -10677,7 +10679,7 @@ class FontAwesome7 {
   static const IconData hand = IconData(
     0xf256,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-paper for icon [hand]
@@ -10691,7 +10693,7 @@ class FontAwesome7 {
   static const IconData solidHandBackFist = IconData(
     0xf255,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-rock for icon [solidHandBackFist]
@@ -10705,7 +10707,7 @@ class FontAwesome7 {
   static const IconData handBackFist = IconData(
     0xf255,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-rock for icon [handBackFist]
@@ -10719,7 +10721,7 @@ class FontAwesome7 {
   static const IconData handDots = IconData(
     0xf461,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias allergies for icon [handDots]
@@ -10733,7 +10735,7 @@ class FontAwesome7 {
   static const IconData handFist = IconData(
     0xf6de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias fist-raised for icon [handFist]
@@ -10747,7 +10749,7 @@ class FontAwesome7 {
   static const IconData handHolding = IconData(
     0xf4bd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Holding Dollar icon
@@ -10757,7 +10759,7 @@ class FontAwesome7 {
   static const IconData handHoldingDollar = IconData(
     0xf4c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-holding-usd for icon [handHoldingDollar]
@@ -10771,7 +10773,7 @@ class FontAwesome7 {
   static const IconData handHoldingDroplet = IconData(
     0xf4c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hand-holding-water for icon [handHoldingDroplet]
@@ -10785,7 +10787,7 @@ class FontAwesome7 {
   static const IconData handHoldingHand = IconData(
     0xe4f7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Holding Heart icon
@@ -10795,7 +10797,7 @@ class FontAwesome7 {
   static const IconData handHoldingHeart = IconData(
     0xf4be,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Holding Medical icon
@@ -10805,7 +10807,7 @@ class FontAwesome7 {
   static const IconData handHoldingMedical = IconData(
     0xe05c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Lizard icon
@@ -10815,7 +10817,7 @@ class FontAwesome7 {
   static const IconData solidHandLizard = IconData(
     0xf258,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Lizard icon
@@ -10825,7 +10827,7 @@ class FontAwesome7 {
   static const IconData handLizard = IconData(
     0xf258,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Middle Finger icon
@@ -10835,7 +10837,7 @@ class FontAwesome7 {
   static const IconData handMiddleFinger = IconData(
     0xf806,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Peace icon
@@ -10845,7 +10847,7 @@ class FontAwesome7 {
   static const IconData solidHandPeace = IconData(
     0xf25b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Peace icon
@@ -10855,7 +10857,7 @@ class FontAwesome7 {
   static const IconData handPeace = IconData(
     0xf25b,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Point Down icon
@@ -10865,7 +10867,7 @@ class FontAwesome7 {
   static const IconData solidHandPointDown = IconData(
     0xf0a7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Point Down icon
@@ -10875,7 +10877,7 @@ class FontAwesome7 {
   static const IconData handPointDown = IconData(
     0xf0a7,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Point Left icon
@@ -10885,7 +10887,7 @@ class FontAwesome7 {
   static const IconData solidHandPointLeft = IconData(
     0xf0a5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Point Left icon
@@ -10895,7 +10897,7 @@ class FontAwesome7 {
   static const IconData handPointLeft = IconData(
     0xf0a5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Point Right icon
@@ -10905,7 +10907,7 @@ class FontAwesome7 {
   static const IconData solidHandPointRight = IconData(
     0xf0a4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Point Right icon
@@ -10915,7 +10917,7 @@ class FontAwesome7 {
   static const IconData handPointRight = IconData(
     0xf0a4,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Point Up icon
@@ -10925,7 +10927,7 @@ class FontAwesome7 {
   static const IconData solidHandPointUp = IconData(
     0xf0a6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Point Up icon
@@ -10935,7 +10937,7 @@ class FontAwesome7 {
   static const IconData handPointUp = IconData(
     0xf0a6,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Pointer icon
@@ -10945,7 +10947,7 @@ class FontAwesome7 {
   static const IconData solidHandPointer = IconData(
     0xf25a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Pointer icon
@@ -10955,7 +10957,7 @@ class FontAwesome7 {
   static const IconData handPointer = IconData(
     0xf25a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Scissors icon
@@ -10965,7 +10967,7 @@ class FontAwesome7 {
   static const IconData solidHandScissors = IconData(
     0xf257,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Scissors icon
@@ -10975,7 +10977,7 @@ class FontAwesome7 {
   static const IconData handScissors = IconData(
     0xf257,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Sparkles icon
@@ -10985,7 +10987,7 @@ class FontAwesome7 {
   static const IconData handSparkles = IconData(
     0xe05d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hand Spock icon
@@ -10995,7 +10997,7 @@ class FontAwesome7 {
   static const IconData solidHandSpock = IconData(
     0xf259,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Hand Spock icon
@@ -11005,7 +11007,7 @@ class FontAwesome7 {
   static const IconData handSpock = IconData(
     0xf259,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Handcuffs icon
@@ -11015,7 +11017,7 @@ class FontAwesome7 {
   static const IconData handcuffs = IconData(
     0xe4f8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands icon
@@ -11025,7 +11027,7 @@ class FontAwesome7 {
   static const IconData hands = IconData(
     0xf2a7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign-language for icon [hands]
@@ -11043,7 +11045,7 @@ class FontAwesome7 {
   static const IconData handsAslInterpreting = IconData(
     0xf2a3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias american-sign-language-interpreting for icon [handsAslInterpreting]
@@ -11065,7 +11067,7 @@ class FontAwesome7 {
   static const IconData handsBound = IconData(
     0xe4f9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands Bubbles icon
@@ -11075,7 +11077,7 @@ class FontAwesome7 {
   static const IconData handsBubbles = IconData(
     0xe05e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hands-wash for icon [handsBubbles]
@@ -11089,7 +11091,7 @@ class FontAwesome7 {
   static const IconData handsClapping = IconData(
     0xe1a8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands Holding icon
@@ -11099,7 +11101,7 @@ class FontAwesome7 {
   static const IconData handsHolding = IconData(
     0xf4c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands Holding Child icon
@@ -11109,7 +11111,7 @@ class FontAwesome7 {
   static const IconData handsHoldingChild = IconData(
     0xe4fa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands Holding Circle icon
@@ -11119,7 +11121,7 @@ class FontAwesome7 {
   static const IconData handsHoldingCircle = IconData(
     0xe4fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hands Praying icon
@@ -11129,7 +11131,7 @@ class FontAwesome7 {
   static const IconData handsPraying = IconData(
     0xf684,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias praying-hands for icon [handsPraying]
@@ -11143,7 +11145,7 @@ class FontAwesome7 {
   static const IconData solidHandshake = IconData(
     0xf2b5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias handshake-alt for icon [solidHandshake]
@@ -11161,7 +11163,7 @@ class FontAwesome7 {
   static const IconData handshake = IconData(
     0xf2b5,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias handshake-alt for icon [handshake]
@@ -11179,7 +11181,7 @@ class FontAwesome7 {
   static const IconData handshakeAngle = IconData(
     0xf4c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hands-helping for icon [handshakeAngle]
@@ -11193,7 +11195,7 @@ class FontAwesome7 {
   static const IconData handshakeSlash = IconData(
     0xe060,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias handshake-alt-slash for icon [handshakeSlash]
@@ -11211,7 +11213,7 @@ class FontAwesome7 {
   static const IconData hanukiah = IconData(
     0xf6e6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hard Drive icon
@@ -11221,7 +11223,7 @@ class FontAwesome7 {
   static const IconData solidHardDrive = IconData(
     0xf0a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hdd for icon [solidHardDrive]
@@ -11235,7 +11237,7 @@ class FontAwesome7 {
   static const IconData hardDrive = IconData(
     0xf0a0,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hdd for icon [hardDrive]
@@ -11249,7 +11251,7 @@ class FontAwesome7 {
   static const IconData hashnode = IconData(
     0xe499,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hashtag icon
@@ -11259,7 +11261,7 @@ class FontAwesome7 {
   static const IconData hashtag = IconData(
     0x23,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hat Cowboy icon
@@ -11269,7 +11271,7 @@ class FontAwesome7 {
   static const IconData hatCowboy = IconData(
     0xf8c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hat Cowboy Side icon
@@ -11279,7 +11281,7 @@ class FontAwesome7 {
   static const IconData hatCowboySide = IconData(
     0xf8c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hat Wizard icon
@@ -11289,7 +11291,7 @@ class FontAwesome7 {
   static const IconData hatWizard = IconData(
     0xf6e8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Head Side Cough icon
@@ -11299,7 +11301,7 @@ class FontAwesome7 {
   static const IconData headSideCough = IconData(
     0xe061,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Head Side Cough Slash icon
@@ -11309,7 +11311,7 @@ class FontAwesome7 {
   static const IconData headSideCoughSlash = IconData(
     0xe062,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Head Side Mask icon
@@ -11319,7 +11321,7 @@ class FontAwesome7 {
   static const IconData headSideMask = IconData(
     0xe063,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Head Side Virus icon
@@ -11329,7 +11331,7 @@ class FontAwesome7 {
   static const IconData headSideVirus = IconData(
     0xe064,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heading icon
@@ -11339,7 +11341,7 @@ class FontAwesome7 {
   static const IconData heading = IconData(
     0xf1dc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias header for icon [heading]
@@ -11353,7 +11355,7 @@ class FontAwesome7 {
   static const IconData solidHeadphones = IconData(
     0xf025,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias headphones-alt for icon [solidHeadphones]
@@ -11371,7 +11373,7 @@ class FontAwesome7 {
   static const IconData headphones = IconData(
     0xf025,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias headphones-alt for icon [headphones]
@@ -11389,7 +11391,7 @@ class FontAwesome7 {
   static const IconData headset = IconData(
     0xf590,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart icon
@@ -11399,7 +11401,7 @@ class FontAwesome7 {
   static const IconData solidHeart = IconData(
     0xf004,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Heart icon
@@ -11409,7 +11411,7 @@ class FontAwesome7 {
   static const IconData heart = IconData(
     0xf004,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Bolt icon
@@ -11419,7 +11421,7 @@ class FontAwesome7 {
   static const IconData heartCircleBolt = IconData(
     0xe4fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Check icon
@@ -11429,7 +11431,7 @@ class FontAwesome7 {
   static const IconData heartCircleCheck = IconData(
     0xe4fd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Exclamation icon
@@ -11439,7 +11441,7 @@ class FontAwesome7 {
   static const IconData heartCircleExclamation = IconData(
     0xe4fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Minus icon
@@ -11449,7 +11451,7 @@ class FontAwesome7 {
   static const IconData heartCircleMinus = IconData(
     0xe4ff,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Plus icon
@@ -11459,7 +11461,7 @@ class FontAwesome7 {
   static const IconData heartCirclePlus = IconData(
     0xe500,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Circle Xmark icon
@@ -11469,7 +11471,7 @@ class FontAwesome7 {
   static const IconData heartCircleXmark = IconData(
     0xe501,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Heart Crack icon
@@ -11479,7 +11481,7 @@ class FontAwesome7 {
   static const IconData heartCrack = IconData(
     0xf7a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias heart-broken for icon [heartCrack]
@@ -11493,7 +11495,7 @@ class FontAwesome7 {
   static const IconData heartPulse = IconData(
     0xf21e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias heartbeat for icon [heartPulse]
@@ -11507,7 +11509,7 @@ class FontAwesome7 {
   static const IconData helicopter = IconData(
     0xf533,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Helicopter Symbol icon
@@ -11517,7 +11519,7 @@ class FontAwesome7 {
   static const IconData helicopterSymbol = IconData(
     0xe502,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Helmet Safety icon
@@ -11527,7 +11529,7 @@ class FontAwesome7 {
   static const IconData helmetSafety = IconData(
     0xf807,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hard-hat for icon [helmetSafety]
@@ -11545,7 +11547,7 @@ class FontAwesome7 {
   static const IconData helmetUn = IconData(
     0xe503,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hexagon icon
@@ -11555,7 +11557,7 @@ class FontAwesome7 {
   static const IconData hexagon = IconData(
     0xf312,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hexagon Nodes icon
@@ -11565,7 +11567,7 @@ class FontAwesome7 {
   static const IconData hexagonNodes = IconData(
     0xe699,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hexagon Nodes Bolt icon
@@ -11575,7 +11577,7 @@ class FontAwesome7 {
   static const IconData hexagonNodesBolt = IconData(
     0xe69a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Highlighter icon
@@ -11585,7 +11587,7 @@ class FontAwesome7 {
   static const IconData highlighter = IconData(
     0xf591,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hill Avalanche icon
@@ -11595,7 +11597,7 @@ class FontAwesome7 {
   static const IconData hillAvalanche = IconData(
     0xe507,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hill Rockslide icon
@@ -11605,7 +11607,7 @@ class FontAwesome7 {
   static const IconData hillRockslide = IconData(
     0xe508,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hippo icon
@@ -11615,7 +11617,7 @@ class FontAwesome7 {
   static const IconData hippo = IconData(
     0xf6ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hips icon
@@ -11625,7 +11627,7 @@ class FontAwesome7 {
   static const IconData hips = IconData(
     0xf452,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hire A Helper icon
@@ -11635,7 +11637,7 @@ class FontAwesome7 {
   static const IconData hireAHelper = IconData(
     0xf3b0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hive icon
@@ -11645,7 +11647,7 @@ class FontAwesome7 {
   static const IconData hive = IconData(
     0xe07f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hockey Puck icon
@@ -11655,7 +11657,7 @@ class FontAwesome7 {
   static const IconData hockeyPuck = IconData(
     0xf453,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Holly Berry icon
@@ -11665,7 +11667,7 @@ class FontAwesome7 {
   static const IconData hollyBerry = IconData(
     0xf7aa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hooli icon
@@ -11675,7 +11677,7 @@ class FontAwesome7 {
   static const IconData hooli = IconData(
     0xf427,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hornbill icon
@@ -11685,7 +11687,7 @@ class FontAwesome7 {
   static const IconData hornbill = IconData(
     0xf592,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Horse icon
@@ -11695,7 +11697,7 @@ class FontAwesome7 {
   static const IconData horse = IconData(
     0xf6f0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Horse Head icon
@@ -11705,7 +11707,7 @@ class FontAwesome7 {
   static const IconData horseHead = IconData(
     0xf7ab,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hospital icon
@@ -11715,7 +11717,7 @@ class FontAwesome7 {
   static const IconData solidHospital = IconData(
     0xf0f8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hospital-alt for icon [solidHospital]
@@ -11733,7 +11735,7 @@ class FontAwesome7 {
   static const IconData hospital = IconData(
     0xf0f8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hospital-alt for icon [hospital]
@@ -11751,7 +11753,7 @@ class FontAwesome7 {
   static const IconData hospitalUser = IconData(
     0xf80d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hot Tub Person icon
@@ -11761,7 +11763,7 @@ class FontAwesome7 {
   static const IconData hotTubPerson = IconData(
     0xf593,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hot-tub for icon [hotTubPerson]
@@ -11775,7 +11777,7 @@ class FontAwesome7 {
   static const IconData hotdog = IconData(
     0xf80f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hotel icon
@@ -11785,7 +11787,7 @@ class FontAwesome7 {
   static const IconData hotel = IconData(
     0xf594,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hotjar icon
@@ -11795,7 +11797,7 @@ class FontAwesome7 {
   static const IconData hotjar = IconData(
     0xf3b1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hourglass icon
@@ -11805,7 +11807,7 @@ class FontAwesome7 {
   static const IconData solidHourglass = IconData(
     0xf254,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-empty for icon [solidHourglass]
@@ -11819,7 +11821,7 @@ class FontAwesome7 {
   static const IconData hourglass = IconData(
     0xf254,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-empty for icon [hourglass]
@@ -11833,7 +11835,7 @@ class FontAwesome7 {
   static const IconData hourglassEnd = IconData(
     0xf253,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-3 for icon [hourglassEnd]
@@ -11847,7 +11849,7 @@ class FontAwesome7 {
   static const IconData solidHourglassHalf = IconData(
     0xf252,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-2 for icon [solidHourglassHalf]
@@ -11861,7 +11863,7 @@ class FontAwesome7 {
   static const IconData hourglassHalf = IconData(
     0xf252,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-2 for icon [hourglassHalf]
@@ -11875,7 +11877,7 @@ class FontAwesome7 {
   static const IconData hourglassStart = IconData(
     0xf251,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hourglass-1 for icon [hourglassStart]
@@ -11889,7 +11891,7 @@ class FontAwesome7 {
   static const IconData solidHouse = IconData(
     0xf015,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias home for icon [solidHouse]
@@ -11911,7 +11913,7 @@ class FontAwesome7 {
   static const IconData house = IconData(
     0xf015,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias home for icon [house]
@@ -11933,7 +11935,7 @@ class FontAwesome7 {
   static const IconData houseChimney = IconData(
     0xe3af,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias home-lg for icon [houseChimney]
@@ -11947,7 +11949,7 @@ class FontAwesome7 {
   static const IconData houseChimneyCrack = IconData(
     0xf6f1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias house-damage for icon [houseChimneyCrack]
@@ -11961,7 +11963,7 @@ class FontAwesome7 {
   static const IconData houseChimneyMedical = IconData(
     0xf7f2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias clinic-medical for icon [houseChimneyMedical]
@@ -11975,7 +11977,7 @@ class FontAwesome7 {
   static const IconData houseChimneyUser = IconData(
     0xe065,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Chimney Window icon
@@ -11985,7 +11987,7 @@ class FontAwesome7 {
   static const IconData houseChimneyWindow = IconData(
     0xe00d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Circle Check icon
@@ -11995,7 +11997,7 @@ class FontAwesome7 {
   static const IconData houseCircleCheck = IconData(
     0xe509,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Circle Exclamation icon
@@ -12005,7 +12007,7 @@ class FontAwesome7 {
   static const IconData houseCircleExclamation = IconData(
     0xe50a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Circle Xmark icon
@@ -12015,7 +12017,7 @@ class FontAwesome7 {
   static const IconData houseCircleXmark = IconData(
     0xe50b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Crack icon
@@ -12025,7 +12027,7 @@ class FontAwesome7 {
   static const IconData houseCrack = IconData(
     0xe3b1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Fire icon
@@ -12035,7 +12037,7 @@ class FontAwesome7 {
   static const IconData houseFire = IconData(
     0xe50c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Flag icon
@@ -12045,7 +12047,7 @@ class FontAwesome7 {
   static const IconData houseFlag = IconData(
     0xe50d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Flood Water icon
@@ -12055,7 +12057,7 @@ class FontAwesome7 {
   static const IconData houseFloodWater = IconData(
     0xe50e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Flood Water Circle Arrow Right icon
@@ -12065,7 +12067,7 @@ class FontAwesome7 {
   static const IconData houseFloodWaterCircleArrowRight = IconData(
     0xe50f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Laptop icon
@@ -12075,7 +12077,7 @@ class FontAwesome7 {
   static const IconData houseLaptop = IconData(
     0xe066,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias laptop-house for icon [houseLaptop]
@@ -12089,7 +12091,7 @@ class FontAwesome7 {
   static const IconData houseLock = IconData(
     0xe510,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Medical icon
@@ -12099,7 +12101,7 @@ class FontAwesome7 {
   static const IconData houseMedical = IconData(
     0xe3b2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Medical Circle Check icon
@@ -12109,7 +12111,7 @@ class FontAwesome7 {
   static const IconData houseMedicalCircleCheck = IconData(
     0xe511,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Medical Circle Exclamation icon
@@ -12119,7 +12121,7 @@ class FontAwesome7 {
   static const IconData houseMedicalCircleExclamation = IconData(
     0xe512,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Medical Circle Xmark icon
@@ -12129,7 +12131,7 @@ class FontAwesome7 {
   static const IconData houseMedicalCircleXmark = IconData(
     0xe513,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Medical Flag icon
@@ -12139,7 +12141,7 @@ class FontAwesome7 {
   static const IconData houseMedicalFlag = IconData(
     0xe514,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Signal icon
@@ -12149,7 +12151,7 @@ class FontAwesome7 {
   static const IconData houseSignal = IconData(
     0xe012,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House Tsunami icon
@@ -12159,7 +12161,7 @@ class FontAwesome7 {
   static const IconData houseTsunami = IconData(
     0xe515,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid House User icon
@@ -12169,7 +12171,7 @@ class FontAwesome7 {
   static const IconData houseUser = IconData(
     0xe1b0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias home-user for icon [houseUser]
@@ -12183,7 +12185,7 @@ class FontAwesome7 {
   static const IconData houzz = IconData(
     0xf27c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hryvnia Sign icon
@@ -12193,7 +12195,7 @@ class FontAwesome7 {
   static const IconData hryvniaSign = IconData(
     0xf6f2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hryvnia for icon [hryvniaSign]
@@ -12207,7 +12209,7 @@ class FontAwesome7 {
   static const IconData html5 = IconData(
     0xf13b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hubspot icon
@@ -12217,7 +12219,7 @@ class FontAwesome7 {
   static const IconData hubspot = IconData(
     0xf3b2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Hugging Face icon
@@ -12226,7 +12228,7 @@ class FontAwesome7 {
   static const IconData huggingFace = IconData(
     0xe869,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Hurricane icon
@@ -12236,7 +12238,7 @@ class FontAwesome7 {
   static const IconData hurricane = IconData(
     0xf751,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid I icon
@@ -12246,7 +12248,7 @@ class FontAwesome7 {
   static const IconData i = IconData(
     0x49,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid I Cursor icon
@@ -12256,7 +12258,7 @@ class FontAwesome7 {
   static const IconData iCursor = IconData(
     0xf246,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ice Cream icon
@@ -12266,7 +12268,7 @@ class FontAwesome7 {
   static const IconData iceCream = IconData(
     0xf810,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Icicles icon
@@ -12276,7 +12278,7 @@ class FontAwesome7 {
   static const IconData icicles = IconData(
     0xf7ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Icons icon
@@ -12286,7 +12288,7 @@ class FontAwesome7 {
   static const IconData icons = IconData(
     0xf86d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias heart-music-camera-bolt for icon [icons]
@@ -12300,7 +12302,7 @@ class FontAwesome7 {
   static const IconData solidIdBadge = IconData(
     0xf2c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Id Badge icon
@@ -12310,7 +12312,7 @@ class FontAwesome7 {
   static const IconData idBadge = IconData(
     0xf2c1,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Id Card icon
@@ -12320,7 +12322,7 @@ class FontAwesome7 {
   static const IconData solidIdCard = IconData(
     0xf2c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias drivers-license for icon [solidIdCard]
@@ -12334,7 +12336,7 @@ class FontAwesome7 {
   static const IconData idCard = IconData(
     0xf2c2,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias drivers-license for icon [idCard]
@@ -12348,7 +12350,7 @@ class FontAwesome7 {
   static const IconData idCardClip = IconData(
     0xf47f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias id-card-alt for icon [idCardClip]
@@ -12362,7 +12364,7 @@ class FontAwesome7 {
   static const IconData ideal = IconData(
     0xe013,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Igloo icon
@@ -12372,7 +12374,7 @@ class FontAwesome7 {
   static const IconData igloo = IconData(
     0xf7ae,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Image icon
@@ -12382,7 +12384,7 @@ class FontAwesome7 {
   static const IconData solidImage = IconData(
     0xf03e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Image icon
@@ -12392,7 +12394,7 @@ class FontAwesome7 {
   static const IconData image = IconData(
     0xf03e,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Image Portrait icon
@@ -12402,7 +12404,7 @@ class FontAwesome7 {
   static const IconData imagePortrait = IconData(
     0xf3e0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias portrait for icon [imagePortrait]
@@ -12416,7 +12418,7 @@ class FontAwesome7 {
   static const IconData solidImages = IconData(
     0xf302,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Images icon
@@ -12426,7 +12428,7 @@ class FontAwesome7 {
   static const IconData images = IconData(
     0xf302,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Imdb icon
@@ -12436,7 +12438,7 @@ class FontAwesome7 {
   static const IconData imdb = IconData(
     0xf2d8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Inbox icon
@@ -12446,7 +12448,7 @@ class FontAwesome7 {
   static const IconData inbox = IconData(
     0xf01c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Indent icon
@@ -12456,7 +12458,7 @@ class FontAwesome7 {
   static const IconData indent = IconData(
     0xf03c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Indian Rupee Sign icon
@@ -12466,7 +12468,7 @@ class FontAwesome7 {
   static const IconData indianRupeeSign = IconData(
     0xe1bc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias indian-rupee for icon [indianRupeeSign]
@@ -12484,7 +12486,7 @@ class FontAwesome7 {
   static const IconData industry = IconData(
     0xf275,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Infinity icon
@@ -12494,7 +12496,7 @@ class FontAwesome7 {
   static const IconData infinity = IconData(
     0xf534,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Info icon
@@ -12504,7 +12506,7 @@ class FontAwesome7 {
   static const IconData info = IconData(
     0xf129,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Instagram icon
@@ -12514,7 +12516,7 @@ class FontAwesome7 {
   static const IconData instagram = IconData(
     0xf16d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Instalod icon
@@ -12524,7 +12526,7 @@ class FontAwesome7 {
   static const IconData instalod = IconData(
     0xe081,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Intercom icon
@@ -12534,7 +12536,7 @@ class FontAwesome7 {
   static const IconData intercom = IconData(
     0xf7af,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Internet Explorer icon
@@ -12544,7 +12546,7 @@ class FontAwesome7 {
   static const IconData internetExplorer = IconData(
     0xf26b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Invision icon
@@ -12554,7 +12556,7 @@ class FontAwesome7 {
   static const IconData invision = IconData(
     0xf7b0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ioxhost icon
@@ -12564,7 +12566,7 @@ class FontAwesome7 {
   static const IconData ioxhost = IconData(
     0xf208,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Italic icon
@@ -12574,7 +12576,7 @@ class FontAwesome7 {
   static const IconData italic = IconData(
     0xf033,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Itch Io icon
@@ -12584,7 +12586,7 @@ class FontAwesome7 {
   static const IconData itchIo = IconData(
     0xf83a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Itunes icon
@@ -12594,7 +12596,7 @@ class FontAwesome7 {
   static const IconData itunes = IconData(
     0xf3b4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Itunes Note icon
@@ -12604,7 +12606,7 @@ class FontAwesome7 {
   static const IconData itunesNote = IconData(
     0xf3b5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid J icon
@@ -12614,7 +12616,7 @@ class FontAwesome7 {
   static const IconData j = IconData(
     0x4a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Jar icon
@@ -12624,7 +12626,7 @@ class FontAwesome7 {
   static const IconData jar = IconData(
     0xe516,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Jar Wheat icon
@@ -12634,7 +12636,7 @@ class FontAwesome7 {
   static const IconData jarWheat = IconData(
     0xe517,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Java icon
@@ -12644,7 +12646,7 @@ class FontAwesome7 {
   static const IconData java = IconData(
     0xf4e4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Jedi icon
@@ -12654,7 +12656,7 @@ class FontAwesome7 {
   static const IconData jedi = IconData(
     0xf669,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Jedi Order icon
@@ -12664,7 +12666,7 @@ class FontAwesome7 {
   static const IconData jediOrder = IconData(
     0xf50e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Jenkins icon
@@ -12674,7 +12676,7 @@ class FontAwesome7 {
   static const IconData jenkins = IconData(
     0xf3b6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Jet Fighter icon
@@ -12684,7 +12686,7 @@ class FontAwesome7 {
   static const IconData jetFighter = IconData(
     0xf0fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias fighter-jet for icon [jetFighter]
@@ -12698,7 +12700,7 @@ class FontAwesome7 {
   static const IconData jetFighterUp = IconData(
     0xe518,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Jira icon
@@ -12708,7 +12710,7 @@ class FontAwesome7 {
   static const IconData jira = IconData(
     0xf7b1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Joget icon
@@ -12718,7 +12720,7 @@ class FontAwesome7 {
   static const IconData joget = IconData(
     0xf3b7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Joint icon
@@ -12728,7 +12730,7 @@ class FontAwesome7 {
   static const IconData joint = IconData(
     0xf595,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Joomla icon
@@ -12738,7 +12740,7 @@ class FontAwesome7 {
   static const IconData joomla = IconData(
     0xf1aa,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Js icon
@@ -12748,7 +12750,7 @@ class FontAwesome7 {
   static const IconData js = IconData(
     0xf3b8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Jsfiddle icon
@@ -12758,7 +12760,7 @@ class FontAwesome7 {
   static const IconData jsfiddle = IconData(
     0xf1cc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Jug Detergent icon
@@ -12768,7 +12770,7 @@ class FontAwesome7 {
   static const IconData jugDetergent = IconData(
     0xe519,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Julia icon
@@ -12777,7 +12779,7 @@ class FontAwesome7 {
   static const IconData julia = IconData(
     0xe852,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Jxl icon
@@ -12787,7 +12789,7 @@ class FontAwesome7 {
   static const IconData jxl = IconData(
     0xe67b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid K icon
@@ -12797,7 +12799,7 @@ class FontAwesome7 {
   static const IconData k = IconData(
     0x4b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Kaaba icon
@@ -12807,7 +12809,7 @@ class FontAwesome7 {
   static const IconData kaaba = IconData(
     0xf66b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Kaggle icon
@@ -12817,7 +12819,7 @@ class FontAwesome7 {
   static const IconData kaggle = IconData(
     0xf5fa,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Kakao Talk icon
@@ -12827,7 +12829,7 @@ class FontAwesome7 {
   static const IconData kakaoTalk = IconData(
     0xe7d7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Key icon
@@ -12837,7 +12839,7 @@ class FontAwesome7 {
   static const IconData key = IconData(
     0xf084,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Keybase icon
@@ -12847,7 +12849,7 @@ class FontAwesome7 {
   static const IconData keybase = IconData(
     0xf4f5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Keyboard icon
@@ -12857,7 +12859,7 @@ class FontAwesome7 {
   static const IconData solidKeyboard = IconData(
     0xf11c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Keyboard icon
@@ -12867,7 +12869,7 @@ class FontAwesome7 {
   static const IconData keyboard = IconData(
     0xf11c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Keycdn icon
@@ -12877,7 +12879,7 @@ class FontAwesome7 {
   static const IconData keycdn = IconData(
     0xf3ba,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Khanda icon
@@ -12887,7 +12889,7 @@ class FontAwesome7 {
   static const IconData khanda = IconData(
     0xf66d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Kickstarter icon
@@ -12897,7 +12899,7 @@ class FontAwesome7 {
   static const IconData kickstarter = IconData(
     0xf3bb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias square-kickstarter for icon [kickstarter]
@@ -12911,7 +12913,7 @@ class FontAwesome7 {
   static const IconData kickstarterK = IconData(
     0xf3bc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Kip Sign icon
@@ -12921,7 +12923,7 @@ class FontAwesome7 {
   static const IconData kipSign = IconData(
     0xe1c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Kit Medical icon
@@ -12931,7 +12933,7 @@ class FontAwesome7 {
   static const IconData kitMedical = IconData(
     0xf479,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias first-aid for icon [kitMedical]
@@ -12945,7 +12947,7 @@ class FontAwesome7 {
   static const IconData kitchenSet = IconData(
     0xe51a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Kiwi Bird icon
@@ -12955,7 +12957,7 @@ class FontAwesome7 {
   static const IconData kiwiBird = IconData(
     0xf535,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ko Fi icon
@@ -12964,7 +12966,7 @@ class FontAwesome7 {
   static const IconData koFi = IconData(
     0xe856,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Korvue icon
@@ -12974,7 +12976,7 @@ class FontAwesome7 {
   static const IconData korvue = IconData(
     0xf42f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Kubernetes icon
@@ -12983,7 +12985,7 @@ class FontAwesome7 {
   static const IconData kubernetes = IconData(
     0xe857,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid L icon
@@ -12993,7 +12995,7 @@ class FontAwesome7 {
   static const IconData l = IconData(
     0x4c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Land Mine On icon
@@ -13003,7 +13005,7 @@ class FontAwesome7 {
   static const IconData landMineOn = IconData(
     0xe51b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Landmark icon
@@ -13013,7 +13015,7 @@ class FontAwesome7 {
   static const IconData landmark = IconData(
     0xf66f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Landmark Dome icon
@@ -13023,7 +13025,7 @@ class FontAwesome7 {
   static const IconData landmarkDome = IconData(
     0xf752,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias landmark-alt for icon [landmarkDome]
@@ -13037,7 +13039,7 @@ class FontAwesome7 {
   static const IconData landmarkFlag = IconData(
     0xe51c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Language icon
@@ -13047,7 +13049,7 @@ class FontAwesome7 {
   static const IconData language = IconData(
     0xf1ab,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Laptop icon
@@ -13057,7 +13059,7 @@ class FontAwesome7 {
   static const IconData laptop = IconData(
     0xf109,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Laptop Code icon
@@ -13067,7 +13069,7 @@ class FontAwesome7 {
   static const IconData laptopCode = IconData(
     0xf5fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Laptop File icon
@@ -13077,7 +13079,7 @@ class FontAwesome7 {
   static const IconData laptopFile = IconData(
     0xe51d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Laptop Medical icon
@@ -13087,7 +13089,7 @@ class FontAwesome7 {
   static const IconData laptopMedical = IconData(
     0xf812,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Laravel icon
@@ -13097,7 +13099,7 @@ class FontAwesome7 {
   static const IconData laravel = IconData(
     0xf3bd,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lari Sign icon
@@ -13107,7 +13109,7 @@ class FontAwesome7 {
   static const IconData lariSign = IconData(
     0xe1c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Lastfm icon
@@ -13117,7 +13119,7 @@ class FontAwesome7 {
   static const IconData lastfm = IconData(
     0xf202,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Layer Group icon
@@ -13127,7 +13129,7 @@ class FontAwesome7 {
   static const IconData layerGroup = IconData(
     0xf5fd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Leaf icon
@@ -13137,7 +13139,7 @@ class FontAwesome7 {
   static const IconData leaf = IconData(
     0xf06c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Leanpub icon
@@ -13147,7 +13149,7 @@ class FontAwesome7 {
   static const IconData leanpub = IconData(
     0xf212,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Leetcode icon
@@ -13156,7 +13158,7 @@ class FontAwesome7 {
   static const IconData leetcode = IconData(
     0xe86a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Left Long icon
@@ -13166,7 +13168,7 @@ class FontAwesome7 {
   static const IconData leftLong = IconData(
     0xf30a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-alt-left for icon [leftLong]
@@ -13180,7 +13182,7 @@ class FontAwesome7 {
   static const IconData leftRight = IconData(
     0xf337,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows-alt-h for icon [leftRight]
@@ -13194,7 +13196,7 @@ class FontAwesome7 {
   static const IconData solidLemon = IconData(
     0xf094,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Lemon icon
@@ -13204,7 +13206,7 @@ class FontAwesome7 {
   static const IconData lemon = IconData(
     0xf094,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Leo icon
@@ -13214,7 +13216,7 @@ class FontAwesome7 {
   static const IconData leo = IconData(
     0xe84a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Less icon
@@ -13224,7 +13226,7 @@ class FontAwesome7 {
   static const IconData less = IconData(
     0xf41d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Less Than icon
@@ -13234,7 +13236,7 @@ class FontAwesome7 {
   static const IconData lessThan = IconData(
     0x3c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Less Than Equal icon
@@ -13244,7 +13246,7 @@ class FontAwesome7 {
   static const IconData lessThanEqual = IconData(
     0xf537,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Letterboxd icon
@@ -13254,7 +13256,7 @@ class FontAwesome7 {
   static const IconData letterboxd = IconData(
     0xe62d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Libra icon
@@ -13264,7 +13266,7 @@ class FontAwesome7 {
   static const IconData libra = IconData(
     0xe84b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Life Ring icon
@@ -13274,7 +13276,7 @@ class FontAwesome7 {
   static const IconData solidLifeRing = IconData(
     0xf1cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Life Ring icon
@@ -13284,7 +13286,7 @@ class FontAwesome7 {
   static const IconData lifeRing = IconData(
     0xf1cd,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lightbulb icon
@@ -13294,7 +13296,7 @@ class FontAwesome7 {
   static const IconData solidLightbulb = IconData(
     0xf0eb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Lightbulb icon
@@ -13304,7 +13306,7 @@ class FontAwesome7 {
   static const IconData lightbulb = IconData(
     0xf0eb,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Line icon
@@ -13314,7 +13316,7 @@ class FontAwesome7 {
   static const IconData line = IconData(
     0xf3c0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lines Leaning icon
@@ -13324,7 +13326,7 @@ class FontAwesome7 {
   static const IconData linesLeaning = IconData(
     0xe51e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Link icon
@@ -13334,7 +13336,7 @@ class FontAwesome7 {
   static const IconData link = IconData(
     0xf0c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chain for icon [link]
@@ -13348,7 +13350,7 @@ class FontAwesome7 {
   static const IconData linkSlash = IconData(
     0xf127,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias chain-broken for icon [linkSlash]
@@ -13370,7 +13372,7 @@ class FontAwesome7 {
   static const IconData linkedin = IconData(
     0xf08c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Linkedin In icon
@@ -13380,7 +13382,7 @@ class FontAwesome7 {
   static const IconData linkedinIn = IconData(
     0xf0e1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Linktree icon
@@ -13390,7 +13392,7 @@ class FontAwesome7 {
   static const IconData linktree = IconData(
     0xe7d8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Linode icon
@@ -13400,7 +13402,7 @@ class FontAwesome7 {
   static const IconData linode = IconData(
     0xf2b8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Linux icon
@@ -13410,7 +13412,7 @@ class FontAwesome7 {
   static const IconData linux = IconData(
     0xf17c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lira Sign icon
@@ -13420,7 +13422,7 @@ class FontAwesome7 {
   static const IconData liraSign = IconData(
     0xf195,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid List icon
@@ -13430,7 +13432,7 @@ class FontAwesome7 {
   static const IconData list = IconData(
     0xf03a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias list-squares for icon [list]
@@ -13444,7 +13446,7 @@ class FontAwesome7 {
   static const IconData listCheck = IconData(
     0xf0ae,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tasks for icon [listCheck]
@@ -13458,7 +13460,7 @@ class FontAwesome7 {
   static const IconData listOl = IconData(
     0xf0cb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias list-1-2 for icon [listOl]
@@ -13476,7 +13478,7 @@ class FontAwesome7 {
   static const IconData listUl = IconData(
     0xf0ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias list-dots for icon [listUl]
@@ -13490,7 +13492,7 @@ class FontAwesome7 {
   static const IconData litecoinSign = IconData(
     0xe1d3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Location Arrow icon
@@ -13500,7 +13502,7 @@ class FontAwesome7 {
   static const IconData locationArrow = IconData(
     0xf124,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Location Crosshairs icon
@@ -13510,7 +13512,7 @@ class FontAwesome7 {
   static const IconData locationCrosshairs = IconData(
     0xf601,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias location for icon [locationCrosshairs]
@@ -13524,7 +13526,7 @@ class FontAwesome7 {
   static const IconData locationDot = IconData(
     0xf3c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias map-marker-alt for icon [locationDot]
@@ -13538,7 +13540,7 @@ class FontAwesome7 {
   static const IconData locationPin = IconData(
     0xf041,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias map-marker for icon [locationPin]
@@ -13552,7 +13554,7 @@ class FontAwesome7 {
   static const IconData locationPinLock = IconData(
     0xe51f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lock icon
@@ -13562,7 +13564,7 @@ class FontAwesome7 {
   static const IconData lock = IconData(
     0xf023,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lock Open icon
@@ -13572,7 +13574,7 @@ class FontAwesome7 {
   static const IconData lockOpen = IconData(
     0xf3c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Locust icon
@@ -13582,7 +13584,7 @@ class FontAwesome7 {
   static const IconData locust = IconData(
     0xe520,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Lumon icon
@@ -13592,7 +13594,7 @@ class FontAwesome7 {
   static const IconData lumon = IconData(
     0xe7e2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Lumon Drop icon
@@ -13602,7 +13604,7 @@ class FontAwesome7 {
   static const IconData lumonDrop = IconData(
     0xe7e3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lungs icon
@@ -13612,7 +13614,7 @@ class FontAwesome7 {
   static const IconData lungs = IconData(
     0xf604,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Lungs Virus icon
@@ -13622,7 +13624,7 @@ class FontAwesome7 {
   static const IconData lungsVirus = IconData(
     0xe067,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Lyft icon
@@ -13632,7 +13634,7 @@ class FontAwesome7 {
   static const IconData lyft = IconData(
     0xf3c3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid M icon
@@ -13642,7 +13644,7 @@ class FontAwesome7 {
   static const IconData m = IconData(
     0x4d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Magento icon
@@ -13652,7 +13654,7 @@ class FontAwesome7 {
   static const IconData magento = IconData(
     0xf3c4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Magnet icon
@@ -13662,7 +13664,7 @@ class FontAwesome7 {
   static const IconData magnet = IconData(
     0xf076,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Magnifying Glass icon
@@ -13672,7 +13674,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlass = IconData(
     0xf002,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias search for icon [magnifyingGlass]
@@ -13686,7 +13688,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassArrowRight = IconData(
     0xe521,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Magnifying Glass Chart icon
@@ -13696,7 +13698,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassChart = IconData(
     0xe522,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Magnifying Glass Dollar icon
@@ -13706,7 +13708,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassDollar = IconData(
     0xf688,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias search-dollar for icon [magnifyingGlassDollar]
@@ -13720,7 +13722,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassLocation = IconData(
     0xf689,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias search-location for icon [magnifyingGlassLocation]
@@ -13734,7 +13736,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassMinus = IconData(
     0xf010,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias search-minus for icon [magnifyingGlassMinus]
@@ -13748,7 +13750,7 @@ class FontAwesome7 {
   static const IconData magnifyingGlassPlus = IconData(
     0xf00e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias search-plus for icon [magnifyingGlassPlus]
@@ -13762,7 +13764,7 @@ class FontAwesome7 {
   static const IconData mailchimp = IconData(
     0xf59e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Manat Sign icon
@@ -13772,7 +13774,7 @@ class FontAwesome7 {
   static const IconData manatSign = IconData(
     0xe1d5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mandalorian icon
@@ -13782,7 +13784,7 @@ class FontAwesome7 {
   static const IconData mandalorian = IconData(
     0xf50f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Map icon
@@ -13792,7 +13794,7 @@ class FontAwesome7 {
   static const IconData solidMap = IconData(
     0xf279,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Map icon
@@ -13802,7 +13804,7 @@ class FontAwesome7 {
   static const IconData map = IconData(
     0xf279,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Map Location icon
@@ -13812,7 +13814,7 @@ class FontAwesome7 {
   static const IconData mapLocation = IconData(
     0xf59f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias map-marked for icon [mapLocation]
@@ -13826,7 +13828,7 @@ class FontAwesome7 {
   static const IconData mapLocationDot = IconData(
     0xf5a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias map-marked-alt for icon [mapLocationDot]
@@ -13840,7 +13842,7 @@ class FontAwesome7 {
   static const IconData mapPin = IconData(
     0xf276,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Markdown icon
@@ -13850,7 +13852,7 @@ class FontAwesome7 {
   static const IconData markdown = IconData(
     0xf60f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Marker icon
@@ -13860,7 +13862,7 @@ class FontAwesome7 {
   static const IconData marker = IconData(
     0xf5a1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars icon
@@ -13870,7 +13872,7 @@ class FontAwesome7 {
   static const IconData mars = IconData(
     0xf222,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars And Venus icon
@@ -13880,7 +13882,7 @@ class FontAwesome7 {
   static const IconData marsAndVenus = IconData(
     0xf224,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars And Venus Burst icon
@@ -13890,7 +13892,7 @@ class FontAwesome7 {
   static const IconData marsAndVenusBurst = IconData(
     0xe523,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars Double icon
@@ -13900,7 +13902,7 @@ class FontAwesome7 {
   static const IconData marsDouble = IconData(
     0xf227,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars Stroke icon
@@ -13910,7 +13912,7 @@ class FontAwesome7 {
   static const IconData marsStroke = IconData(
     0xf229,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mars Stroke Right icon
@@ -13920,7 +13922,7 @@ class FontAwesome7 {
   static const IconData marsStrokeRight = IconData(
     0xf22b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mars-stroke-h for icon [marsStrokeRight]
@@ -13934,7 +13936,7 @@ class FontAwesome7 {
   static const IconData marsStrokeUp = IconData(
     0xf22a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mars-stroke-v for icon [marsStrokeUp]
@@ -13948,7 +13950,7 @@ class FontAwesome7 {
   static const IconData martiniGlass = IconData(
     0xf57b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias glass-martini-alt for icon [martiniGlass]
@@ -13962,7 +13964,7 @@ class FontAwesome7 {
   static const IconData martiniGlassCitrus = IconData(
     0xf561,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cocktail for icon [martiniGlassCitrus]
@@ -13976,7 +13978,7 @@ class FontAwesome7 {
   static const IconData martiniGlassEmpty = IconData(
     0xf000,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias glass-martini for icon [martiniGlassEmpty]
@@ -13990,7 +13992,7 @@ class FontAwesome7 {
   static const IconData mask = IconData(
     0xf6fa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mask Face icon
@@ -14000,7 +14002,7 @@ class FontAwesome7 {
   static const IconData maskFace = IconData(
     0xe1d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mask Ventilator icon
@@ -14010,7 +14012,7 @@ class FontAwesome7 {
   static const IconData maskVentilator = IconData(
     0xe524,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Masks Theater icon
@@ -14020,7 +14022,7 @@ class FontAwesome7 {
   static const IconData masksTheater = IconData(
     0xf630,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias theater-masks for icon [masksTheater]
@@ -14034,7 +14036,7 @@ class FontAwesome7 {
   static const IconData mastodon = IconData(
     0xf4f6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mattress Pillow icon
@@ -14044,7 +14046,7 @@ class FontAwesome7 {
   static const IconData mattressPillow = IconData(
     0xe525,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Maxcdn icon
@@ -14054,7 +14056,7 @@ class FontAwesome7 {
   static const IconData maxcdn = IconData(
     0xf136,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Maximize icon
@@ -14064,7 +14066,7 @@ class FontAwesome7 {
   static const IconData maximize = IconData(
     0xf31e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias expand-arrows-alt for icon [maximize]
@@ -14078,7 +14080,7 @@ class FontAwesome7 {
   static const IconData mdb = IconData(
     0xf8ca,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Medal icon
@@ -14088,7 +14090,7 @@ class FontAwesome7 {
   static const IconData medal = IconData(
     0xf5a2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Medapps icon
@@ -14098,7 +14100,7 @@ class FontAwesome7 {
   static const IconData medapps = IconData(
     0xf3c6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Medium icon
@@ -14108,7 +14110,7 @@ class FontAwesome7 {
   static const IconData medium = IconData(
     0xf23a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias medium-m for icon [medium]
@@ -14122,7 +14124,7 @@ class FontAwesome7 {
   static const IconData medrt = IconData(
     0xf3c8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Meetup icon
@@ -14132,7 +14134,7 @@ class FontAwesome7 {
   static const IconData meetup = IconData(
     0xf2e0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Megaport icon
@@ -14142,7 +14144,7 @@ class FontAwesome7 {
   static const IconData megaport = IconData(
     0xf5a3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Memory icon
@@ -14152,7 +14154,7 @@ class FontAwesome7 {
   static const IconData memory = IconData(
     0xf538,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mendeley icon
@@ -14162,7 +14164,7 @@ class FontAwesome7 {
   static const IconData mendeley = IconData(
     0xf7b3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Menorah icon
@@ -14172,7 +14174,7 @@ class FontAwesome7 {
   static const IconData menorah = IconData(
     0xf676,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mercury icon
@@ -14182,7 +14184,7 @@ class FontAwesome7 {
   static const IconData mercury = IconData(
     0xf223,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Message icon
@@ -14192,7 +14194,7 @@ class FontAwesome7 {
   static const IconData solidMessage = IconData(
     0xf27a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias comment-alt for icon [solidMessage]
@@ -14206,7 +14208,7 @@ class FontAwesome7 {
   static const IconData message = IconData(
     0xf27a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias comment-alt for icon [message]
@@ -14220,7 +14222,7 @@ class FontAwesome7 {
   static const IconData meta = IconData(
     0xe49b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Meteor icon
@@ -14230,7 +14232,7 @@ class FontAwesome7 {
   static const IconData meteor = IconData(
     0xf753,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Microblog icon
@@ -14240,7 +14242,7 @@ class FontAwesome7 {
   static const IconData microblog = IconData(
     0xe01a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Microchip icon
@@ -14250,7 +14252,7 @@ class FontAwesome7 {
   static const IconData microchip = IconData(
     0xf2db,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Microphone icon
@@ -14260,7 +14262,7 @@ class FontAwesome7 {
   static const IconData microphone = IconData(
     0xf130,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Microphone Lines icon
@@ -14270,7 +14272,7 @@ class FontAwesome7 {
   static const IconData microphoneLines = IconData(
     0xf3c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias microphone-alt for icon [microphoneLines]
@@ -14284,7 +14286,7 @@ class FontAwesome7 {
   static const IconData microphoneLinesSlash = IconData(
     0xf539,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias microphone-alt-slash for icon [microphoneLinesSlash]
@@ -14298,7 +14300,7 @@ class FontAwesome7 {
   static const IconData microphoneSlash = IconData(
     0xf131,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Microscope icon
@@ -14308,7 +14310,7 @@ class FontAwesome7 {
   static const IconData microscope = IconData(
     0xf610,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Microsoft icon
@@ -14318,7 +14320,7 @@ class FontAwesome7 {
   static const IconData microsoft = IconData(
     0xf3ca,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mill Sign icon
@@ -14328,7 +14330,7 @@ class FontAwesome7 {
   static const IconData millSign = IconData(
     0xe1ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Minimize icon
@@ -14338,7 +14340,7 @@ class FontAwesome7 {
   static const IconData minimize = IconData(
     0xf78c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias compress-arrows-alt for icon [minimize]
@@ -14352,7 +14354,7 @@ class FontAwesome7 {
   static const IconData mintbit = IconData(
     0xe62f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Minus icon
@@ -14362,7 +14364,7 @@ class FontAwesome7 {
   static const IconData minus = IconData(
     0xf068,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias subtract for icon [minus]
@@ -14376,7 +14378,7 @@ class FontAwesome7 {
   static const IconData mitten = IconData(
     0xf7b5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mix icon
@@ -14386,7 +14388,7 @@ class FontAwesome7 {
   static const IconData mix = IconData(
     0xf3cb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mixcloud icon
@@ -14396,7 +14398,7 @@ class FontAwesome7 {
   static const IconData mixcloud = IconData(
     0xf289,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mixer icon
@@ -14406,7 +14408,7 @@ class FontAwesome7 {
   static const IconData mixer = IconData(
     0xe056,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Mizuni icon
@@ -14416,7 +14418,7 @@ class FontAwesome7 {
   static const IconData mizuni = IconData(
     0xf3cc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mobile icon
@@ -14426,7 +14428,7 @@ class FontAwesome7 {
   static const IconData mobile = IconData(
     0xf3ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mobile-android for icon [mobile]
@@ -14444,7 +14446,7 @@ class FontAwesome7 {
   static const IconData mobileButton = IconData(
     0xf10b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mobile Retro icon
@@ -14454,7 +14456,7 @@ class FontAwesome7 {
   static const IconData mobileRetro = IconData(
     0xe527,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mobile Screen icon
@@ -14464,7 +14466,7 @@ class FontAwesome7 {
   static const IconData mobileScreen = IconData(
     0xf3cf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mobile-android-alt for icon [mobileScreen]
@@ -14478,7 +14480,7 @@ class FontAwesome7 {
   static const IconData mobileScreenButton = IconData(
     0xf3cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mobile-alt for icon [mobileScreenButton]
@@ -14492,7 +14494,7 @@ class FontAwesome7 {
   static const IconData mobileVibrate = IconData(
     0xe816,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Modx icon
@@ -14502,7 +14504,7 @@ class FontAwesome7 {
   static const IconData modx = IconData(
     0xf285,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Monero icon
@@ -14512,7 +14514,7 @@ class FontAwesome7 {
   static const IconData monero = IconData(
     0xf3d0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bill icon
@@ -14522,7 +14524,7 @@ class FontAwesome7 {
   static const IconData moneyBill = IconData(
     0xf0d6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bill 1 icon
@@ -14532,7 +14534,7 @@ class FontAwesome7 {
   static const IconData solidMoneyBill1 = IconData(
     0xf3d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias money-bill-alt for icon [solidMoneyBill1]
@@ -14546,7 +14548,7 @@ class FontAwesome7 {
   static const IconData moneyBill1 = IconData(
     0xf3d1,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias money-bill-alt for icon [moneyBill1]
@@ -14560,7 +14562,7 @@ class FontAwesome7 {
   static const IconData moneyBill1Wave = IconData(
     0xf53b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias money-bill-wave-alt for icon [moneyBill1Wave]
@@ -14574,7 +14576,7 @@ class FontAwesome7 {
   static const IconData moneyBillTransfer = IconData(
     0xe528,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bill Trend Up icon
@@ -14584,7 +14586,7 @@ class FontAwesome7 {
   static const IconData moneyBillTrendUp = IconData(
     0xe529,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bill Wave icon
@@ -14594,7 +14596,7 @@ class FontAwesome7 {
   static const IconData moneyBillWave = IconData(
     0xf53a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bill Wheat icon
@@ -14604,7 +14606,7 @@ class FontAwesome7 {
   static const IconData moneyBillWheat = IconData(
     0xe52a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Bills icon
@@ -14614,7 +14616,7 @@ class FontAwesome7 {
   static const IconData moneyBills = IconData(
     0xe1f3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Check icon
@@ -14624,7 +14626,7 @@ class FontAwesome7 {
   static const IconData moneyCheck = IconData(
     0xf53c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Money Check Dollar icon
@@ -14634,7 +14636,7 @@ class FontAwesome7 {
   static const IconData moneyCheckDollar = IconData(
     0xf53d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias money-check-alt for icon [moneyCheckDollar]
@@ -14648,7 +14650,7 @@ class FontAwesome7 {
   static const IconData monument = IconData(
     0xf5a6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Moon icon
@@ -14658,7 +14660,7 @@ class FontAwesome7 {
   static const IconData solidMoon = IconData(
     0xf186,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Moon icon
@@ -14668,7 +14670,7 @@ class FontAwesome7 {
   static const IconData moon = IconData(
     0xf186,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mortar Pestle icon
@@ -14678,7 +14680,7 @@ class FontAwesome7 {
   static const IconData mortarPestle = IconData(
     0xf5a7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mosque icon
@@ -14688,7 +14690,7 @@ class FontAwesome7 {
   static const IconData mosque = IconData(
     0xf678,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mosquito icon
@@ -14698,7 +14700,7 @@ class FontAwesome7 {
   static const IconData mosquito = IconData(
     0xe52b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mosquito Net icon
@@ -14708,7 +14710,7 @@ class FontAwesome7 {
   static const IconData mosquitoNet = IconData(
     0xe52c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Motorcycle icon
@@ -14718,7 +14720,7 @@ class FontAwesome7 {
   static const IconData motorcycle = IconData(
     0xf21c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mound icon
@@ -14728,7 +14730,7 @@ class FontAwesome7 {
   static const IconData mound = IconData(
     0xe52d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mountain icon
@@ -14738,7 +14740,7 @@ class FontAwesome7 {
   static const IconData mountain = IconData(
     0xf6fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mountain City icon
@@ -14748,7 +14750,7 @@ class FontAwesome7 {
   static const IconData mountainCity = IconData(
     0xe52e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mountain Sun icon
@@ -14758,7 +14760,7 @@ class FontAwesome7 {
   static const IconData mountainSun = IconData(
     0xe52f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mug Hot icon
@@ -14768,7 +14770,7 @@ class FontAwesome7 {
   static const IconData mugHot = IconData(
     0xf7b6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Mug Saucer icon
@@ -14778,7 +14780,7 @@ class FontAwesome7 {
   static const IconData mugSaucer = IconData(
     0xf0f4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias coffee for icon [mugSaucer]
@@ -14792,7 +14794,7 @@ class FontAwesome7 {
   static const IconData music = IconData(
     0xf001,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid N icon
@@ -14802,7 +14804,7 @@ class FontAwesome7 {
   static const IconData n = IconData(
     0x4e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Naira Sign icon
@@ -14812,7 +14814,7 @@ class FontAwesome7 {
   static const IconData nairaSign = IconData(
     0xe1f6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Napster icon
@@ -14822,7 +14824,7 @@ class FontAwesome7 {
   static const IconData napster = IconData(
     0xf3d2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Neos icon
@@ -14832,7 +14834,7 @@ class FontAwesome7 {
   static const IconData neos = IconData(
     0xf612,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Network Wired icon
@@ -14842,7 +14844,7 @@ class FontAwesome7 {
   static const IconData networkWired = IconData(
     0xf6ff,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Neuter icon
@@ -14852,7 +14854,7 @@ class FontAwesome7 {
   static const IconData neuter = IconData(
     0xf22c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Newspaper icon
@@ -14862,7 +14864,7 @@ class FontAwesome7 {
   static const IconData solidNewspaper = IconData(
     0xf1ea,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Newspaper icon
@@ -14872,7 +14874,7 @@ class FontAwesome7 {
   static const IconData newspaper = IconData(
     0xf1ea,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Nfc Directional icon
@@ -14882,7 +14884,7 @@ class FontAwesome7 {
   static const IconData nfcDirectional = IconData(
     0xe530,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Nfc Symbol icon
@@ -14892,7 +14894,7 @@ class FontAwesome7 {
   static const IconData nfcSymbol = IconData(
     0xe531,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Nimblr icon
@@ -14902,7 +14904,7 @@ class FontAwesome7 {
   static const IconData nimblr = IconData(
     0xf5a8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Node icon
@@ -14912,7 +14914,7 @@ class FontAwesome7 {
   static const IconData node = IconData(
     0xf419,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Node Js icon
@@ -14922,7 +14924,7 @@ class FontAwesome7 {
   static const IconData nodeJs = IconData(
     0xf3d3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Non Binary icon
@@ -14932,7 +14934,7 @@ class FontAwesome7 {
   static const IconData nonBinary = IconData(
     0xe807,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Not Equal icon
@@ -14942,7 +14944,7 @@ class FontAwesome7 {
   static const IconData notEqual = IconData(
     0xf53e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Notdef icon
@@ -14952,7 +14954,7 @@ class FontAwesome7 {
   static const IconData notdef = IconData(
     0xe1fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Note Sticky icon
@@ -14962,7 +14964,7 @@ class FontAwesome7 {
   static const IconData solidNoteSticky = IconData(
     0xf249,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sticky-note for icon [solidNoteSticky]
@@ -14976,7 +14978,7 @@ class FontAwesome7 {
   static const IconData noteSticky = IconData(
     0xf249,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sticky-note for icon [noteSticky]
@@ -14990,7 +14992,7 @@ class FontAwesome7 {
   static const IconData notesMedical = IconData(
     0xf481,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Notion icon
@@ -15000,7 +15002,7 @@ class FontAwesome7 {
   static const IconData notion = IconData(
     0xe7d9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Npm icon
@@ -15010,7 +15012,7 @@ class FontAwesome7 {
   static const IconData npm = IconData(
     0xf3d4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ns8 icon
@@ -15020,7 +15022,7 @@ class FontAwesome7 {
   static const IconData ns8 = IconData(
     0xf3d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Nutritionix icon
@@ -15030,7 +15032,7 @@ class FontAwesome7 {
   static const IconData nutritionix = IconData(
     0xf3d6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid O icon
@@ -15040,7 +15042,7 @@ class FontAwesome7 {
   static const IconData o = IconData(
     0x4f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Object Group icon
@@ -15050,7 +15052,7 @@ class FontAwesome7 {
   static const IconData solidObjectGroup = IconData(
     0xf247,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Object Group icon
@@ -15060,7 +15062,7 @@ class FontAwesome7 {
   static const IconData objectGroup = IconData(
     0xf247,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Object Ungroup icon
@@ -15070,7 +15072,7 @@ class FontAwesome7 {
   static const IconData solidObjectUngroup = IconData(
     0xf248,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Object Ungroup icon
@@ -15080,7 +15082,7 @@ class FontAwesome7 {
   static const IconData objectUngroup = IconData(
     0xf248,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Obsidian icon
@@ -15089,7 +15091,7 @@ class FontAwesome7 {
   static const IconData obsidian = IconData(
     0xe879,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Octagon icon
@@ -15099,7 +15101,7 @@ class FontAwesome7 {
   static const IconData octagon = IconData(
     0xf306,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Octopus Deploy icon
@@ -15109,7 +15111,7 @@ class FontAwesome7 {
   static const IconData octopusDeploy = IconData(
     0xe082,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Odnoklassniki icon
@@ -15119,7 +15121,7 @@ class FontAwesome7 {
   static const IconData odnoklassniki = IconData(
     0xf263,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Odysee icon
@@ -15129,7 +15131,7 @@ class FontAwesome7 {
   static const IconData odysee = IconData(
     0xe5c6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Oil Can icon
@@ -15139,7 +15141,7 @@ class FontAwesome7 {
   static const IconData oilCan = IconData(
     0xf613,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Oil Well icon
@@ -15149,7 +15151,7 @@ class FontAwesome7 {
   static const IconData oilWell = IconData(
     0xe532,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Old Republic icon
@@ -15159,7 +15161,7 @@ class FontAwesome7 {
   static const IconData oldRepublic = IconData(
     0xf510,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Om icon
@@ -15169,7 +15171,7 @@ class FontAwesome7 {
   static const IconData om = IconData(
     0xf679,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Openai icon
@@ -15179,7 +15181,7 @@ class FontAwesome7 {
   static const IconData openai = IconData(
     0xe7cf,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Opencart icon
@@ -15189,7 +15191,7 @@ class FontAwesome7 {
   static const IconData opencart = IconData(
     0xf23d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Openid icon
@@ -15199,7 +15201,7 @@ class FontAwesome7 {
   static const IconData openid = IconData(
     0xf19b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Openstreetmap icon
@@ -15208,7 +15210,7 @@ class FontAwesome7 {
   static const IconData openstreetmap = IconData(
     0xe86b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Opensuse icon
@@ -15218,7 +15220,7 @@ class FontAwesome7 {
   static const IconData opensuse = IconData(
     0xe62b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Opera icon
@@ -15228,7 +15230,7 @@ class FontAwesome7 {
   static const IconData opera = IconData(
     0xf26a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Optin Monster icon
@@ -15238,7 +15240,7 @@ class FontAwesome7 {
   static const IconData optinMonster = IconData(
     0xf23c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Orcid icon
@@ -15248,7 +15250,7 @@ class FontAwesome7 {
   static const IconData orcid = IconData(
     0xf8d2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Osi icon
@@ -15258,7 +15260,7 @@ class FontAwesome7 {
   static const IconData osi = IconData(
     0xf41a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Otter icon
@@ -15268,7 +15270,7 @@ class FontAwesome7 {
   static const IconData otter = IconData(
     0xf700,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Outdent icon
@@ -15278,7 +15280,7 @@ class FontAwesome7 {
   static const IconData outdent = IconData(
     0xf03b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dedent for icon [outdent]
@@ -15292,7 +15294,7 @@ class FontAwesome7 {
   static const IconData p = IconData(
     0x50,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Padlet icon
@@ -15302,7 +15304,7 @@ class FontAwesome7 {
   static const IconData padlet = IconData(
     0xe4a0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Page4 icon
@@ -15312,7 +15314,7 @@ class FontAwesome7 {
   static const IconData page4 = IconData(
     0xf3d7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pagelines icon
@@ -15322,7 +15324,7 @@ class FontAwesome7 {
   static const IconData pagelines = IconData(
     0xf18c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pager icon
@@ -15332,7 +15334,7 @@ class FontAwesome7 {
   static const IconData pager = IconData(
     0xf815,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paint Roller icon
@@ -15342,7 +15344,7 @@ class FontAwesome7 {
   static const IconData paintRoller = IconData(
     0xf5aa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paintbrush icon
@@ -15352,7 +15354,7 @@ class FontAwesome7 {
   static const IconData paintbrush = IconData(
     0xf1fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias paint-brush for icon [paintbrush]
@@ -15366,7 +15368,7 @@ class FontAwesome7 {
   static const IconData palette = IconData(
     0xf53f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Palfed icon
@@ -15376,7 +15378,7 @@ class FontAwesome7 {
   static const IconData palfed = IconData(
     0xf3d8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pallet icon
@@ -15386,7 +15388,7 @@ class FontAwesome7 {
   static const IconData pallet = IconData(
     0xf482,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pandora icon
@@ -15396,7 +15398,7 @@ class FontAwesome7 {
   static const IconData pandora = IconData(
     0xe7da,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Panorama icon
@@ -15406,7 +15408,7 @@ class FontAwesome7 {
   static const IconData panorama = IconData(
     0xe209,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paper Plane icon
@@ -15416,7 +15418,7 @@ class FontAwesome7 {
   static const IconData solidPaperPlane = IconData(
     0xf1d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Paper Plane icon
@@ -15426,7 +15428,7 @@ class FontAwesome7 {
   static const IconData paperPlane = IconData(
     0xf1d8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paperclip icon
@@ -15436,7 +15438,7 @@ class FontAwesome7 {
   static const IconData paperclip = IconData(
     0xf0c6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Parachute Box icon
@@ -15446,7 +15448,7 @@ class FontAwesome7 {
   static const IconData parachuteBox = IconData(
     0xf4cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paragraph icon
@@ -15456,7 +15458,7 @@ class FontAwesome7 {
   static const IconData paragraph = IconData(
     0xf1dd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Passport icon
@@ -15466,7 +15468,7 @@ class FontAwesome7 {
   static const IconData passport = IconData(
     0xf5ab,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paste icon
@@ -15476,7 +15478,7 @@ class FontAwesome7 {
   static const IconData solidPaste = IconData(
     0xf0ea,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-clipboard for icon [solidPaste]
@@ -15490,7 +15492,7 @@ class FontAwesome7 {
   static const IconData paste = IconData(
     0xf0ea,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias file-clipboard for icon [paste]
@@ -15504,7 +15506,7 @@ class FontAwesome7 {
   static const IconData patreon = IconData(
     0xf3d9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pause icon
@@ -15514,7 +15516,7 @@ class FontAwesome7 {
   static const IconData pause = IconData(
     0xf04c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Paw icon
@@ -15524,7 +15526,7 @@ class FontAwesome7 {
   static const IconData paw = IconData(
     0xf1b0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Paypal icon
@@ -15534,7 +15536,7 @@ class FontAwesome7 {
   static const IconData paypal = IconData(
     0xf1ed,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Peace icon
@@ -15544,7 +15546,7 @@ class FontAwesome7 {
   static const IconData peace = IconData(
     0xf67c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pen icon
@@ -15554,7 +15556,7 @@ class FontAwesome7 {
   static const IconData pen = IconData(
     0xf304,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pen Clip icon
@@ -15564,7 +15566,7 @@ class FontAwesome7 {
   static const IconData penClip = IconData(
     0xf305,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pen-alt for icon [penClip]
@@ -15578,7 +15580,7 @@ class FontAwesome7 {
   static const IconData penFancy = IconData(
     0xf5ac,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pen Nib icon
@@ -15588,7 +15590,7 @@ class FontAwesome7 {
   static const IconData penNib = IconData(
     0xf5ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pen Ruler icon
@@ -15598,7 +15600,7 @@ class FontAwesome7 {
   static const IconData penRuler = IconData(
     0xf5ae,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pencil-ruler for icon [penRuler]
@@ -15612,7 +15614,7 @@ class FontAwesome7 {
   static const IconData solidPenToSquare = IconData(
     0xf044,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias edit for icon [solidPenToSquare]
@@ -15626,7 +15628,7 @@ class FontAwesome7 {
   static const IconData penToSquare = IconData(
     0xf044,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias edit for icon [penToSquare]
@@ -15640,7 +15642,7 @@ class FontAwesome7 {
   static const IconData pencil = IconData(
     0xf303,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pencil-alt for icon [pencil]
@@ -15654,7 +15656,7 @@ class FontAwesome7 {
   static const IconData pentagon = IconData(
     0xe790,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid People Arrows icon
@@ -15664,7 +15666,7 @@ class FontAwesome7 {
   static const IconData peopleArrows = IconData(
     0xe068,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias people-arrows-left-right for icon [peopleArrows]
@@ -15678,7 +15680,7 @@ class FontAwesome7 {
   static const IconData peopleCarryBox = IconData(
     0xf4ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias people-carry for icon [peopleCarryBox]
@@ -15692,7 +15694,7 @@ class FontAwesome7 {
   static const IconData peopleGroup = IconData(
     0xe533,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid People Line icon
@@ -15702,7 +15704,7 @@ class FontAwesome7 {
   static const IconData peopleLine = IconData(
     0xe534,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid People Pulling icon
@@ -15712,7 +15714,7 @@ class FontAwesome7 {
   static const IconData peoplePulling = IconData(
     0xe535,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid People Robbery icon
@@ -15722,7 +15724,7 @@ class FontAwesome7 {
   static const IconData peopleRobbery = IconData(
     0xe536,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid People Roof icon
@@ -15732,7 +15734,7 @@ class FontAwesome7 {
   static const IconData peopleRoof = IconData(
     0xe537,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pepper Hot icon
@@ -15742,7 +15744,7 @@ class FontAwesome7 {
   static const IconData pepperHot = IconData(
     0xf816,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Perbyte icon
@@ -15752,7 +15754,7 @@ class FontAwesome7 {
   static const IconData perbyte = IconData(
     0xe083,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Percent icon
@@ -15762,7 +15764,7 @@ class FontAwesome7 {
   static const IconData percent = IconData(
     0x25,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias percentage for icon [percent]
@@ -15776,7 +15778,7 @@ class FontAwesome7 {
   static const IconData periscope = IconData(
     0xf3da,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person icon
@@ -15786,7 +15788,7 @@ class FontAwesome7 {
   static const IconData person = IconData(
     0xf183,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias male for icon [person]
@@ -15800,7 +15802,7 @@ class FontAwesome7 {
   static const IconData personArrowDownToLine = IconData(
     0xe538,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Arrow Up From Line icon
@@ -15810,7 +15812,7 @@ class FontAwesome7 {
   static const IconData personArrowUpFromLine = IconData(
     0xe539,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Biking icon
@@ -15820,7 +15822,7 @@ class FontAwesome7 {
   static const IconData personBiking = IconData(
     0xf84a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias biking for icon [personBiking]
@@ -15834,7 +15836,7 @@ class FontAwesome7 {
   static const IconData personBooth = IconData(
     0xf756,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Breastfeeding icon
@@ -15844,7 +15846,7 @@ class FontAwesome7 {
   static const IconData personBreastfeeding = IconData(
     0xe53a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Burst icon
@@ -15854,7 +15856,7 @@ class FontAwesome7 {
   static const IconData personBurst = IconData(
     0xe53b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Cane icon
@@ -15864,7 +15866,7 @@ class FontAwesome7 {
   static const IconData personCane = IconData(
     0xe53c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Chalkboard icon
@@ -15874,7 +15876,7 @@ class FontAwesome7 {
   static const IconData personChalkboard = IconData(
     0xe53d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Check icon
@@ -15884,7 +15886,7 @@ class FontAwesome7 {
   static const IconData personCircleCheck = IconData(
     0xe53e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Exclamation icon
@@ -15894,7 +15896,7 @@ class FontAwesome7 {
   static const IconData personCircleExclamation = IconData(
     0xe53f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Minus icon
@@ -15904,7 +15906,7 @@ class FontAwesome7 {
   static const IconData personCircleMinus = IconData(
     0xe540,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Plus icon
@@ -15914,7 +15916,7 @@ class FontAwesome7 {
   static const IconData personCirclePlus = IconData(
     0xe541,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Question icon
@@ -15924,7 +15926,7 @@ class FontAwesome7 {
   static const IconData personCircleQuestion = IconData(
     0xe542,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Circle Xmark icon
@@ -15934,7 +15936,7 @@ class FontAwesome7 {
   static const IconData personCircleXmark = IconData(
     0xe543,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Digging icon
@@ -15944,7 +15946,7 @@ class FontAwesome7 {
   static const IconData personDigging = IconData(
     0xf85e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias digging for icon [personDigging]
@@ -15958,7 +15960,7 @@ class FontAwesome7 {
   static const IconData personDotsFromLine = IconData(
     0xf470,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias diagnoses for icon [personDotsFromLine]
@@ -15972,7 +15974,7 @@ class FontAwesome7 {
   static const IconData personDress = IconData(
     0xf182,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias female for icon [personDress]
@@ -15986,7 +15988,7 @@ class FontAwesome7 {
   static const IconData personDressBurst = IconData(
     0xe544,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Drowning icon
@@ -15996,7 +15998,7 @@ class FontAwesome7 {
   static const IconData personDrowning = IconData(
     0xe545,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Falling icon
@@ -16006,7 +16008,7 @@ class FontAwesome7 {
   static const IconData personFalling = IconData(
     0xe546,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Falling Burst icon
@@ -16016,7 +16018,7 @@ class FontAwesome7 {
   static const IconData personFallingBurst = IconData(
     0xe547,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Half Dress icon
@@ -16026,7 +16028,7 @@ class FontAwesome7 {
   static const IconData personHalfDress = IconData(
     0xe548,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Harassing icon
@@ -16036,7 +16038,7 @@ class FontAwesome7 {
   static const IconData personHarassing = IconData(
     0xe549,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Hiking icon
@@ -16046,7 +16048,7 @@ class FontAwesome7 {
   static const IconData personHiking = IconData(
     0xf6ec,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hiking for icon [personHiking]
@@ -16060,7 +16062,7 @@ class FontAwesome7 {
   static const IconData personMilitaryPointing = IconData(
     0xe54a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Military Rifle icon
@@ -16070,7 +16072,7 @@ class FontAwesome7 {
   static const IconData personMilitaryRifle = IconData(
     0xe54b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Military To Person icon
@@ -16080,7 +16082,7 @@ class FontAwesome7 {
   static const IconData personMilitaryToPerson = IconData(
     0xe54c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Praying icon
@@ -16090,7 +16092,7 @@ class FontAwesome7 {
   static const IconData personPraying = IconData(
     0xf683,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pray for icon [personPraying]
@@ -16104,7 +16106,7 @@ class FontAwesome7 {
   static const IconData personPregnant = IconData(
     0xe31e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Rays icon
@@ -16114,7 +16116,7 @@ class FontAwesome7 {
   static const IconData personRays = IconData(
     0xe54d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Rifle icon
@@ -16124,7 +16126,7 @@ class FontAwesome7 {
   static const IconData personRifle = IconData(
     0xe54e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Running icon
@@ -16134,7 +16136,7 @@ class FontAwesome7 {
   static const IconData personRunning = IconData(
     0xf70c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias running for icon [personRunning]
@@ -16148,7 +16150,7 @@ class FontAwesome7 {
   static const IconData personShelter = IconData(
     0xe54f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Skating icon
@@ -16158,7 +16160,7 @@ class FontAwesome7 {
   static const IconData personSkating = IconData(
     0xf7c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias skating for icon [personSkating]
@@ -16172,7 +16174,7 @@ class FontAwesome7 {
   static const IconData personSkiing = IconData(
     0xf7c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias skiing for icon [personSkiing]
@@ -16186,7 +16188,7 @@ class FontAwesome7 {
   static const IconData personSkiingNordic = IconData(
     0xf7ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias skiing-nordic for icon [personSkiingNordic]
@@ -16200,7 +16202,7 @@ class FontAwesome7 {
   static const IconData personSnowboarding = IconData(
     0xf7ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias snowboarding for icon [personSnowboarding]
@@ -16214,7 +16216,7 @@ class FontAwesome7 {
   static const IconData personSwimming = IconData(
     0xf5c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias swimmer for icon [personSwimming]
@@ -16228,7 +16230,7 @@ class FontAwesome7 {
   static const IconData personThroughWindow = IconData(
     0xe5a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Walking icon
@@ -16238,7 +16240,7 @@ class FontAwesome7 {
   static const IconData personWalking = IconData(
     0xf554,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias walking for icon [personWalking]
@@ -16252,7 +16254,7 @@ class FontAwesome7 {
   static const IconData personWalkingArrowLoopLeft = IconData(
     0xe551,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Walking Arrow Right icon
@@ -16262,7 +16264,7 @@ class FontAwesome7 {
   static const IconData personWalkingArrowRight = IconData(
     0xe552,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Walking Dashed Line Arrow Right icon
@@ -16272,7 +16274,7 @@ class FontAwesome7 {
   static const IconData personWalkingDashedLineArrowRight = IconData(
     0xe553,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Walking Luggage icon
@@ -16282,7 +16284,7 @@ class FontAwesome7 {
   static const IconData personWalkingLuggage = IconData(
     0xe554,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Person Walking With Cane icon
@@ -16292,7 +16294,7 @@ class FontAwesome7 {
   static const IconData personWalkingWithCane = IconData(
     0xf29d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias blind for icon [personWalkingWithCane]
@@ -16306,7 +16308,7 @@ class FontAwesome7 {
   static const IconData pesetaSign = IconData(
     0xe221,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Peso Sign icon
@@ -16316,7 +16318,7 @@ class FontAwesome7 {
   static const IconData pesoSign = IconData(
     0xe222,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Phabricator icon
@@ -16326,7 +16328,7 @@ class FontAwesome7 {
   static const IconData phabricator = IconData(
     0xf3db,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Phoenix Framework icon
@@ -16336,7 +16338,7 @@ class FontAwesome7 {
   static const IconData phoenixFramework = IconData(
     0xf3dc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Phoenix Squadron icon
@@ -16346,7 +16348,7 @@ class FontAwesome7 {
   static const IconData phoenixSquadron = IconData(
     0xf511,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Phone icon
@@ -16356,7 +16358,7 @@ class FontAwesome7 {
   static const IconData phone = IconData(
     0xf095,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Phone Flip icon
@@ -16366,7 +16368,7 @@ class FontAwesome7 {
   static const IconData phoneFlip = IconData(
     0xf879,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias phone-alt for icon [phoneFlip]
@@ -16380,7 +16382,7 @@ class FontAwesome7 {
   static const IconData phoneSlash = IconData(
     0xf3dd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Phone Volume icon
@@ -16390,7 +16392,7 @@ class FontAwesome7 {
   static const IconData phoneVolume = IconData(
     0xf2a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volume-control-phone for icon [phoneVolume]
@@ -16404,7 +16406,7 @@ class FontAwesome7 {
   static const IconData photoFilm = IconData(
     0xf87c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias photo-video for icon [photoFilm]
@@ -16418,7 +16420,7 @@ class FontAwesome7 {
   static const IconData php = IconData(
     0xf457,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Picture In Picture icon
@@ -16428,7 +16430,7 @@ class FontAwesome7 {
   static const IconData pictureInPicture = IconData(
     0xe80b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pied Piper icon
@@ -16438,7 +16440,7 @@ class FontAwesome7 {
   static const IconData piedPiper = IconData(
     0xf2ae,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pied Piper Alt icon
@@ -16448,7 +16450,7 @@ class FontAwesome7 {
   static const IconData piedPiperAlt = IconData(
     0xf1a8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pied Piper Hat icon
@@ -16458,7 +16460,7 @@ class FontAwesome7 {
   static const IconData piedPiperHat = IconData(
     0xf4e5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pied Piper Pp icon
@@ -16468,7 +16470,7 @@ class FontAwesome7 {
   static const IconData piedPiperPp = IconData(
     0xf1a7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Piggy Bank icon
@@ -16478,7 +16480,7 @@ class FontAwesome7 {
   static const IconData piggyBank = IconData(
     0xf4d3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pills icon
@@ -16488,7 +16490,7 @@ class FontAwesome7 {
   static const IconData pills = IconData(
     0xf484,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pinterest icon
@@ -16498,7 +16500,7 @@ class FontAwesome7 {
   static const IconData pinterest = IconData(
     0xf0d2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pinterest P icon
@@ -16508,7 +16510,7 @@ class FontAwesome7 {
   static const IconData pinterestP = IconData(
     0xf231,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pisces icon
@@ -16518,7 +16520,7 @@ class FontAwesome7 {
   static const IconData pisces = IconData(
     0xe84c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pix icon
@@ -16528,7 +16530,7 @@ class FontAwesome7 {
   static const IconData pix = IconData(
     0xe43a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pixelfed icon
@@ -16538,7 +16540,7 @@ class FontAwesome7 {
   static const IconData pixelfed = IconData(
     0xe7db,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pixiv icon
@@ -16548,7 +16550,7 @@ class FontAwesome7 {
   static const IconData pixiv = IconData(
     0xe640,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pizza Slice icon
@@ -16558,7 +16560,7 @@ class FontAwesome7 {
   static const IconData pizzaSlice = IconData(
     0xf818,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Place Of Worship icon
@@ -16568,7 +16570,7 @@ class FontAwesome7 {
   static const IconData placeOfWorship = IconData(
     0xf67f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane icon
@@ -16578,7 +16580,7 @@ class FontAwesome7 {
   static const IconData plane = IconData(
     0xf072,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Arrival icon
@@ -16588,7 +16590,7 @@ class FontAwesome7 {
   static const IconData planeArrival = IconData(
     0xf5af,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Circle Check icon
@@ -16598,7 +16600,7 @@ class FontAwesome7 {
   static const IconData planeCircleCheck = IconData(
     0xe555,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Circle Exclamation icon
@@ -16608,7 +16610,7 @@ class FontAwesome7 {
   static const IconData planeCircleExclamation = IconData(
     0xe556,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Circle Xmark icon
@@ -16618,7 +16620,7 @@ class FontAwesome7 {
   static const IconData planeCircleXmark = IconData(
     0xe557,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Departure icon
@@ -16628,7 +16630,7 @@ class FontAwesome7 {
   static const IconData planeDeparture = IconData(
     0xf5b0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Lock icon
@@ -16638,7 +16640,7 @@ class FontAwesome7 {
   static const IconData planeLock = IconData(
     0xe558,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Slash icon
@@ -16648,7 +16650,7 @@ class FontAwesome7 {
   static const IconData planeSlash = IconData(
     0xe069,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plane Up icon
@@ -16658,7 +16660,7 @@ class FontAwesome7 {
   static const IconData planeUp = IconData(
     0xe22d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plant Wilt icon
@@ -16668,7 +16670,7 @@ class FontAwesome7 {
   static const IconData plantWilt = IconData(
     0xe5aa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plate Wheat icon
@@ -16678,7 +16680,7 @@ class FontAwesome7 {
   static const IconData plateWheat = IconData(
     0xe55a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Play icon
@@ -16688,7 +16690,7 @@ class FontAwesome7 {
   static const IconData play = IconData(
     0xf04b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Playstation icon
@@ -16698,7 +16700,7 @@ class FontAwesome7 {
   static const IconData playstation = IconData(
     0xf3df,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug icon
@@ -16708,7 +16710,7 @@ class FontAwesome7 {
   static const IconData plug = IconData(
     0xf1e6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Bolt icon
@@ -16718,7 +16720,7 @@ class FontAwesome7 {
   static const IconData plugCircleBolt = IconData(
     0xe55b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Check icon
@@ -16728,7 +16730,7 @@ class FontAwesome7 {
   static const IconData plugCircleCheck = IconData(
     0xe55c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Exclamation icon
@@ -16738,7 +16740,7 @@ class FontAwesome7 {
   static const IconData plugCircleExclamation = IconData(
     0xe55d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Minus icon
@@ -16748,7 +16750,7 @@ class FontAwesome7 {
   static const IconData plugCircleMinus = IconData(
     0xe55e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Plus icon
@@ -16758,7 +16760,7 @@ class FontAwesome7 {
   static const IconData plugCirclePlus = IconData(
     0xe55f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plug Circle Xmark icon
@@ -16768,7 +16770,7 @@ class FontAwesome7 {
   static const IconData plugCircleXmark = IconData(
     0xe560,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Plus icon
@@ -16778,7 +16780,7 @@ class FontAwesome7 {
   static const IconData plus = IconData(
     0x2b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias add for icon [plus]
@@ -16792,7 +16794,7 @@ class FontAwesome7 {
   static const IconData plusMinus = IconData(
     0xe43c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Podcast icon
@@ -16802,7 +16804,7 @@ class FontAwesome7 {
   static const IconData podcast = IconData(
     0xf2ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Poo icon
@@ -16812,7 +16814,7 @@ class FontAwesome7 {
   static const IconData poo = IconData(
     0xf2fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Poo Storm icon
@@ -16822,7 +16824,7 @@ class FontAwesome7 {
   static const IconData pooStorm = IconData(
     0xf75a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias poo-bolt for icon [pooStorm]
@@ -16836,7 +16838,7 @@ class FontAwesome7 {
   static const IconData poop = IconData(
     0xf619,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Postgresql icon
@@ -16845,7 +16847,7 @@ class FontAwesome7 {
   static const IconData postgresql = IconData(
     0xe858,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Power Off icon
@@ -16855,7 +16857,7 @@ class FontAwesome7 {
   static const IconData powerOff = IconData(
     0xf011,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Prescription icon
@@ -16865,7 +16867,7 @@ class FontAwesome7 {
   static const IconData prescription = IconData(
     0xf5b1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Prescription Bottle icon
@@ -16875,7 +16877,7 @@ class FontAwesome7 {
   static const IconData prescriptionBottle = IconData(
     0xf485,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Prescription Bottle Medical icon
@@ -16885,7 +16887,7 @@ class FontAwesome7 {
   static const IconData prescriptionBottleMedical = IconData(
     0xf486,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias prescription-bottle-alt for icon [prescriptionBottleMedical]
@@ -16899,7 +16901,7 @@ class FontAwesome7 {
   static const IconData print = IconData(
     0xf02f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Product Hunt icon
@@ -16909,7 +16911,7 @@ class FontAwesome7 {
   static const IconData productHunt = IconData(
     0xf288,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pump Medical icon
@@ -16919,7 +16921,7 @@ class FontAwesome7 {
   static const IconData pumpMedical = IconData(
     0xe06a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Pump Soap icon
@@ -16929,7 +16931,7 @@ class FontAwesome7 {
   static const IconData pumpSoap = IconData(
     0xe06b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Pushed icon
@@ -16939,7 +16941,7 @@ class FontAwesome7 {
   static const IconData pushed = IconData(
     0xf3e1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Puzzle Piece icon
@@ -16949,7 +16951,7 @@ class FontAwesome7 {
   static const IconData puzzlePiece = IconData(
     0xf12e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Python icon
@@ -16959,7 +16961,7 @@ class FontAwesome7 {
   static const IconData python = IconData(
     0xf3e2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Q icon
@@ -16969,7 +16971,7 @@ class FontAwesome7 {
   static const IconData q = IconData(
     0x51,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Qq icon
@@ -16979,7 +16981,7 @@ class FontAwesome7 {
   static const IconData qq = IconData(
     0xf1d6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Qrcode icon
@@ -16989,7 +16991,7 @@ class FontAwesome7 {
   static const IconData qrcode = IconData(
     0xf029,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Question icon
@@ -16999,7 +17001,7 @@ class FontAwesome7 {
   static const IconData question = IconData(
     0x3f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Quinscape icon
@@ -17009,7 +17011,7 @@ class FontAwesome7 {
   static const IconData quinscape = IconData(
     0xf459,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Quora icon
@@ -17019,7 +17021,7 @@ class FontAwesome7 {
   static const IconData quora = IconData(
     0xf2c4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Quote Left icon
@@ -17029,7 +17031,7 @@ class FontAwesome7 {
   static const IconData quoteLeft = IconData(
     0xf10d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias quote-left-alt for icon [quoteLeft]
@@ -17043,7 +17045,7 @@ class FontAwesome7 {
   static const IconData quoteRight = IconData(
     0xf10e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias quote-right-alt for icon [quoteRight]
@@ -17057,7 +17059,7 @@ class FontAwesome7 {
   static const IconData r = IconData(
     0x52,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands R Project icon
@@ -17067,7 +17069,7 @@ class FontAwesome7 {
   static const IconData rProject = IconData(
     0xf4f7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Radiation icon
@@ -17077,7 +17079,7 @@ class FontAwesome7 {
   static const IconData radiation = IconData(
     0xf7b9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Radio icon
@@ -17087,7 +17089,7 @@ class FontAwesome7 {
   static const IconData radio = IconData(
     0xf8d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rainbow icon
@@ -17097,7 +17099,7 @@ class FontAwesome7 {
   static const IconData rainbow = IconData(
     0xf75b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ranking Star icon
@@ -17107,7 +17109,7 @@ class FontAwesome7 {
   static const IconData rankingStar = IconData(
     0xe561,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Raspberry Pi icon
@@ -17117,7 +17119,7 @@ class FontAwesome7 {
   static const IconData raspberryPi = IconData(
     0xf7bb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ravelry icon
@@ -17127,7 +17129,7 @@ class FontAwesome7 {
   static const IconData ravelry = IconData(
     0xf2d9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands React icon
@@ -17137,7 +17139,7 @@ class FontAwesome7 {
   static const IconData react = IconData(
     0xf41b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Reacteurope icon
@@ -17147,7 +17149,7 @@ class FontAwesome7 {
   static const IconData reacteurope = IconData(
     0xf75d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Readme icon
@@ -17157,7 +17159,7 @@ class FontAwesome7 {
   static const IconData readme = IconData(
     0xf4d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Rebel icon
@@ -17167,7 +17169,7 @@ class FontAwesome7 {
   static const IconData rebel = IconData(
     0xf1d0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Receipt icon
@@ -17177,7 +17179,7 @@ class FontAwesome7 {
   static const IconData receipt = IconData(
     0xf543,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Record Vinyl icon
@@ -17187,7 +17189,7 @@ class FontAwesome7 {
   static const IconData recordVinyl = IconData(
     0xf8d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rectangle Ad icon
@@ -17197,7 +17199,7 @@ class FontAwesome7 {
   static const IconData rectangleAd = IconData(
     0xf641,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ad for icon [rectangleAd]
@@ -17211,7 +17213,7 @@ class FontAwesome7 {
   static const IconData solidRectangleList = IconData(
     0xf022,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias list-alt for icon [solidRectangleList]
@@ -17225,7 +17227,7 @@ class FontAwesome7 {
   static const IconData rectangleList = IconData(
     0xf022,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias list-alt for icon [rectangleList]
@@ -17239,7 +17241,7 @@ class FontAwesome7 {
   static const IconData solidRectangleXmark = IconData(
     0xf410,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rectangle-times for icon [solidRectangleXmark]
@@ -17261,7 +17263,7 @@ class FontAwesome7 {
   static const IconData rectangleXmark = IconData(
     0xf410,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rectangle-times for icon [rectangleXmark]
@@ -17283,7 +17285,7 @@ class FontAwesome7 {
   static const IconData recycle = IconData(
     0xf1b8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Red River icon
@@ -17293,7 +17295,7 @@ class FontAwesome7 {
   static const IconData redRiver = IconData(
     0xf3e3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Reddit icon
@@ -17303,7 +17305,7 @@ class FontAwesome7 {
   static const IconData reddit = IconData(
     0xf1a1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Reddit Alien icon
@@ -17313,7 +17315,7 @@ class FontAwesome7 {
   static const IconData redditAlien = IconData(
     0xf281,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Redhat icon
@@ -17323,7 +17325,7 @@ class FontAwesome7 {
   static const IconData redhat = IconData(
     0xf7bc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Registered icon
@@ -17333,7 +17335,7 @@ class FontAwesome7 {
   static const IconData solidRegistered = IconData(
     0xf25d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Registered icon
@@ -17343,7 +17345,7 @@ class FontAwesome7 {
   static const IconData registered = IconData(
     0xf25d,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Renren icon
@@ -17353,7 +17355,7 @@ class FontAwesome7 {
   static const IconData renren = IconData(
     0xf18b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Repeat icon
@@ -17363,7 +17365,7 @@ class FontAwesome7 {
   static const IconData repeat = IconData(
     0xf363,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Reply icon
@@ -17373,7 +17375,7 @@ class FontAwesome7 {
   static const IconData reply = IconData(
     0xf3e5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mail-reply for icon [reply]
@@ -17387,7 +17389,7 @@ class FontAwesome7 {
   static const IconData replyAll = IconData(
     0xf122,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mail-reply-all for icon [replyAll]
@@ -17401,7 +17403,7 @@ class FontAwesome7 {
   static const IconData replyd = IconData(
     0xf3e6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Republican icon
@@ -17411,7 +17413,7 @@ class FontAwesome7 {
   static const IconData republican = IconData(
     0xf75e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Researchgate icon
@@ -17421,7 +17423,7 @@ class FontAwesome7 {
   static const IconData researchgate = IconData(
     0xf4f8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Resolving icon
@@ -17431,7 +17433,7 @@ class FontAwesome7 {
   static const IconData resolving = IconData(
     0xf3e7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Restroom icon
@@ -17441,7 +17443,7 @@ class FontAwesome7 {
   static const IconData restroom = IconData(
     0xf7bd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Retweet icon
@@ -17451,7 +17453,7 @@ class FontAwesome7 {
   static const IconData retweet = IconData(
     0xf079,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Rev icon
@@ -17461,7 +17463,7 @@ class FontAwesome7 {
   static const IconData rev = IconData(
     0xf5b2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ribbon icon
@@ -17471,7 +17473,7 @@ class FontAwesome7 {
   static const IconData ribbon = IconData(
     0xf4d6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Right From Bracket icon
@@ -17481,7 +17483,7 @@ class FontAwesome7 {
   static const IconData rightFromBracket = IconData(
     0xf2f5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign-out-alt for icon [rightFromBracket]
@@ -17495,7 +17497,7 @@ class FontAwesome7 {
   static const IconData rightLeft = IconData(
     0xf362,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias exchange-alt for icon [rightLeft]
@@ -17509,7 +17511,7 @@ class FontAwesome7 {
   static const IconData rightLong = IconData(
     0xf30b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-alt-right for icon [rightLong]
@@ -17523,7 +17525,7 @@ class FontAwesome7 {
   static const IconData rightToBracket = IconData(
     0xf2f6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign-in-alt for icon [rightToBracket]
@@ -17537,7 +17539,7 @@ class FontAwesome7 {
   static const IconData ring = IconData(
     0xf70b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road icon
@@ -17547,7 +17549,7 @@ class FontAwesome7 {
   static const IconData road = IconData(
     0xf018,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Barrier icon
@@ -17557,7 +17559,7 @@ class FontAwesome7 {
   static const IconData roadBarrier = IconData(
     0xe562,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Bridge icon
@@ -17567,7 +17569,7 @@ class FontAwesome7 {
   static const IconData roadBridge = IconData(
     0xe563,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Circle Check icon
@@ -17577,7 +17579,7 @@ class FontAwesome7 {
   static const IconData roadCircleCheck = IconData(
     0xe564,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Circle Exclamation icon
@@ -17587,7 +17589,7 @@ class FontAwesome7 {
   static const IconData roadCircleExclamation = IconData(
     0xe565,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Circle Xmark icon
@@ -17597,7 +17599,7 @@ class FontAwesome7 {
   static const IconData roadCircleXmark = IconData(
     0xe566,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Lock icon
@@ -17607,7 +17609,7 @@ class FontAwesome7 {
   static const IconData roadLock = IconData(
     0xe567,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Road Spikes icon
@@ -17617,7 +17619,7 @@ class FontAwesome7 {
   static const IconData roadSpikes = IconData(
     0xe568,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Robot icon
@@ -17627,7 +17629,7 @@ class FontAwesome7 {
   static const IconData robot = IconData(
     0xf544,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rocket icon
@@ -17637,7 +17639,7 @@ class FontAwesome7 {
   static const IconData rocket = IconData(
     0xf135,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Rocketchat icon
@@ -17647,7 +17649,7 @@ class FontAwesome7 {
   static const IconData rocketchat = IconData(
     0xf3e8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Rockrms icon
@@ -17657,7 +17659,7 @@ class FontAwesome7 {
   static const IconData rockrms = IconData(
     0xf3e9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rotate icon
@@ -17667,7 +17669,7 @@ class FontAwesome7 {
   static const IconData rotate = IconData(
     0xf2f1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sync-alt for icon [rotate]
@@ -17681,7 +17683,7 @@ class FontAwesome7 {
   static const IconData rotateLeft = IconData(
     0xf2ea,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rotate-back for icon [rotateLeft]
@@ -17703,7 +17705,7 @@ class FontAwesome7 {
   static const IconData rotateRight = IconData(
     0xf2f9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias redo-alt for icon [rotateRight]
@@ -17721,7 +17723,7 @@ class FontAwesome7 {
   static const IconData route = IconData(
     0xf4d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rss icon
@@ -17731,7 +17733,7 @@ class FontAwesome7 {
   static const IconData rss = IconData(
     0xf09e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias feed for icon [rss]
@@ -17745,7 +17747,7 @@ class FontAwesome7 {
   static const IconData rubleSign = IconData(
     0xf158,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rouble for icon [rubleSign]
@@ -17767,7 +17769,7 @@ class FontAwesome7 {
   static const IconData rug = IconData(
     0xe569,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ruler icon
@@ -17777,7 +17779,7 @@ class FontAwesome7 {
   static const IconData ruler = IconData(
     0xf545,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ruler Combined icon
@@ -17787,7 +17789,7 @@ class FontAwesome7 {
   static const IconData rulerCombined = IconData(
     0xf546,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ruler Horizontal icon
@@ -17797,7 +17799,7 @@ class FontAwesome7 {
   static const IconData rulerHorizontal = IconData(
     0xf547,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ruler Vertical icon
@@ -17807,7 +17809,7 @@ class FontAwesome7 {
   static const IconData rulerVertical = IconData(
     0xf548,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Rupee Sign icon
@@ -17817,7 +17819,7 @@ class FontAwesome7 {
   static const IconData rupeeSign = IconData(
     0xf156,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rupee for icon [rupeeSign]
@@ -17831,7 +17833,7 @@ class FontAwesome7 {
   static const IconData rupiahSign = IconData(
     0xe23d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Rust icon
@@ -17841,7 +17843,7 @@ class FontAwesome7 {
   static const IconData rust = IconData(
     0xe07a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid S icon
@@ -17851,7 +17853,7 @@ class FontAwesome7 {
   static const IconData s = IconData(
     0x53,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sack Dollar icon
@@ -17861,7 +17863,7 @@ class FontAwesome7 {
   static const IconData sackDollar = IconData(
     0xf81d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sack Xmark icon
@@ -17871,7 +17873,7 @@ class FontAwesome7 {
   static const IconData sackXmark = IconData(
     0xe56a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Safari icon
@@ -17881,7 +17883,7 @@ class FontAwesome7 {
   static const IconData safari = IconData(
     0xf267,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sagittarius icon
@@ -17891,7 +17893,7 @@ class FontAwesome7 {
   static const IconData sagittarius = IconData(
     0xe84d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sailboat icon
@@ -17901,7 +17903,7 @@ class FontAwesome7 {
   static const IconData sailboat = IconData(
     0xe445,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Salesforce icon
@@ -17911,7 +17913,7 @@ class FontAwesome7 {
   static const IconData salesforce = IconData(
     0xf83b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sass icon
@@ -17921,7 +17923,7 @@ class FontAwesome7 {
   static const IconData sass = IconData(
     0xf41e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Satellite icon
@@ -17931,7 +17933,7 @@ class FontAwesome7 {
   static const IconData satellite = IconData(
     0xf7bf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Satellite Dish icon
@@ -17941,7 +17943,7 @@ class FontAwesome7 {
   static const IconData satelliteDish = IconData(
     0xf7c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Scale Balanced icon
@@ -17951,7 +17953,7 @@ class FontAwesome7 {
   static const IconData scaleBalanced = IconData(
     0xf24e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias balance-scale for icon [scaleBalanced]
@@ -17965,7 +17967,7 @@ class FontAwesome7 {
   static const IconData scaleUnbalanced = IconData(
     0xf515,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias balance-scale-left for icon [scaleUnbalanced]
@@ -17979,7 +17981,7 @@ class FontAwesome7 {
   static const IconData scaleUnbalancedFlip = IconData(
     0xf516,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias balance-scale-right for icon [scaleUnbalancedFlip]
@@ -17992,7 +17994,7 @@ class FontAwesome7 {
   static const IconData scaleway = IconData(
     0xe859,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Schlix icon
@@ -18002,7 +18004,7 @@ class FontAwesome7 {
   static const IconData schlix = IconData(
     0xf3ea,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School icon
@@ -18012,7 +18014,7 @@ class FontAwesome7 {
   static const IconData school = IconData(
     0xf549,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School Circle Check icon
@@ -18022,7 +18024,7 @@ class FontAwesome7 {
   static const IconData schoolCircleCheck = IconData(
     0xe56b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School Circle Exclamation icon
@@ -18032,7 +18034,7 @@ class FontAwesome7 {
   static const IconData schoolCircleExclamation = IconData(
     0xe56c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School Circle Xmark icon
@@ -18042,7 +18044,7 @@ class FontAwesome7 {
   static const IconData schoolCircleXmark = IconData(
     0xe56d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School Flag icon
@@ -18052,7 +18054,7 @@ class FontAwesome7 {
   static const IconData schoolFlag = IconData(
     0xe56e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid School Lock icon
@@ -18062,7 +18064,7 @@ class FontAwesome7 {
   static const IconData schoolLock = IconData(
     0xe56f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Scissors icon
@@ -18072,7 +18074,7 @@ class FontAwesome7 {
   static const IconData scissors = IconData(
     0xf0c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cut for icon [scissors]
@@ -18086,7 +18088,7 @@ class FontAwesome7 {
   static const IconData scorpio = IconData(
     0xe84e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Screenpal icon
@@ -18096,7 +18098,7 @@ class FontAwesome7 {
   static const IconData screenpal = IconData(
     0xe570,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Screwdriver icon
@@ -18106,7 +18108,7 @@ class FontAwesome7 {
   static const IconData screwdriver = IconData(
     0xf54a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Screwdriver Wrench icon
@@ -18116,7 +18118,7 @@ class FontAwesome7 {
   static const IconData screwdriverWrench = IconData(
     0xf7d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tools for icon [screwdriverWrench]
@@ -18130,7 +18132,7 @@ class FontAwesome7 {
   static const IconData scribd = IconData(
     0xf28a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Scroll icon
@@ -18140,7 +18142,7 @@ class FontAwesome7 {
   static const IconData scroll = IconData(
     0xf70e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Scroll Torah icon
@@ -18150,7 +18152,7 @@ class FontAwesome7 {
   static const IconData scrollTorah = IconData(
     0xf6a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias torah for icon [scrollTorah]
@@ -18164,7 +18166,7 @@ class FontAwesome7 {
   static const IconData sdCard = IconData(
     0xf7c2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Searchengin icon
@@ -18174,7 +18176,7 @@ class FontAwesome7 {
   static const IconData searchengin = IconData(
     0xf3eb,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Section icon
@@ -18184,7 +18186,7 @@ class FontAwesome7 {
   static const IconData section = IconData(
     0xe447,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Seedling icon
@@ -18194,7 +18196,7 @@ class FontAwesome7 {
   static const IconData seedling = IconData(
     0xf4d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sprout for icon [seedling]
@@ -18208,7 +18210,7 @@ class FontAwesome7 {
   static const IconData sellcast = IconData(
     0xf2da,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sellsy icon
@@ -18218,7 +18220,7 @@ class FontAwesome7 {
   static const IconData sellsy = IconData(
     0xf213,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Septagon icon
@@ -18228,7 +18230,7 @@ class FontAwesome7 {
   static const IconData septagon = IconData(
     0xe820,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias heptagon for icon [septagon]
@@ -18242,7 +18244,7 @@ class FontAwesome7 {
   static const IconData server = IconData(
     0xf233,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Servicestack icon
@@ -18252,7 +18254,7 @@ class FontAwesome7 {
   static const IconData servicestack = IconData(
     0xf3ec,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shapes icon
@@ -18262,7 +18264,7 @@ class FontAwesome7 {
   static const IconData shapes = IconData(
     0xf61f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias triangle-circle-square for icon [shapes]
@@ -18276,7 +18278,7 @@ class FontAwesome7 {
   static const IconData share = IconData(
     0xf064,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias mail-forward for icon [share]
@@ -18290,7 +18292,7 @@ class FontAwesome7 {
   static const IconData solidShareFromSquare = IconData(
     0xf14d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias share-square for icon [solidShareFromSquare]
@@ -18304,7 +18306,7 @@ class FontAwesome7 {
   static const IconData shareFromSquare = IconData(
     0xf14d,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias share-square for icon [shareFromSquare]
@@ -18318,7 +18320,7 @@ class FontAwesome7 {
   static const IconData shareNodes = IconData(
     0xf1e0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias share-alt for icon [shareNodes]
@@ -18332,7 +18334,7 @@ class FontAwesome7 {
   static const IconData sheetPlastic = IconData(
     0xe571,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shekel Sign icon
@@ -18342,7 +18344,7 @@ class FontAwesome7 {
   static const IconData shekelSign = IconData(
     0xf20b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ils for icon [shekelSign]
@@ -18368,7 +18370,7 @@ class FontAwesome7 {
   static const IconData shield = IconData(
     0xf132,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shield-blank for icon [shield]
@@ -18382,7 +18384,7 @@ class FontAwesome7 {
   static const IconData shieldCat = IconData(
     0xe572,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shield Dog icon
@@ -18392,7 +18394,7 @@ class FontAwesome7 {
   static const IconData shieldDog = IconData(
     0xe573,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shield Halved icon
@@ -18402,7 +18404,7 @@ class FontAwesome7 {
   static const IconData shieldHalved = IconData(
     0xf3ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shield-alt for icon [shieldHalved]
@@ -18416,7 +18418,7 @@ class FontAwesome7 {
   static const IconData shieldHeart = IconData(
     0xe574,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shield Virus icon
@@ -18426,7 +18428,7 @@ class FontAwesome7 {
   static const IconData shieldVirus = IconData(
     0xe06c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ship icon
@@ -18436,7 +18438,7 @@ class FontAwesome7 {
   static const IconData ship = IconData(
     0xf21a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shirt icon
@@ -18446,7 +18448,7 @@ class FontAwesome7 {
   static const IconData shirt = IconData(
     0xf553,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias t-shirt for icon [shirt]
@@ -18464,7 +18466,7 @@ class FontAwesome7 {
   static const IconData shirtsinbulk = IconData(
     0xf214,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shoe Prints icon
@@ -18474,7 +18476,7 @@ class FontAwesome7 {
   static const IconData shoePrints = IconData(
     0xf54b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Shoelace icon
@@ -18484,7 +18486,7 @@ class FontAwesome7 {
   static const IconData shoelace = IconData(
     0xe60c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shop icon
@@ -18494,7 +18496,7 @@ class FontAwesome7 {
   static const IconData shop = IconData(
     0xf54f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias store-alt for icon [shop]
@@ -18508,7 +18510,7 @@ class FontAwesome7 {
   static const IconData shopLock = IconData(
     0xe4a5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shop Slash icon
@@ -18518,7 +18520,7 @@ class FontAwesome7 {
   static const IconData shopSlash = IconData(
     0xe070,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias store-alt-slash for icon [shopSlash]
@@ -18532,7 +18534,7 @@ class FontAwesome7 {
   static const IconData shopify = IconData(
     0xe057,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Shopware icon
@@ -18542,7 +18544,7 @@ class FontAwesome7 {
   static const IconData shopware = IconData(
     0xf5b5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shower icon
@@ -18552,7 +18554,7 @@ class FontAwesome7 {
   static const IconData shower = IconData(
     0xf2cc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shrimp icon
@@ -18562,7 +18564,7 @@ class FontAwesome7 {
   static const IconData shrimp = IconData(
     0xe448,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Shuffle icon
@@ -18572,7 +18574,7 @@ class FontAwesome7 {
   static const IconData shuffle = IconData(
     0xf074,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias random for icon [shuffle]
@@ -18586,7 +18588,7 @@ class FontAwesome7 {
   static const IconData shuttleSpace = IconData(
     0xf197,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias space-shuttle for icon [shuttleSpace]
@@ -18600,7 +18602,7 @@ class FontAwesome7 {
   static const IconData signHanging = IconData(
     0xf4d9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sign for icon [signHanging]
@@ -18614,7 +18616,7 @@ class FontAwesome7 {
   static const IconData signal = IconData(
     0xf012,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias signal-5 for icon [signal]
@@ -18632,7 +18634,7 @@ class FontAwesome7 {
   static const IconData signalMessenger = IconData(
     0xe663,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Signature icon
@@ -18642,7 +18644,7 @@ class FontAwesome7 {
   static const IconData signature = IconData(
     0xf5b7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Signs Post icon
@@ -18652,7 +18654,7 @@ class FontAwesome7 {
   static const IconData signsPost = IconData(
     0xf277,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias map-signs for icon [signsPost]
@@ -18666,7 +18668,7 @@ class FontAwesome7 {
   static const IconData simCard = IconData(
     0xf7c4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Simplybuilt icon
@@ -18676,7 +18678,7 @@ class FontAwesome7 {
   static const IconData simplybuilt = IconData(
     0xf215,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Single Quote Left icon
@@ -18686,7 +18688,7 @@ class FontAwesome7 {
   static const IconData singleQuoteLeft = IconData(
     0xe81b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Single Quote Right icon
@@ -18696,7 +18698,7 @@ class FontAwesome7 {
   static const IconData singleQuoteRight = IconData(
     0xe81c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sink icon
@@ -18706,7 +18708,7 @@ class FontAwesome7 {
   static const IconData sink = IconData(
     0xe06d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sistrix icon
@@ -18716,7 +18718,7 @@ class FontAwesome7 {
   static const IconData sistrix = IconData(
     0xf3ee,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sitemap icon
@@ -18726,7 +18728,7 @@ class FontAwesome7 {
   static const IconData sitemap = IconData(
     0xf0e8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sith icon
@@ -18736,7 +18738,7 @@ class FontAwesome7 {
   static const IconData sith = IconData(
     0xf512,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sitrox icon
@@ -18746,7 +18748,7 @@ class FontAwesome7 {
   static const IconData sitrox = IconData(
     0xe44a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sketch icon
@@ -18756,7 +18758,7 @@ class FontAwesome7 {
   static const IconData sketch = IconData(
     0xf7c6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Skull icon
@@ -18766,7 +18768,7 @@ class FontAwesome7 {
   static const IconData skull = IconData(
     0xf54c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Skull Crossbones icon
@@ -18776,7 +18778,7 @@ class FontAwesome7 {
   static const IconData skullCrossbones = IconData(
     0xf714,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Skyatlas icon
@@ -18786,7 +18788,7 @@ class FontAwesome7 {
   static const IconData skyatlas = IconData(
     0xf216,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Skype icon
@@ -18796,7 +18798,7 @@ class FontAwesome7 {
   static const IconData skype = IconData(
     0xf17e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Slack icon
@@ -18806,7 +18808,7 @@ class FontAwesome7 {
   static const IconData slack = IconData(
     0xf198,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias slack-hash for icon [slack]
@@ -18820,7 +18822,7 @@ class FontAwesome7 {
   static const IconData slash = IconData(
     0xf715,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sleigh icon
@@ -18830,7 +18832,7 @@ class FontAwesome7 {
   static const IconData sleigh = IconData(
     0xf7cc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sliders icon
@@ -18840,7 +18842,7 @@ class FontAwesome7 {
   static const IconData sliders = IconData(
     0xf1de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sliders-h for icon [sliders]
@@ -18854,7 +18856,7 @@ class FontAwesome7 {
   static const IconData slideshare = IconData(
     0xf1e7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Smog icon
@@ -18864,7 +18866,7 @@ class FontAwesome7 {
   static const IconData smog = IconData(
     0xf75f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Smoking icon
@@ -18874,7 +18876,7 @@ class FontAwesome7 {
   static const IconData smoking = IconData(
     0xf48d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Snapchat icon
@@ -18884,7 +18886,7 @@ class FontAwesome7 {
   static const IconData snapchat = IconData(
     0xf2ab,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias snapchat-ghost for icon [snapchat]
@@ -18898,7 +18900,7 @@ class FontAwesome7 {
   static const IconData solidSnowflake = IconData(
     0xf2dc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Snowflake icon
@@ -18908,7 +18910,7 @@ class FontAwesome7 {
   static const IconData snowflake = IconData(
     0xf2dc,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Snowman icon
@@ -18918,7 +18920,7 @@ class FontAwesome7 {
   static const IconData snowman = IconData(
     0xf7d0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Snowplow icon
@@ -18928,7 +18930,7 @@ class FontAwesome7 {
   static const IconData snowplow = IconData(
     0xf7d2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Soap icon
@@ -18938,7 +18940,7 @@ class FontAwesome7 {
   static const IconData soap = IconData(
     0xe06e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Socks icon
@@ -18948,7 +18950,7 @@ class FontAwesome7 {
   static const IconData socks = IconData(
     0xf696,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Solana icon
@@ -18957,7 +18959,7 @@ class FontAwesome7 {
   static const IconData solana = IconData(
     0xe85e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Solar Panel icon
@@ -18967,7 +18969,7 @@ class FontAwesome7 {
   static const IconData solarPanel = IconData(
     0xf5ba,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sort icon
@@ -18977,7 +18979,7 @@ class FontAwesome7 {
   static const IconData sort = IconData(
     0xf0dc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias unsorted for icon [sort]
@@ -18991,7 +18993,7 @@ class FontAwesome7 {
   static const IconData sortDown = IconData(
     0xf0dd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-desc for icon [sortDown]
@@ -19005,7 +19007,7 @@ class FontAwesome7 {
   static const IconData sortUp = IconData(
     0xf0de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias sort-asc for icon [sortUp]
@@ -19019,7 +19021,7 @@ class FontAwesome7 {
   static const IconData soundcloud = IconData(
     0xf1be,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sourcetree icon
@@ -19029,7 +19031,7 @@ class FontAwesome7 {
   static const IconData sourcetree = IconData(
     0xf7d3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spa icon
@@ -19039,7 +19041,7 @@ class FontAwesome7 {
   static const IconData spa = IconData(
     0xf5bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Space Awesome icon
@@ -19049,7 +19051,7 @@ class FontAwesome7 {
   static const IconData spaceAwesome = IconData(
     0xe5ac,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spaghetti Monster Flying icon
@@ -19059,7 +19061,7 @@ class FontAwesome7 {
   static const IconData spaghettiMonsterFlying = IconData(
     0xf67b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pastafarianism for icon [spaghettiMonsterFlying]
@@ -19073,7 +19075,7 @@ class FontAwesome7 {
   static const IconData speakap = IconData(
     0xf3f3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Speaker Deck icon
@@ -19083,7 +19085,7 @@ class FontAwesome7 {
   static const IconData speakerDeck = IconData(
     0xf83c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spell Check icon
@@ -19093,7 +19095,7 @@ class FontAwesome7 {
   static const IconData spellCheck = IconData(
     0xf891,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spider icon
@@ -19103,7 +19105,7 @@ class FontAwesome7 {
   static const IconData spider = IconData(
     0xf717,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spinner icon
@@ -19113,7 +19115,7 @@ class FontAwesome7 {
   static const IconData spinner = IconData(
     0xf110,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spiral icon
@@ -19123,7 +19125,7 @@ class FontAwesome7 {
   static const IconData spiral = IconData(
     0xe80a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Splotch icon
@@ -19133,7 +19135,7 @@ class FontAwesome7 {
   static const IconData splotch = IconData(
     0xf5bc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spoon icon
@@ -19143,7 +19145,7 @@ class FontAwesome7 {
   static const IconData spoon = IconData(
     0xf2e5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias utensil-spoon for icon [spoon]
@@ -19157,7 +19159,7 @@ class FontAwesome7 {
   static const IconData spotify = IconData(
     0xf1bc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spray Can icon
@@ -19167,7 +19169,7 @@ class FontAwesome7 {
   static const IconData sprayCan = IconData(
     0xf5bd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Spray Can Sparkles icon
@@ -19177,7 +19179,7 @@ class FontAwesome7 {
   static const IconData sprayCanSparkles = IconData(
     0xf5d0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias air-freshener for icon [sprayCanSparkles]
@@ -19191,7 +19193,7 @@ class FontAwesome7 {
   static const IconData solidSquare = IconData(
     0xf0c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Square icon
@@ -19201,7 +19203,7 @@ class FontAwesome7 {
   static const IconData square = IconData(
     0xf0c8,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Square Arrow Up Right icon
@@ -19211,7 +19213,7 @@ class FontAwesome7 {
   static const IconData squareArrowUpRight = IconData(
     0xf14c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias external-link-square for icon [squareArrowUpRight]
@@ -19225,7 +19227,7 @@ class FontAwesome7 {
   static const IconData squareBehance = IconData(
     0xf1b5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias behance-square for icon [squareBehance]
@@ -19239,7 +19241,7 @@ class FontAwesome7 {
   static const IconData squareBinary = IconData(
     0xe69b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Bluesky icon
@@ -19249,7 +19251,7 @@ class FontAwesome7 {
   static const IconData squareBluesky = IconData(
     0xe6a3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Square Caret Down icon
@@ -19259,7 +19261,7 @@ class FontAwesome7 {
   static const IconData solidSquareCaretDown = IconData(
     0xf150,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-down for icon [solidSquareCaretDown]
@@ -19273,7 +19275,7 @@ class FontAwesome7 {
   static const IconData squareCaretDown = IconData(
     0xf150,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-down for icon [squareCaretDown]
@@ -19287,7 +19289,7 @@ class FontAwesome7 {
   static const IconData solidSquareCaretLeft = IconData(
     0xf191,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-left for icon [solidSquareCaretLeft]
@@ -19301,7 +19303,7 @@ class FontAwesome7 {
   static const IconData squareCaretLeft = IconData(
     0xf191,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-left for icon [squareCaretLeft]
@@ -19315,7 +19317,7 @@ class FontAwesome7 {
   static const IconData solidSquareCaretRight = IconData(
     0xf152,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-right for icon [solidSquareCaretRight]
@@ -19329,7 +19331,7 @@ class FontAwesome7 {
   static const IconData squareCaretRight = IconData(
     0xf152,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-right for icon [squareCaretRight]
@@ -19343,7 +19345,7 @@ class FontAwesome7 {
   static const IconData solidSquareCaretUp = IconData(
     0xf151,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-up for icon [solidSquareCaretUp]
@@ -19357,7 +19359,7 @@ class FontAwesome7 {
   static const IconData squareCaretUp = IconData(
     0xf151,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias caret-square-up for icon [squareCaretUp]
@@ -19371,7 +19373,7 @@ class FontAwesome7 {
   static const IconData solidSquareCheck = IconData(
     0xf14a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias check-square for icon [solidSquareCheck]
@@ -19385,7 +19387,7 @@ class FontAwesome7 {
   static const IconData squareCheck = IconData(
     0xf14a,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias check-square for icon [squareCheck]
@@ -19398,7 +19400,7 @@ class FontAwesome7 {
   static const IconData squareDeskpro = IconData(
     0xe844,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Dribbble icon
@@ -19408,7 +19410,7 @@ class FontAwesome7 {
   static const IconData squareDribbble = IconData(
     0xf397,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias dribbble-square for icon [squareDribbble]
@@ -19422,7 +19424,7 @@ class FontAwesome7 {
   static const IconData squareEnvelope = IconData(
     0xf199,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias envelope-square for icon [squareEnvelope]
@@ -19436,7 +19438,7 @@ class FontAwesome7 {
   static const IconData squareFacebook = IconData(
     0xf082,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias facebook-square for icon [squareFacebook]
@@ -19450,7 +19452,7 @@ class FontAwesome7 {
   static const IconData squareFigma = IconData(
     0xe7e4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Font Awesome icon
@@ -19460,7 +19462,7 @@ class FontAwesome7 {
   static const IconData squareFontAwesome = IconData(
     0xe5ad,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Font Awesome Stroke icon
@@ -19470,7 +19472,7 @@ class FontAwesome7 {
   static const IconData squareFontAwesomeStroke = IconData(
     0xf35c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias font-awesome-alt for icon [squareFontAwesomeStroke]
@@ -19484,7 +19486,7 @@ class FontAwesome7 {
   static const IconData solidSquareFull = IconData(
     0xf45c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Square Full icon
@@ -19494,7 +19496,7 @@ class FontAwesome7 {
   static const IconData squareFull = IconData(
     0xf45c,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Git icon
@@ -19504,7 +19506,7 @@ class FontAwesome7 {
   static const IconData squareGit = IconData(
     0xf1d2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias git-square for icon [squareGit]
@@ -19518,7 +19520,7 @@ class FontAwesome7 {
   static const IconData squareGithub = IconData(
     0xf092,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias github-square for icon [squareGithub]
@@ -19532,7 +19534,7 @@ class FontAwesome7 {
   static const IconData squareGitlab = IconData(
     0xe5ae,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias gitlab-square for icon [squareGitlab]
@@ -19546,7 +19548,7 @@ class FontAwesome7 {
   static const IconData squareGooglePlus = IconData(
     0xf0d4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias google-plus-square for icon [squareGooglePlus]
@@ -19560,7 +19562,7 @@ class FontAwesome7 {
   static const IconData squareH = IconData(
     0xf0fd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias h-square for icon [squareH]
@@ -19574,7 +19576,7 @@ class FontAwesome7 {
   static const IconData squareHackerNews = IconData(
     0xf3af,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias hacker-news-square for icon [squareHackerNews]
@@ -19588,7 +19590,7 @@ class FontAwesome7 {
   static const IconData squareInstagram = IconData(
     0xe055,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias instagram-square for icon [squareInstagram]
@@ -19602,7 +19604,7 @@ class FontAwesome7 {
   static const IconData squareJs = IconData(
     0xf3b9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias js-square for icon [squareJs]
@@ -19616,7 +19618,7 @@ class FontAwesome7 {
   static const IconData squareLastfm = IconData(
     0xf203,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias lastfm-square for icon [squareLastfm]
@@ -19630,7 +19632,7 @@ class FontAwesome7 {
   static const IconData squareLetterboxd = IconData(
     0xe62e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Linkedin icon
@@ -19640,7 +19642,7 @@ class FontAwesome7 {
   static const IconData squareLinkedin = IconData(
     0xe7d0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Square Minus icon
@@ -19650,7 +19652,7 @@ class FontAwesome7 {
   static const IconData solidSquareMinus = IconData(
     0xf146,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias minus-square for icon [solidSquareMinus]
@@ -19664,7 +19666,7 @@ class FontAwesome7 {
   static const IconData squareMinus = IconData(
     0xf146,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias minus-square for icon [squareMinus]
@@ -19678,7 +19680,7 @@ class FontAwesome7 {
   static const IconData squareNfi = IconData(
     0xe576,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Odnoklassniki icon
@@ -19688,7 +19690,7 @@ class FontAwesome7 {
   static const IconData squareOdnoklassniki = IconData(
     0xf264,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias odnoklassniki-square for icon [squareOdnoklassniki]
@@ -19702,7 +19704,7 @@ class FontAwesome7 {
   static const IconData squareParking = IconData(
     0xf540,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias parking for icon [squareParking]
@@ -19716,7 +19718,7 @@ class FontAwesome7 {
   static const IconData squarePen = IconData(
     0xf14b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pen-square for icon [squarePen]
@@ -19734,7 +19736,7 @@ class FontAwesome7 {
   static const IconData squarePersonConfined = IconData(
     0xe577,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Square Phone icon
@@ -19744,7 +19746,7 @@ class FontAwesome7 {
   static const IconData squarePhone = IconData(
     0xf098,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias phone-square for icon [squarePhone]
@@ -19758,7 +19760,7 @@ class FontAwesome7 {
   static const IconData squarePhoneFlip = IconData(
     0xf87b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias phone-square-alt for icon [squarePhoneFlip]
@@ -19772,7 +19774,7 @@ class FontAwesome7 {
   static const IconData squarePiedPiper = IconData(
     0xe01e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pied-piper-square for icon [squarePiedPiper]
@@ -19786,7 +19788,7 @@ class FontAwesome7 {
   static const IconData squarePinterest = IconData(
     0xf0d3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias pinterest-square for icon [squarePinterest]
@@ -19800,7 +19802,7 @@ class FontAwesome7 {
   static const IconData solidSquarePlus = IconData(
     0xf0fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias plus-square for icon [solidSquarePlus]
@@ -19814,7 +19816,7 @@ class FontAwesome7 {
   static const IconData squarePlus = IconData(
     0xf0fe,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias plus-square for icon [squarePlus]
@@ -19828,7 +19830,7 @@ class FontAwesome7 {
   static const IconData squarePollHorizontal = IconData(
     0xf682,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias poll-h for icon [squarePollHorizontal]
@@ -19842,7 +19844,7 @@ class FontAwesome7 {
   static const IconData squarePollVertical = IconData(
     0xf681,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias poll for icon [squarePollVertical]
@@ -19856,7 +19858,7 @@ class FontAwesome7 {
   static const IconData squareReddit = IconData(
     0xf1a2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias reddit-square for icon [squareReddit]
@@ -19870,7 +19872,7 @@ class FontAwesome7 {
   static const IconData squareRootVariable = IconData(
     0xf698,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias square-root-alt for icon [squareRootVariable]
@@ -19884,7 +19886,7 @@ class FontAwesome7 {
   static const IconData squareRss = IconData(
     0xf143,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rss-square for icon [squareRss]
@@ -19898,7 +19900,7 @@ class FontAwesome7 {
   static const IconData squareShareNodes = IconData(
     0xf1e1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias share-alt-square for icon [squareShareNodes]
@@ -19912,7 +19914,7 @@ class FontAwesome7 {
   static const IconData squareSnapchat = IconData(
     0xf2ad,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias snapchat-square for icon [squareSnapchat]
@@ -19926,7 +19928,7 @@ class FontAwesome7 {
   static const IconData squareSteam = IconData(
     0xf1b7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias steam-square for icon [squareSteam]
@@ -19940,7 +19942,7 @@ class FontAwesome7 {
   static const IconData squareThreads = IconData(
     0xe619,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Tumblr icon
@@ -19950,7 +19952,7 @@ class FontAwesome7 {
   static const IconData squareTumblr = IconData(
     0xf174,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tumblr-square for icon [squareTumblr]
@@ -19964,7 +19966,7 @@ class FontAwesome7 {
   static const IconData squareTwitter = IconData(
     0xf081,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias twitter-square for icon [squareTwitter]
@@ -19978,7 +19980,7 @@ class FontAwesome7 {
   static const IconData squareUpRight = IconData(
     0xf360,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias external-link-square-alt for icon [squareUpRight]
@@ -19992,7 +19994,7 @@ class FontAwesome7 {
   static const IconData squareUpwork = IconData(
     0xe67c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Viadeo icon
@@ -20002,7 +20004,7 @@ class FontAwesome7 {
   static const IconData squareViadeo = IconData(
     0xf2aa,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias viadeo-square for icon [squareViadeo]
@@ -20016,7 +20018,7 @@ class FontAwesome7 {
   static const IconData squareVimeo = IconData(
     0xf194,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias vimeo-square for icon [squareVimeo]
@@ -20030,7 +20032,7 @@ class FontAwesome7 {
   static const IconData squareVirus = IconData(
     0xe578,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Web Awesome icon
@@ -20040,7 +20042,7 @@ class FontAwesome7 {
   static const IconData squareWebAwesome = IconData(
     0xe683,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Web Awesome Stroke icon
@@ -20050,7 +20052,7 @@ class FontAwesome7 {
   static const IconData squareWebAwesomeStroke = IconData(
     0xe684,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Whatsapp icon
@@ -20060,7 +20062,7 @@ class FontAwesome7 {
   static const IconData squareWhatsapp = IconData(
     0xf40c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias whatsapp-square for icon [squareWhatsapp]
@@ -20074,7 +20076,7 @@ class FontAwesome7 {
   static const IconData squareXTwitter = IconData(
     0xe61a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Square Xing icon
@@ -20084,7 +20086,7 @@ class FontAwesome7 {
   static const IconData squareXing = IconData(
     0xf169,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias xing-square for icon [squareXing]
@@ -20098,7 +20100,7 @@ class FontAwesome7 {
   static const IconData squareXmark = IconData(
     0xf2d3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias times-square for icon [squareXmark]
@@ -20116,7 +20118,7 @@ class FontAwesome7 {
   static const IconData squareYoutube = IconData(
     0xf431,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias youtube-square for icon [squareYoutube]
@@ -20130,7 +20132,7 @@ class FontAwesome7 {
   static const IconData squarespace = IconData(
     0xf5be,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stack Exchange icon
@@ -20140,7 +20142,7 @@ class FontAwesome7 {
   static const IconData stackExchange = IconData(
     0xf18d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stack Overflow icon
@@ -20150,7 +20152,7 @@ class FontAwesome7 {
   static const IconData stackOverflow = IconData(
     0xf16c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stackpath icon
@@ -20160,7 +20162,7 @@ class FontAwesome7 {
   static const IconData stackpath = IconData(
     0xf842,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Staff Snake icon
@@ -20170,7 +20172,7 @@ class FontAwesome7 {
   static const IconData staffSnake = IconData(
     0xe579,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rod-asclepius for icon [staffSnake]
@@ -20192,7 +20194,7 @@ class FontAwesome7 {
   static const IconData stairs = IconData(
     0xe289,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stamp icon
@@ -20202,7 +20204,7 @@ class FontAwesome7 {
   static const IconData stamp = IconData(
     0xf5bf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stapler icon
@@ -20212,7 +20214,7 @@ class FontAwesome7 {
   static const IconData stapler = IconData(
     0xe5af,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Star icon
@@ -20222,7 +20224,7 @@ class FontAwesome7 {
   static const IconData solidStar = IconData(
     0xf005,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Star icon
@@ -20232,7 +20234,7 @@ class FontAwesome7 {
   static const IconData star = IconData(
     0xf005,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Star And Crescent icon
@@ -20242,7 +20244,7 @@ class FontAwesome7 {
   static const IconData starAndCrescent = IconData(
     0xf699,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Star Half icon
@@ -20252,7 +20254,7 @@ class FontAwesome7 {
   static const IconData solidStarHalf = IconData(
     0xf089,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Star Half icon
@@ -20262,7 +20264,7 @@ class FontAwesome7 {
   static const IconData starHalf = IconData(
     0xf089,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Star Half Stroke icon
@@ -20272,7 +20274,7 @@ class FontAwesome7 {
   static const IconData solidStarHalfStroke = IconData(
     0xf5c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias star-half-alt for icon [solidStarHalfStroke]
@@ -20286,7 +20288,7 @@ class FontAwesome7 {
   static const IconData starHalfStroke = IconData(
     0xf5c0,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias star-half-alt for icon [starHalfStroke]
@@ -20300,7 +20302,7 @@ class FontAwesome7 {
   static const IconData starOfDavid = IconData(
     0xf69a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Star Of Life icon
@@ -20310,7 +20312,7 @@ class FontAwesome7 {
   static const IconData starOfLife = IconData(
     0xf621,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Staylinked icon
@@ -20320,7 +20322,7 @@ class FontAwesome7 {
   static const IconData staylinked = IconData(
     0xf3f5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Steam icon
@@ -20330,7 +20332,7 @@ class FontAwesome7 {
   static const IconData steam = IconData(
     0xf1b6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Steam Symbol icon
@@ -20340,7 +20342,7 @@ class FontAwesome7 {
   static const IconData steamSymbol = IconData(
     0xf3f6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sterling Sign icon
@@ -20350,7 +20352,7 @@ class FontAwesome7 {
   static const IconData sterlingSign = IconData(
     0xf154,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias gbp for icon [sterlingSign]
@@ -20368,7 +20370,7 @@ class FontAwesome7 {
   static const IconData stethoscope = IconData(
     0xf0f1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Sticker Mule icon
@@ -20378,7 +20380,7 @@ class FontAwesome7 {
   static const IconData stickerMule = IconData(
     0xf3f7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stop icon
@@ -20388,7 +20390,7 @@ class FontAwesome7 {
   static const IconData stop = IconData(
     0xf04d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stopwatch icon
@@ -20398,7 +20400,7 @@ class FontAwesome7 {
   static const IconData stopwatch = IconData(
     0xf2f2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stopwatch 20 icon
@@ -20408,7 +20410,7 @@ class FontAwesome7 {
   static const IconData stopwatch20 = IconData(
     0xe06f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Store icon
@@ -20418,7 +20420,7 @@ class FontAwesome7 {
   static const IconData store = IconData(
     0xf54e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Store Slash icon
@@ -20428,7 +20430,7 @@ class FontAwesome7 {
   static const IconData storeSlash = IconData(
     0xe071,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Strava icon
@@ -20438,7 +20440,7 @@ class FontAwesome7 {
   static const IconData strava = IconData(
     0xf428,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Street View icon
@@ -20448,7 +20450,7 @@ class FontAwesome7 {
   static const IconData streetView = IconData(
     0xf21d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Strikethrough icon
@@ -20458,7 +20460,7 @@ class FontAwesome7 {
   static const IconData strikethrough = IconData(
     0xf0cc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stripe icon
@@ -20468,7 +20470,7 @@ class FontAwesome7 {
   static const IconData stripe = IconData(
     0xf429,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stripe S icon
@@ -20478,7 +20480,7 @@ class FontAwesome7 {
   static const IconData stripeS = IconData(
     0xf42a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Stroopwafel icon
@@ -20488,7 +20490,7 @@ class FontAwesome7 {
   static const IconData stroopwafel = IconData(
     0xf551,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stubber icon
@@ -20498,7 +20500,7 @@ class FontAwesome7 {
   static const IconData stubber = IconData(
     0xe5c7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Studiovinari icon
@@ -20508,7 +20510,7 @@ class FontAwesome7 {
   static const IconData studiovinari = IconData(
     0xf3f8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stumbleupon icon
@@ -20518,7 +20520,7 @@ class FontAwesome7 {
   static const IconData stumbleupon = IconData(
     0xf1a4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Stumbleupon Circle icon
@@ -20528,7 +20530,7 @@ class FontAwesome7 {
   static const IconData stumbleuponCircle = IconData(
     0xf1a3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Subscript icon
@@ -20538,7 +20540,7 @@ class FontAwesome7 {
   static const IconData subscript = IconData(
     0xf12c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Suitcase icon
@@ -20548,7 +20550,7 @@ class FontAwesome7 {
   static const IconData suitcase = IconData(
     0xf0f2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Suitcase Medical icon
@@ -20558,7 +20560,7 @@ class FontAwesome7 {
   static const IconData suitcaseMedical = IconData(
     0xf0fa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias medkit for icon [suitcaseMedical]
@@ -20572,7 +20574,7 @@ class FontAwesome7 {
   static const IconData suitcaseRolling = IconData(
     0xf5c1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sun icon
@@ -20582,7 +20584,7 @@ class FontAwesome7 {
   static const IconData solidSun = IconData(
     0xf185,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Sun icon
@@ -20592,7 +20594,7 @@ class FontAwesome7 {
   static const IconData sun = IconData(
     0xf185,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Sun Plant Wilt icon
@@ -20602,7 +20604,7 @@ class FontAwesome7 {
   static const IconData sunPlantWilt = IconData(
     0xe57a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Superpowers icon
@@ -20612,7 +20614,7 @@ class FontAwesome7 {
   static const IconData superpowers = IconData(
     0xf2dd,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Superscript icon
@@ -20622,7 +20624,7 @@ class FontAwesome7 {
   static const IconData superscript = IconData(
     0xf12b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Supple icon
@@ -20632,7 +20634,7 @@ class FontAwesome7 {
   static const IconData supple = IconData(
     0xf3f9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Supportnow icon
@@ -20642,7 +20644,7 @@ class FontAwesome7 {
   static const IconData supportnow = IconData(
     0xe833,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Suse icon
@@ -20652,7 +20654,7 @@ class FontAwesome7 {
   static const IconData suse = IconData(
     0xf7d6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Svelte icon
@@ -20661,7 +20663,7 @@ class FontAwesome7 {
   static const IconData svelte = IconData(
     0xe868,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Swatchbook icon
@@ -20671,7 +20673,7 @@ class FontAwesome7 {
   static const IconData swatchbook = IconData(
     0xf5c3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Swift icon
@@ -20681,7 +20683,7 @@ class FontAwesome7 {
   static const IconData swift = IconData(
     0xf8e1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Symfony icon
@@ -20691,7 +20693,7 @@ class FontAwesome7 {
   static const IconData symfony = IconData(
     0xf83d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Symfonycasts icon
@@ -20700,7 +20702,7 @@ class FontAwesome7 {
   static const IconData symfonycasts = IconData(
     0xe8ab,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Synagogue icon
@@ -20710,7 +20712,7 @@ class FontAwesome7 {
   static const IconData synagogue = IconData(
     0xf69b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Syringe icon
@@ -20720,7 +20722,7 @@ class FontAwesome7 {
   static const IconData syringe = IconData(
     0xf48e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid T icon
@@ -20730,7 +20732,7 @@ class FontAwesome7 {
   static const IconData t = IconData(
     0x54,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Table icon
@@ -20740,7 +20742,7 @@ class FontAwesome7 {
   static const IconData table = IconData(
     0xf0ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Table Cells icon
@@ -20750,7 +20752,7 @@ class FontAwesome7 {
   static const IconData tableCells = IconData(
     0xf00a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias th for icon [tableCells]
@@ -20764,7 +20766,7 @@ class FontAwesome7 {
   static const IconData tableCellsColumnLock = IconData(
     0xe678,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Table Cells Large icon
@@ -20774,7 +20776,7 @@ class FontAwesome7 {
   static const IconData tableCellsLarge = IconData(
     0xf009,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias th-large for icon [tableCellsLarge]
@@ -20788,7 +20790,7 @@ class FontAwesome7 {
   static const IconData tableCellsRowLock = IconData(
     0xe67a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Table Cells Row Unlock icon
@@ -20798,7 +20800,7 @@ class FontAwesome7 {
   static const IconData tableCellsRowUnlock = IconData(
     0xe691,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Table Columns icon
@@ -20808,7 +20810,7 @@ class FontAwesome7 {
   static const IconData tableColumns = IconData(
     0xf0db,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias columns for icon [tableColumns]
@@ -20822,7 +20824,7 @@ class FontAwesome7 {
   static const IconData tableList = IconData(
     0xf00b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias th-list for icon [tableList]
@@ -20836,7 +20838,7 @@ class FontAwesome7 {
   static const IconData tableTennisPaddleBall = IconData(
     0xf45d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ping-pong-paddle-ball for icon [tableTennisPaddleBall]
@@ -20854,7 +20856,7 @@ class FontAwesome7 {
   static const IconData tablet = IconData(
     0xf3fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tablet-android for icon [tablet]
@@ -20868,7 +20870,7 @@ class FontAwesome7 {
   static const IconData tabletButton = IconData(
     0xf10a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tablet Screen Button icon
@@ -20878,7 +20880,7 @@ class FontAwesome7 {
   static const IconData tabletScreenButton = IconData(
     0xf3fa,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tablet-alt for icon [tabletScreenButton]
@@ -20892,7 +20894,7 @@ class FontAwesome7 {
   static const IconData tablets = IconData(
     0xf490,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tachograph Digital icon
@@ -20902,7 +20904,7 @@ class FontAwesome7 {
   static const IconData tachographDigital = IconData(
     0xf566,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias digital-tachograph for icon [tachographDigital]
@@ -20916,7 +20918,7 @@ class FontAwesome7 {
   static const IconData tag = IconData(
     0xf02b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tags icon
@@ -20926,7 +20928,7 @@ class FontAwesome7 {
   static const IconData tags = IconData(
     0xf02c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Tailwind Css icon
@@ -20935,7 +20937,7 @@ class FontAwesome7 {
   static const IconData tailwindCss = IconData(
     0xe866,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tape icon
@@ -20945,7 +20947,7 @@ class FontAwesome7 {
   static const IconData tape = IconData(
     0xf4db,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tarp icon
@@ -20955,7 +20957,7 @@ class FontAwesome7 {
   static const IconData tarp = IconData(
     0xe57b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tarp Droplet icon
@@ -20965,7 +20967,7 @@ class FontAwesome7 {
   static const IconData tarpDroplet = IconData(
     0xe57c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Taurus icon
@@ -20975,7 +20977,7 @@ class FontAwesome7 {
   static const IconData taurus = IconData(
     0xe84f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Taxi icon
@@ -20985,7 +20987,7 @@ class FontAwesome7 {
   static const IconData taxi = IconData(
     0xf1ba,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cab for icon [taxi]
@@ -20999,7 +21001,7 @@ class FontAwesome7 {
   static const IconData teamspeak = IconData(
     0xf4f9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Teeth icon
@@ -21009,7 +21011,7 @@ class FontAwesome7 {
   static const IconData teeth = IconData(
     0xf62e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Teeth Open icon
@@ -21019,7 +21021,7 @@ class FontAwesome7 {
   static const IconData teethOpen = IconData(
     0xf62f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Telegram icon
@@ -21029,7 +21031,7 @@ class FontAwesome7 {
   static const IconData telegram = IconData(
     0xf2c6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias telegram-plane for icon [telegram]
@@ -21043,7 +21045,7 @@ class FontAwesome7 {
   static const IconData temperatureArrowDown = IconData(
     0xe03f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-down for icon [temperatureArrowDown]
@@ -21057,7 +21059,7 @@ class FontAwesome7 {
   static const IconData temperatureArrowUp = IconData(
     0xe040,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-up for icon [temperatureArrowUp]
@@ -21071,7 +21073,7 @@ class FontAwesome7 {
   static const IconData temperatureEmpty = IconData(
     0xf2cb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-0 for icon [temperatureEmpty]
@@ -21093,7 +21095,7 @@ class FontAwesome7 {
   static const IconData temperatureFull = IconData(
     0xf2c7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-4 for icon [temperatureFull]
@@ -21115,7 +21117,7 @@ class FontAwesome7 {
   static const IconData temperatureHalf = IconData(
     0xf2c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-2 for icon [temperatureHalf]
@@ -21137,7 +21139,7 @@ class FontAwesome7 {
   static const IconData temperatureHigh = IconData(
     0xf769,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Temperature Low icon
@@ -21147,7 +21149,7 @@ class FontAwesome7 {
   static const IconData temperatureLow = IconData(
     0xf76b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Temperature Quarter icon
@@ -21157,7 +21159,7 @@ class FontAwesome7 {
   static const IconData temperatureQuarter = IconData(
     0xf2ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-1 for icon [temperatureQuarter]
@@ -21179,7 +21181,7 @@ class FontAwesome7 {
   static const IconData temperatureThreeQuarters = IconData(
     0xf2c8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias temperature-3 for icon [temperatureThreeQuarters]
@@ -21201,7 +21203,7 @@ class FontAwesome7 {
   static const IconData tencentWeibo = IconData(
     0xf1d5,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tenge Sign icon
@@ -21211,7 +21213,7 @@ class FontAwesome7 {
   static const IconData tengeSign = IconData(
     0xf7d7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias tenge for icon [tengeSign]
@@ -21225,7 +21227,7 @@ class FontAwesome7 {
   static const IconData tent = IconData(
     0xe57d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tent Arrow Down To Line icon
@@ -21235,7 +21237,7 @@ class FontAwesome7 {
   static const IconData tentArrowDownToLine = IconData(
     0xe57e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tent Arrow Left Right icon
@@ -21245,7 +21247,7 @@ class FontAwesome7 {
   static const IconData tentArrowLeftRight = IconData(
     0xe57f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tent Arrow Turn Left icon
@@ -21255,7 +21257,7 @@ class FontAwesome7 {
   static const IconData tentArrowTurnLeft = IconData(
     0xe580,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tent Arrows Down icon
@@ -21265,7 +21267,7 @@ class FontAwesome7 {
   static const IconData tentArrowsDown = IconData(
     0xe581,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tents icon
@@ -21275,7 +21277,7 @@ class FontAwesome7 {
   static const IconData tents = IconData(
     0xe582,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Terminal icon
@@ -21285,7 +21287,7 @@ class FontAwesome7 {
   static const IconData terminal = IconData(
     0xf120,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Tex icon
@@ -21295,7 +21297,7 @@ class FontAwesome7 {
   static const IconData tex = IconData(
     0xe7ff,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Text Height icon
@@ -21305,7 +21307,7 @@ class FontAwesome7 {
   static const IconData textHeight = IconData(
     0xf034,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Text Slash icon
@@ -21315,7 +21317,7 @@ class FontAwesome7 {
   static const IconData textSlash = IconData(
     0xf87d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias remove-format for icon [textSlash]
@@ -21329,7 +21331,7 @@ class FontAwesome7 {
   static const IconData textWidth = IconData(
     0xf035,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands The Red Yeti icon
@@ -21339,7 +21341,7 @@ class FontAwesome7 {
   static const IconData theRedYeti = IconData(
     0xf69d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Themeco icon
@@ -21349,7 +21351,7 @@ class FontAwesome7 {
   static const IconData themeco = IconData(
     0xf5c6,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Themeisle icon
@@ -21359,7 +21361,7 @@ class FontAwesome7 {
   static const IconData themeisle = IconData(
     0xf2b2,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Thermometer icon
@@ -21369,7 +21371,7 @@ class FontAwesome7 {
   static const IconData thermometer = IconData(
     0xf491,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Think Peaks icon
@@ -21379,7 +21381,7 @@ class FontAwesome7 {
   static const IconData thinkPeaks = IconData(
     0xf731,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Threads icon
@@ -21389,7 +21391,7 @@ class FontAwesome7 {
   static const IconData threads = IconData(
     0xe618,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Threema icon
@@ -21398,7 +21400,7 @@ class FontAwesome7 {
   static const IconData threema = IconData(
     0xe85f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Thumbs Down icon
@@ -21408,7 +21410,7 @@ class FontAwesome7 {
   static const IconData solidThumbsDown = IconData(
     0xf165,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Thumbs Down icon
@@ -21418,7 +21420,7 @@ class FontAwesome7 {
   static const IconData thumbsDown = IconData(
     0xf165,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Thumbs Up icon
@@ -21428,7 +21430,7 @@ class FontAwesome7 {
   static const IconData solidThumbsUp = IconData(
     0xf164,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Thumbs Up icon
@@ -21438,7 +21440,7 @@ class FontAwesome7 {
   static const IconData thumbsUp = IconData(
     0xf164,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Thumbtack icon
@@ -21448,7 +21450,7 @@ class FontAwesome7 {
   static const IconData thumbtack = IconData(
     0xf08d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias thumb-tack for icon [thumbtack]
@@ -21462,7 +21464,7 @@ class FontAwesome7 {
   static const IconData thumbtackSlash = IconData(
     0xe68f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias thumb-tack-slash for icon [thumbtackSlash]
@@ -21476,7 +21478,7 @@ class FontAwesome7 {
   static const IconData ticket = IconData(
     0xf145,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Ticket Simple icon
@@ -21486,7 +21488,7 @@ class FontAwesome7 {
   static const IconData ticketSimple = IconData(
     0xf3ff,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ticket-alt for icon [ticketSimple]
@@ -21500,7 +21502,7 @@ class FontAwesome7 {
   static const IconData tidal = IconData(
     0xe7dc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Tiktok icon
@@ -21510,7 +21512,7 @@ class FontAwesome7 {
   static const IconData tiktok = IconData(
     0xe07b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Timeline icon
@@ -21520,7 +21522,7 @@ class FontAwesome7 {
   static const IconData timeline = IconData(
     0xe29c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toggle Off icon
@@ -21530,7 +21532,7 @@ class FontAwesome7 {
   static const IconData toggleOff = IconData(
     0xf204,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toggle On icon
@@ -21540,7 +21542,7 @@ class FontAwesome7 {
   static const IconData toggleOn = IconData(
     0xf205,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toilet icon
@@ -21550,7 +21552,7 @@ class FontAwesome7 {
   static const IconData toilet = IconData(
     0xf7d8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toilet Paper icon
@@ -21560,7 +21562,7 @@ class FontAwesome7 {
   static const IconData toiletPaper = IconData(
     0xf71e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias toilet-paper-alt for icon [toiletPaper]
@@ -21578,7 +21580,7 @@ class FontAwesome7 {
   static const IconData toiletPaperSlash = IconData(
     0xe072,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toilet Portable icon
@@ -21588,7 +21590,7 @@ class FontAwesome7 {
   static const IconData toiletPortable = IconData(
     0xe583,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toilets Portable icon
@@ -21598,7 +21600,7 @@ class FontAwesome7 {
   static const IconData toiletsPortable = IconData(
     0xe584,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Toolbox icon
@@ -21608,7 +21610,7 @@ class FontAwesome7 {
   static const IconData toolbox = IconData(
     0xf552,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tooth icon
@@ -21618,7 +21620,7 @@ class FontAwesome7 {
   static const IconData tooth = IconData(
     0xf5c9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Tor Browser icon
@@ -21628,7 +21630,7 @@ class FontAwesome7 {
   static const IconData torBrowser = IconData(
     0xe838,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Torii Gate icon
@@ -21638,7 +21640,7 @@ class FontAwesome7 {
   static const IconData toriiGate = IconData(
     0xf6a1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tornado icon
@@ -21648,7 +21650,7 @@ class FontAwesome7 {
   static const IconData tornado = IconData(
     0xf76f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tower Broadcast icon
@@ -21658,7 +21660,7 @@ class FontAwesome7 {
   static const IconData towerBroadcast = IconData(
     0xf519,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias broadcast-tower for icon [towerBroadcast]
@@ -21672,7 +21674,7 @@ class FontAwesome7 {
   static const IconData towerCell = IconData(
     0xe585,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tower Observation icon
@@ -21682,7 +21684,7 @@ class FontAwesome7 {
   static const IconData towerObservation = IconData(
     0xe586,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tractor icon
@@ -21692,7 +21694,7 @@ class FontAwesome7 {
   static const IconData tractor = IconData(
     0xf722,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Trade Federation icon
@@ -21702,7 +21704,7 @@ class FontAwesome7 {
   static const IconData tradeFederation = IconData(
     0xf513,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Trademark icon
@@ -21712,7 +21714,7 @@ class FontAwesome7 {
   static const IconData trademark = IconData(
     0xf25c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Traffic Light icon
@@ -21722,7 +21724,7 @@ class FontAwesome7 {
   static const IconData trafficLight = IconData(
     0xf637,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Trailer icon
@@ -21732,7 +21734,7 @@ class FontAwesome7 {
   static const IconData trailer = IconData(
     0xe041,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Train icon
@@ -21742,7 +21744,7 @@ class FontAwesome7 {
   static const IconData train = IconData(
     0xf238,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Train Subway icon
@@ -21752,7 +21754,7 @@ class FontAwesome7 {
   static const IconData trainSubway = IconData(
     0xf239,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias subway for icon [trainSubway]
@@ -21766,7 +21768,7 @@ class FontAwesome7 {
   static const IconData trainTram = IconData(
     0xe5b4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Transgender icon
@@ -21776,7 +21778,7 @@ class FontAwesome7 {
   static const IconData transgender = IconData(
     0xf225,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias transgender-alt for icon [transgender]
@@ -21790,7 +21792,7 @@ class FontAwesome7 {
   static const IconData trash = IconData(
     0xf1f8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Trash Arrow Up icon
@@ -21800,7 +21802,7 @@ class FontAwesome7 {
   static const IconData trashArrowUp = IconData(
     0xf829,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias trash-restore for icon [trashArrowUp]
@@ -21814,7 +21816,7 @@ class FontAwesome7 {
   static const IconData solidTrashCan = IconData(
     0xf2ed,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias trash-alt for icon [solidTrashCan]
@@ -21828,7 +21830,7 @@ class FontAwesome7 {
   static const IconData trashCan = IconData(
     0xf2ed,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias trash-alt for icon [trashCan]
@@ -21842,7 +21844,7 @@ class FontAwesome7 {
   static const IconData trashCanArrowUp = IconData(
     0xf82a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias trash-restore-alt for icon [trashCanArrowUp]
@@ -21856,7 +21858,7 @@ class FontAwesome7 {
   static const IconData tree = IconData(
     0xf1bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Tree City icon
@@ -21866,7 +21868,7 @@ class FontAwesome7 {
   static const IconData treeCity = IconData(
     0xe587,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Trello icon
@@ -21876,7 +21878,7 @@ class FontAwesome7 {
   static const IconData trello = IconData(
     0xf181,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Triangle Exclamation icon
@@ -21886,7 +21888,7 @@ class FontAwesome7 {
   static const IconData triangleExclamation = IconData(
     0xf071,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias exclamation-triangle for icon [triangleExclamation]
@@ -21904,7 +21906,7 @@ class FontAwesome7 {
   static const IconData trophy = IconData(
     0xf091,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Trowel icon
@@ -21914,7 +21916,7 @@ class FontAwesome7 {
   static const IconData trowel = IconData(
     0xe589,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Trowel Bricks icon
@@ -21924,7 +21926,7 @@ class FontAwesome7 {
   static const IconData trowelBricks = IconData(
     0xe58a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck icon
@@ -21934,7 +21936,7 @@ class FontAwesome7 {
   static const IconData solidTruck = IconData(
     0xf0d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Truck icon
@@ -21944,7 +21946,7 @@ class FontAwesome7 {
   static const IconData truck = IconData(
     0xf0d1,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Arrow Right icon
@@ -21954,7 +21956,7 @@ class FontAwesome7 {
   static const IconData truckArrowRight = IconData(
     0xe58b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Droplet icon
@@ -21964,7 +21966,7 @@ class FontAwesome7 {
   static const IconData truckDroplet = IconData(
     0xe58c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Fast icon
@@ -21974,7 +21976,7 @@ class FontAwesome7 {
   static const IconData truckFast = IconData(
     0xf48b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shipping-fast for icon [truckFast]
@@ -21988,7 +21990,7 @@ class FontAwesome7 {
   static const IconData truckField = IconData(
     0xe58d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Field Un icon
@@ -21998,7 +22000,7 @@ class FontAwesome7 {
   static const IconData truckFieldUn = IconData(
     0xe58e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Front icon
@@ -22008,7 +22010,7 @@ class FontAwesome7 {
   static const IconData truckFront = IconData(
     0xe2b7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Medical icon
@@ -22018,7 +22020,7 @@ class FontAwesome7 {
   static const IconData truckMedical = IconData(
     0xf0f9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ambulance for icon [truckMedical]
@@ -22032,7 +22034,7 @@ class FontAwesome7 {
   static const IconData truckMonster = IconData(
     0xf63b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Moving icon
@@ -22042,7 +22044,7 @@ class FontAwesome7 {
   static const IconData truckMoving = IconData(
     0xf4df,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Pickup icon
@@ -22052,7 +22054,7 @@ class FontAwesome7 {
   static const IconData truckPickup = IconData(
     0xf63c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Plane icon
@@ -22062,7 +22064,7 @@ class FontAwesome7 {
   static const IconData truckPlane = IconData(
     0xe58f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Truck Ramp Box icon
@@ -22072,7 +22074,7 @@ class FontAwesome7 {
   static const IconData truckRampBox = IconData(
     0xf4de,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias truck-loading for icon [truckRampBox]
@@ -22086,7 +22088,7 @@ class FontAwesome7 {
   static const IconData tty = IconData(
     0xf1e4,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias teletype for icon [tty]
@@ -22100,7 +22102,7 @@ class FontAwesome7 {
   static const IconData tumblr = IconData(
     0xf173,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Turkish Lira Sign icon
@@ -22110,7 +22112,7 @@ class FontAwesome7 {
   static const IconData turkishLiraSign = IconData(
     0xe2bb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias turkish-lira for icon [turkishLiraSign]
@@ -22124,7 +22126,7 @@ class FontAwesome7 {
   static const IconData turnDown = IconData(
     0xf3be,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias level-down-alt for icon [turnDown]
@@ -22138,7 +22140,7 @@ class FontAwesome7 {
   static const IconData turnUp = IconData(
     0xf3bf,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias level-up-alt for icon [turnUp]
@@ -22152,7 +22154,7 @@ class FontAwesome7 {
   static const IconData tv = IconData(
     0xf26c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias television for icon [tv]
@@ -22170,7 +22172,7 @@ class FontAwesome7 {
   static const IconData twitch = IconData(
     0xf1e8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Twitter icon
@@ -22180,7 +22182,7 @@ class FontAwesome7 {
   static const IconData twitter = IconData(
     0xf099,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Typescript icon
@@ -22189,7 +22191,7 @@ class FontAwesome7 {
   static const IconData typescript = IconData(
     0xe840,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Typo3 icon
@@ -22199,7 +22201,7 @@ class FontAwesome7 {
   static const IconData typo3 = IconData(
     0xf42b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid U icon
@@ -22209,7 +22211,7 @@ class FontAwesome7 {
   static const IconData u = IconData(
     0x55,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Uber icon
@@ -22219,7 +22221,7 @@ class FontAwesome7 {
   static const IconData uber = IconData(
     0xf402,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ubuntu icon
@@ -22229,7 +22231,7 @@ class FontAwesome7 {
   static const IconData ubuntu = IconData(
     0xf7df,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Uikit icon
@@ -22239,7 +22241,7 @@ class FontAwesome7 {
   static const IconData uikit = IconData(
     0xf403,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ultralytics icon
@@ -22248,7 +22250,7 @@ class FontAwesome7 {
   static const IconData ultralytics = IconData(
     0xe86d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ultralytics Hub icon
@@ -22257,7 +22259,7 @@ class FontAwesome7 {
   static const IconData ultralyticsHub = IconData(
     0xe86e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ultralytics Yolo icon
@@ -22266,7 +22268,7 @@ class FontAwesome7 {
   static const IconData ultralyticsYolo = IconData(
     0xe86f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Umbraco icon
@@ -22276,7 +22278,7 @@ class FontAwesome7 {
   static const IconData umbraco = IconData(
     0xf8e8,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Umbrella icon
@@ -22286,7 +22288,7 @@ class FontAwesome7 {
   static const IconData umbrella = IconData(
     0xf0e9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Umbrella Beach icon
@@ -22296,7 +22298,7 @@ class FontAwesome7 {
   static const IconData umbrellaBeach = IconData(
     0xf5ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Uncharted icon
@@ -22306,7 +22308,7 @@ class FontAwesome7 {
   static const IconData uncharted = IconData(
     0xe084,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Underline icon
@@ -22316,7 +22318,7 @@ class FontAwesome7 {
   static const IconData underline = IconData(
     0xf0cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Uniregistry icon
@@ -22326,7 +22328,7 @@ class FontAwesome7 {
   static const IconData uniregistry = IconData(
     0xf404,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Unison icon
@@ -22335,7 +22337,7 @@ class FontAwesome7 {
   static const IconData unison = IconData(
     0xe854,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Unity icon
@@ -22345,7 +22347,7 @@ class FontAwesome7 {
   static const IconData unity = IconData(
     0xe049,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Universal Access icon
@@ -22355,7 +22357,7 @@ class FontAwesome7 {
   static const IconData universalAccess = IconData(
     0xf29a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Unlock icon
@@ -22365,7 +22367,7 @@ class FontAwesome7 {
   static const IconData unlock = IconData(
     0xf09c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Unlock Keyhole icon
@@ -22375,7 +22377,7 @@ class FontAwesome7 {
   static const IconData unlockKeyhole = IconData(
     0xf13e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias unlock-alt for icon [unlockKeyhole]
@@ -22388,7 +22390,7 @@ class FontAwesome7 {
   static const IconData unrealEngine = IconData(
     0xe85c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Unsplash icon
@@ -22398,7 +22400,7 @@ class FontAwesome7 {
   static const IconData unsplash = IconData(
     0xe07c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Untappd icon
@@ -22408,7 +22410,7 @@ class FontAwesome7 {
   static const IconData untappd = IconData(
     0xf405,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Up Down icon
@@ -22418,7 +22420,7 @@ class FontAwesome7 {
   static const IconData upDown = IconData(
     0xf338,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows-alt-v for icon [upDown]
@@ -22432,7 +22434,7 @@ class FontAwesome7 {
   static const IconData upDownLeftRight = IconData(
     0xf0b2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias arrows-alt for icon [upDownLeftRight]
@@ -22446,7 +22448,7 @@ class FontAwesome7 {
   static const IconData upLong = IconData(
     0xf30c,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias long-arrow-alt-up for icon [upLong]
@@ -22460,7 +22462,7 @@ class FontAwesome7 {
   static const IconData upRightAndDownLeftFromCenter = IconData(
     0xf424,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias expand-alt for icon [upRightAndDownLeftFromCenter]
@@ -22474,7 +22476,7 @@ class FontAwesome7 {
   static const IconData upRightFromSquare = IconData(
     0xf35d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias external-link-alt for icon [upRightFromSquare]
@@ -22488,7 +22490,7 @@ class FontAwesome7 {
   static const IconData upload = IconData(
     0xf093,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ups icon
@@ -22498,7 +22500,7 @@ class FontAwesome7 {
   static const IconData ups = IconData(
     0xf7e0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Upwork icon
@@ -22508,7 +22510,7 @@ class FontAwesome7 {
   static const IconData upwork = IconData(
     0xe641,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Usb icon
@@ -22518,7 +22520,7 @@ class FontAwesome7 {
   static const IconData usb = IconData(
     0xf287,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User icon
@@ -22528,7 +22530,7 @@ class FontAwesome7 {
   static const IconData solidUser = IconData(
     0xf007,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-alt for icon [solidUser]
@@ -22546,7 +22548,7 @@ class FontAwesome7 {
   static const IconData user = IconData(
     0xf007,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-alt for icon [user]
@@ -22564,7 +22566,7 @@ class FontAwesome7 {
   static const IconData userAstronaut = IconData(
     0xf4fb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Check icon
@@ -22574,7 +22576,7 @@ class FontAwesome7 {
   static const IconData userCheck = IconData(
     0xf4fc,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Clock icon
@@ -22584,7 +22586,7 @@ class FontAwesome7 {
   static const IconData userClock = IconData(
     0xf4fd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Doctor icon
@@ -22594,7 +22596,7 @@ class FontAwesome7 {
   static const IconData userDoctor = IconData(
     0xf0f0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-md for icon [userDoctor]
@@ -22608,7 +22610,7 @@ class FontAwesome7 {
   static const IconData userGear = IconData(
     0xf4fe,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-cog for icon [userGear]
@@ -22622,7 +22624,7 @@ class FontAwesome7 {
   static const IconData userGraduate = IconData(
     0xf501,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Group icon
@@ -22632,7 +22634,7 @@ class FontAwesome7 {
   static const IconData userGroup = IconData(
     0xf500,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-friends for icon [userGroup]
@@ -22646,7 +22648,7 @@ class FontAwesome7 {
   static const IconData userInjured = IconData(
     0xf728,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Lock icon
@@ -22656,7 +22658,7 @@ class FontAwesome7 {
   static const IconData userLock = IconData(
     0xf502,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Minus icon
@@ -22666,7 +22668,7 @@ class FontAwesome7 {
   static const IconData userMinus = IconData(
     0xf503,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Ninja icon
@@ -22676,7 +22678,7 @@ class FontAwesome7 {
   static const IconData userNinja = IconData(
     0xf504,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Nurse icon
@@ -22686,7 +22688,7 @@ class FontAwesome7 {
   static const IconData userNurse = IconData(
     0xf82f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Pen icon
@@ -22696,7 +22698,7 @@ class FontAwesome7 {
   static const IconData userPen = IconData(
     0xf4ff,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-edit for icon [userPen]
@@ -22710,7 +22712,7 @@ class FontAwesome7 {
   static const IconData userPlus = IconData(
     0xf234,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Secret icon
@@ -22720,7 +22722,7 @@ class FontAwesome7 {
   static const IconData userSecret = IconData(
     0xf21b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Shield icon
@@ -22730,7 +22732,7 @@ class FontAwesome7 {
   static const IconData userShield = IconData(
     0xf505,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Slash icon
@@ -22740,7 +22742,7 @@ class FontAwesome7 {
   static const IconData userSlash = IconData(
     0xf506,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-alt-slash for icon [userSlash]
@@ -22758,7 +22760,7 @@ class FontAwesome7 {
   static const IconData userTag = IconData(
     0xf507,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Tie icon
@@ -22768,7 +22770,7 @@ class FontAwesome7 {
   static const IconData userTie = IconData(
     0xf508,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid User Xmark icon
@@ -22778,7 +22780,7 @@ class FontAwesome7 {
   static const IconData userXmark = IconData(
     0xf235,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias user-times for icon [userXmark]
@@ -22792,7 +22794,7 @@ class FontAwesome7 {
   static const IconData users = IconData(
     0xf0c0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Between Lines icon
@@ -22802,7 +22804,7 @@ class FontAwesome7 {
   static const IconData usersBetweenLines = IconData(
     0xe591,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Gear icon
@@ -22812,7 +22814,7 @@ class FontAwesome7 {
   static const IconData usersGear = IconData(
     0xf509,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias users-cog for icon [usersGear]
@@ -22826,7 +22828,7 @@ class FontAwesome7 {
   static const IconData usersLine = IconData(
     0xe592,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Rays icon
@@ -22836,7 +22838,7 @@ class FontAwesome7 {
   static const IconData usersRays = IconData(
     0xe593,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Rectangle icon
@@ -22846,7 +22848,7 @@ class FontAwesome7 {
   static const IconData usersRectangle = IconData(
     0xe594,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Slash icon
@@ -22856,7 +22858,7 @@ class FontAwesome7 {
   static const IconData usersSlash = IconData(
     0xe073,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Users Viewfinder icon
@@ -22866,7 +22868,7 @@ class FontAwesome7 {
   static const IconData usersViewfinder = IconData(
     0xe595,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Usps icon
@@ -22876,7 +22878,7 @@ class FontAwesome7 {
   static const IconData usps = IconData(
     0xf7e1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Ussunnah icon
@@ -22886,7 +22888,7 @@ class FontAwesome7 {
   static const IconData ussunnah = IconData(
     0xf407,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Utensils icon
@@ -22896,7 +22898,7 @@ class FontAwesome7 {
   static const IconData utensils = IconData(
     0xf2e7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cutlery for icon [utensils]
@@ -22910,7 +22912,7 @@ class FontAwesome7 {
   static const IconData v = IconData(
     0x56,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vaadin icon
@@ -22920,7 +22922,7 @@ class FontAwesome7 {
   static const IconData vaadin = IconData(
     0xf408,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Van Shuttle icon
@@ -22930,7 +22932,7 @@ class FontAwesome7 {
   static const IconData vanShuttle = IconData(
     0xf5b6,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias shuttle-van for icon [vanShuttle]
@@ -22944,7 +22946,7 @@ class FontAwesome7 {
   static const IconData vault = IconData(
     0xe2c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Venmo icon
@@ -22953,7 +22955,7 @@ class FontAwesome7 {
   static const IconData venmo = IconData(
     0xe85a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Venmo V icon
@@ -22962,7 +22964,7 @@ class FontAwesome7 {
   static const IconData venmoV = IconData(
     0xe85b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Venus icon
@@ -22972,7 +22974,7 @@ class FontAwesome7 {
   static const IconData venus = IconData(
     0xf221,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Venus Double icon
@@ -22982,7 +22984,7 @@ class FontAwesome7 {
   static const IconData venusDouble = IconData(
     0xf226,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Venus Mars icon
@@ -22992,7 +22994,7 @@ class FontAwesome7 {
   static const IconData venusMars = IconData(
     0xf228,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vest icon
@@ -23002,7 +23004,7 @@ class FontAwesome7 {
   static const IconData vest = IconData(
     0xe085,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vest Patches icon
@@ -23012,7 +23014,7 @@ class FontAwesome7 {
   static const IconData vestPatches = IconData(
     0xe086,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Viacoin icon
@@ -23022,7 +23024,7 @@ class FontAwesome7 {
   static const IconData viacoin = IconData(
     0xf237,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Viadeo icon
@@ -23032,7 +23034,7 @@ class FontAwesome7 {
   static const IconData viadeo = IconData(
     0xf2a9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vial icon
@@ -23042,7 +23044,7 @@ class FontAwesome7 {
   static const IconData vial = IconData(
     0xf492,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vial Circle Check icon
@@ -23052,7 +23054,7 @@ class FontAwesome7 {
   static const IconData vialCircleCheck = IconData(
     0xe596,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vial Virus icon
@@ -23062,7 +23064,7 @@ class FontAwesome7 {
   static const IconData vialVirus = IconData(
     0xe597,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vials icon
@@ -23072,7 +23074,7 @@ class FontAwesome7 {
   static const IconData vials = IconData(
     0xf493,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Viber icon
@@ -23082,7 +23084,7 @@ class FontAwesome7 {
   static const IconData viber = IconData(
     0xf409,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Video icon
@@ -23092,7 +23094,7 @@ class FontAwesome7 {
   static const IconData video = IconData(
     0xf03d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias video-camera for icon [video]
@@ -23106,7 +23108,7 @@ class FontAwesome7 {
   static const IconData videoSlash = IconData(
     0xf4e2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Vihara icon
@@ -23116,7 +23118,7 @@ class FontAwesome7 {
   static const IconData vihara = IconData(
     0xf6a7,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vim icon
@@ -23125,7 +23127,7 @@ class FontAwesome7 {
   static const IconData vim = IconData(
     0xe88a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vimeo icon
@@ -23135,7 +23137,7 @@ class FontAwesome7 {
   static const IconData vimeo = IconData(
     0xf40a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vimeo V icon
@@ -23145,7 +23147,7 @@ class FontAwesome7 {
   static const IconData vimeoV = IconData(
     0xf27d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vine icon
@@ -23155,7 +23157,7 @@ class FontAwesome7 {
   static const IconData vine = IconData(
     0xf1ca,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Virgo icon
@@ -23165,7 +23167,7 @@ class FontAwesome7 {
   static const IconData virgo = IconData(
     0xe850,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Virus icon
@@ -23175,7 +23177,7 @@ class FontAwesome7 {
   static const IconData virus = IconData(
     0xe074,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Virus Covid icon
@@ -23185,7 +23187,7 @@ class FontAwesome7 {
   static const IconData virusCovid = IconData(
     0xe4a8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Virus Covid Slash icon
@@ -23195,7 +23197,7 @@ class FontAwesome7 {
   static const IconData virusCovidSlash = IconData(
     0xe4a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Virus Slash icon
@@ -23205,7 +23207,7 @@ class FontAwesome7 {
   static const IconData virusSlash = IconData(
     0xe075,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Viruses icon
@@ -23215,7 +23217,7 @@ class FontAwesome7 {
   static const IconData viruses = IconData(
     0xe076,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vk icon
@@ -23225,7 +23227,7 @@ class FontAwesome7 {
   static const IconData vk = IconData(
     0xf189,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vnv icon
@@ -23235,7 +23237,7 @@ class FontAwesome7 {
   static const IconData vnv = IconData(
     0xf40b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Voicemail icon
@@ -23245,7 +23247,7 @@ class FontAwesome7 {
   static const IconData voicemail = IconData(
     0xf897,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Volcano icon
@@ -23255,7 +23257,7 @@ class FontAwesome7 {
   static const IconData volcano = IconData(
     0xf770,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Volleyball icon
@@ -23265,7 +23267,7 @@ class FontAwesome7 {
   static const IconData volleyball = IconData(
     0xf45f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volleyball-ball for icon [volleyball]
@@ -23279,7 +23281,7 @@ class FontAwesome7 {
   static const IconData volume = IconData(
     0xf6a8,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volume-medium for icon [volume]
@@ -23293,7 +23295,7 @@ class FontAwesome7 {
   static const IconData volumeHigh = IconData(
     0xf028,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volume-up for icon [volumeHigh]
@@ -23307,7 +23309,7 @@ class FontAwesome7 {
   static const IconData volumeLow = IconData(
     0xf027,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volume-down for icon [volumeLow]
@@ -23321,7 +23323,7 @@ class FontAwesome7 {
   static const IconData volumeOff = IconData(
     0xf026,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Volume Xmark icon
@@ -23331,7 +23333,7 @@ class FontAwesome7 {
   static const IconData volumeXmark = IconData(
     0xf6a9,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias volume-mute for icon [volumeXmark]
@@ -23349,7 +23351,7 @@ class FontAwesome7 {
   static const IconData vrCardboard = IconData(
     0xf729,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vsco icon
@@ -23359,7 +23361,7 @@ class FontAwesome7 {
   static const IconData vsco = IconData(
     0xe7dd,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Vuejs icon
@@ -23369,7 +23371,7 @@ class FontAwesome7 {
   static const IconData vuejs = IconData(
     0xf41f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid W icon
@@ -23379,7 +23381,7 @@ class FontAwesome7 {
   static const IconData w = IconData(
     0x57,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands W3c icon
@@ -23389,7 +23391,7 @@ class FontAwesome7 {
   static const IconData w3c = IconData(
     0xe7de,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Walkie Talkie icon
@@ -23399,7 +23401,7 @@ class FontAwesome7 {
   static const IconData walkieTalkie = IconData(
     0xf8ef,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wallet icon
@@ -23409,7 +23411,7 @@ class FontAwesome7 {
   static const IconData wallet = IconData(
     0xf555,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wand Magic icon
@@ -23419,7 +23421,7 @@ class FontAwesome7 {
   static const IconData wandMagic = IconData(
     0xf0d0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias magic for icon [wandMagic]
@@ -23433,7 +23435,7 @@ class FontAwesome7 {
   static const IconData wandMagicSparkles = IconData(
     0xe2ca,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias magic-wand-sparkles for icon [wandMagicSparkles]
@@ -23447,7 +23449,7 @@ class FontAwesome7 {
   static const IconData wandSparkles = IconData(
     0xf72b,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Warehouse icon
@@ -23457,7 +23459,7 @@ class FontAwesome7 {
   static const IconData warehouse = IconData(
     0xf494,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Watchman Monitoring icon
@@ -23467,7 +23469,7 @@ class FontAwesome7 {
   static const IconData watchmanMonitoring = IconData(
     0xe087,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Water icon
@@ -23477,7 +23479,7 @@ class FontAwesome7 {
   static const IconData water = IconData(
     0xf773,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Water Ladder icon
@@ -23487,7 +23489,7 @@ class FontAwesome7 {
   static const IconData waterLadder = IconData(
     0xf5c5,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias ladder-water for icon [waterLadder]
@@ -23505,7 +23507,7 @@ class FontAwesome7 {
   static const IconData waveSquare = IconData(
     0xf83e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Waze icon
@@ -23515,7 +23517,7 @@ class FontAwesome7 {
   static const IconData waze = IconData(
     0xf83f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Web Awesome icon
@@ -23525,7 +23527,7 @@ class FontAwesome7 {
   static const IconData solidWebAwesome = IconData(
     0xe682,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Web Awesome icon
@@ -23535,7 +23537,7 @@ class FontAwesome7 {
   static const IconData brandsWebAwesome = IconData(
     0xe682,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Webflow icon
@@ -23545,7 +23547,7 @@ class FontAwesome7 {
   static const IconData webflow = IconData(
     0xe65c,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Weebly icon
@@ -23555,7 +23557,7 @@ class FontAwesome7 {
   static const IconData weebly = IconData(
     0xf5cc,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Weibo icon
@@ -23565,7 +23567,7 @@ class FontAwesome7 {
   static const IconData weibo = IconData(
     0xf18a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Weight Hanging icon
@@ -23575,7 +23577,7 @@ class FontAwesome7 {
   static const IconData weightHanging = IconData(
     0xf5cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Weight Scale icon
@@ -23585,7 +23587,7 @@ class FontAwesome7 {
   static const IconData weightScale = IconData(
     0xf496,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias weight for icon [weightScale]
@@ -23599,7 +23601,7 @@ class FontAwesome7 {
   static const IconData weixin = IconData(
     0xf1d7,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Whatsapp icon
@@ -23609,7 +23611,7 @@ class FontAwesome7 {
   static const IconData whatsapp = IconData(
     0xf232,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wheat Awn icon
@@ -23619,7 +23621,7 @@ class FontAwesome7 {
   static const IconData wheatAwn = IconData(
     0xe2cd,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias wheat-alt for icon [wheatAwn]
@@ -23633,7 +23635,7 @@ class FontAwesome7 {
   static const IconData wheatAwnCircleExclamation = IconData(
     0xe598,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wheelchair icon
@@ -23643,7 +23645,7 @@ class FontAwesome7 {
   static const IconData wheelchair = IconData(
     0xf193,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wheelchair Move icon
@@ -23653,7 +23655,7 @@ class FontAwesome7 {
   static const IconData wheelchairMove = IconData(
     0xe2ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias wheelchair-alt for icon [wheelchairMove]
@@ -23667,7 +23669,7 @@ class FontAwesome7 {
   static const IconData whiskeyGlass = IconData(
     0xf7a0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias glass-whiskey for icon [whiskeyGlass]
@@ -23681,7 +23683,7 @@ class FontAwesome7 {
   static const IconData whmcs = IconData(
     0xf40d,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wifi icon
@@ -23691,7 +23693,7 @@ class FontAwesome7 {
   static const IconData wifi = IconData(
     0xf1eb,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias wifi-3 for icon [wifi]
@@ -23709,7 +23711,7 @@ class FontAwesome7 {
   static const IconData wikipediaW = IconData(
     0xf266,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wind icon
@@ -23719,7 +23721,7 @@ class FontAwesome7 {
   static const IconData wind = IconData(
     0xf72e,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Window Maximize icon
@@ -23729,7 +23731,7 @@ class FontAwesome7 {
   static const IconData solidWindowMaximize = IconData(
     0xf2d0,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Window Maximize icon
@@ -23739,7 +23741,7 @@ class FontAwesome7 {
   static const IconData windowMaximize = IconData(
     0xf2d0,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Window Minimize icon
@@ -23749,7 +23751,7 @@ class FontAwesome7 {
   static const IconData solidWindowMinimize = IconData(
     0xf2d1,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Window Minimize icon
@@ -23759,7 +23761,7 @@ class FontAwesome7 {
   static const IconData windowMinimize = IconData(
     0xf2d1,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Window Restore icon
@@ -23769,7 +23771,7 @@ class FontAwesome7 {
   static const IconData solidWindowRestore = IconData(
     0xf2d2,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Regular Window Restore icon
@@ -23779,7 +23781,7 @@ class FontAwesome7 {
   static const IconData windowRestore = IconData(
     0xf2d2,
     fontFamily: 'FontAwesomeRegular',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Windows icon
@@ -23789,7 +23791,7 @@ class FontAwesome7 {
   static const IconData windows = IconData(
     0xf17a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wine Bottle icon
@@ -23799,7 +23801,7 @@ class FontAwesome7 {
   static const IconData wineBottle = IconData(
     0xf72f,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wine Glass icon
@@ -23809,7 +23811,7 @@ class FontAwesome7 {
   static const IconData wineGlass = IconData(
     0xf4e3,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Wine Glass Empty icon
@@ -23819,7 +23821,7 @@ class FontAwesome7 {
   static const IconData wineGlassEmpty = IconData(
     0xf5ce,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias wine-glass-alt for icon [wineGlassEmpty]
@@ -23833,7 +23835,7 @@ class FontAwesome7 {
   static const IconData wirsindhandwerk = IconData(
     0xe2d0,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias wsh for icon [wirsindhandwerk]
@@ -23847,7 +23849,7 @@ class FontAwesome7 {
   static const IconData wix = IconData(
     0xf5cf,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wizards Of The Coast icon
@@ -23857,7 +23859,7 @@ class FontAwesome7 {
   static const IconData wizardsOfTheCoast = IconData(
     0xf730,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wodu icon
@@ -23867,7 +23869,7 @@ class FontAwesome7 {
   static const IconData wodu = IconData(
     0xe088,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wolf Pack Battalion icon
@@ -23877,7 +23879,7 @@ class FontAwesome7 {
   static const IconData wolfPackBattalion = IconData(
     0xf514,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Won Sign icon
@@ -23887,7 +23889,7 @@ class FontAwesome7 {
   static const IconData wonSign = IconData(
     0xf159,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias krw for icon [wonSign]
@@ -23905,7 +23907,7 @@ class FontAwesome7 {
   static const IconData wordpress = IconData(
     0xf19a,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wordpress Simple icon
@@ -23915,7 +23917,7 @@ class FontAwesome7 {
   static const IconData wordpressSimple = IconData(
     0xf411,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Worm icon
@@ -23925,7 +23927,7 @@ class FontAwesome7 {
   static const IconData worm = IconData(
     0xe599,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wpbeginner icon
@@ -23935,7 +23937,7 @@ class FontAwesome7 {
   static const IconData wpbeginner = IconData(
     0xf297,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wpexplorer icon
@@ -23945,7 +23947,7 @@ class FontAwesome7 {
   static const IconData wpexplorer = IconData(
     0xf2de,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wpforms icon
@@ -23955,7 +23957,7 @@ class FontAwesome7 {
   static const IconData wpforms = IconData(
     0xf298,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Wpressr icon
@@ -23965,7 +23967,7 @@ class FontAwesome7 {
   static const IconData wpressr = IconData(
     0xf3e4,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias rendact for icon [wpressr]
@@ -23979,7 +23981,7 @@ class FontAwesome7 {
   static const IconData wrench = IconData(
     0xf0ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid X icon
@@ -23989,7 +23991,7 @@ class FontAwesome7 {
   static const IconData x = IconData(
     0x58,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid X Ray icon
@@ -23999,7 +24001,7 @@ class FontAwesome7 {
   static const IconData xRay = IconData(
     0xf497,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands X Twitter icon
@@ -24009,7 +24011,7 @@ class FontAwesome7 {
   static const IconData xTwitter = IconData(
     0xe61b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Xbox icon
@@ -24019,7 +24021,7 @@ class FontAwesome7 {
   static const IconData xbox = IconData(
     0xf412,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Xing icon
@@ -24029,7 +24031,7 @@ class FontAwesome7 {
   static const IconData xing = IconData(
     0xf168,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Xmark icon
@@ -24039,7 +24041,7 @@ class FontAwesome7 {
   static const IconData xmark = IconData(
     0xf00d,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias close for icon [xmark]
@@ -24065,7 +24067,7 @@ class FontAwesome7 {
   static const IconData xmarksLines = IconData(
     0xe59a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Xmpp icon
@@ -24074,7 +24076,7 @@ class FontAwesome7 {
   static const IconData xmpp = IconData(
     0xe864,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Y icon
@@ -24084,7 +24086,7 @@ class FontAwesome7 {
   static const IconData y = IconData(
     0x59,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Y Combinator icon
@@ -24094,7 +24096,7 @@ class FontAwesome7 {
   static const IconData yCombinator = IconData(
     0xf23b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yahoo icon
@@ -24104,7 +24106,7 @@ class FontAwesome7 {
   static const IconData yahoo = IconData(
     0xf19e,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yammer icon
@@ -24114,7 +24116,7 @@ class FontAwesome7 {
   static const IconData yammer = IconData(
     0xf840,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yandex icon
@@ -24124,7 +24126,7 @@ class FontAwesome7 {
   static const IconData yandex = IconData(
     0xf413,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yandex International icon
@@ -24134,7 +24136,7 @@ class FontAwesome7 {
   static const IconData yandexInternational = IconData(
     0xf414,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yarn icon
@@ -24144,7 +24146,7 @@ class FontAwesome7 {
   static const IconData yarn = IconData(
     0xf7e3,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yelp icon
@@ -24154,7 +24156,7 @@ class FontAwesome7 {
   static const IconData yelp = IconData(
     0xf1e9,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Yen Sign icon
@@ -24164,7 +24166,7 @@ class FontAwesome7 {
   static const IconData yenSign = IconData(
     0xf157,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Alias cny for icon [yenSign]
@@ -24190,7 +24192,7 @@ class FontAwesome7 {
   static const IconData yinYang = IconData(
     0xf6ad,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Yoast icon
@@ -24200,7 +24202,7 @@ class FontAwesome7 {
   static const IconData yoast = IconData(
     0xf2b1,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Youtube icon
@@ -24210,7 +24212,7 @@ class FontAwesome7 {
   static const IconData youtube = IconData(
     0xf167,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Solid Z icon
@@ -24220,7 +24222,7 @@ class FontAwesome7 {
   static const IconData z = IconData(
     0x5a,
     fontFamily: 'FontAwesomeSolid',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Zhihu icon
@@ -24230,7 +24232,7 @@ class FontAwesome7 {
   static const IconData zhihu = IconData(
     0xf63f,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Zoom icon
@@ -24239,7 +24241,7 @@ class FontAwesome7 {
   static const IconData zoom = IconData(
     0xe87b,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 
   /// Brands Zulip icon
@@ -24248,6 +24250,6 @@ class FontAwesome7 {
   static const IconData zulip = IconData(
     0xe853,
     fontFamily: 'FontAwesomeBrands',
-    fontPackage: 'font_awesome_flutter',
+    fontPackage: FlutterIconData.fontPackage,
   );
 }
