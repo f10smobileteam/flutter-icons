@@ -1,6 +1,6 @@
 # flutter_icons
 
-[![Static Badge](https://img.shields.io/badge/GitHub-v1.3.3-blue)](https://github.com/f10smobileteam/flutter-icons.git)
+[![Static Badge](https://img.shields.io/badge/GitHub-v2.0.0-blue)](https://github.com/f10smobileteam/flutter-icons.git)
 
 Customizable Icons for Flutter, Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
@@ -36,10 +36,7 @@ Originally Forked from https://github.com/flutter-studio/flutter-icons.git
 
 To use this plugin, add `flutter_icons` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
-    flutter_icons:
-        git:
-            url: https://github.com/f10smobileteam/flutter-icons.git
-            ref: 1.3.3
+    flutter_icons: ^2.0.0
 
 ## Widgets
 

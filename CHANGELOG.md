@@ -1,3 +1,9 @@
+## 2.0.0
+
+* Updated to New Dart Formating, Added New Font Awesome 7 Icons & Added New FlutterIcon Widget for
+  Icons that are not Traditional Shaped Icons
+* Breaking Changes: Moved into Flutter Null Safety and Latest Dart & Flutter Version Migration
+
 ## 1.3.3
 
 * Refactors the core icon logic to reduce reliance on external dependencies

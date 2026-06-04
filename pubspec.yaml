@@ -4,7 +4,7 @@ maintainer: F10S Mobile Team
 homepage: https://github.com/f10smobileteam/flutter-icons.git
 repository: https://github.com/f10smobileteam/flutter-icons.git
 issue_tracker: https://github.com/f10smobileteam/flutter-icons/issues
-version: 1.3.3
+version: 2.0.0
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
